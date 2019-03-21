@@ -1,0 +1,292 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS|PosValue
+#T_SP=de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=3 Braun an Gerhard Rom , November 1835 he Mauern eingelassen .
+1-1	0-1	3	CARD	3	_	_	
+1-2	2-7	Braun	NN	Braun	*	PERauthor	
+1-3	8-10	an	APPR	an	_	_	
+1-4	11-18	Gerhard	NE	Gerhard	*	PERaddressee	
+1-5	19-22	Rom	NE	Rom	*	PLACEfrom	
+1-6	23-24	,	$,	,	*[4]	DATEletter[4]	
+1-7	25-33	November	NN	November	*[4]	DATEletter[4]	
+1-8	34-38	1835	ADJA	@card@	*[4]	DATEletter[4]	
+1-9	39-41	he	ITJ	he	_	_	
+1-10	42-48	Mauern	NN	Mauer	*	OBJ	
+1-11	49-60	eingelassen	VVPP	einlassen	_	_	
+1-12	61-62	.	$.	.	_	_	
+
+#Text=Mit H\u00FClfe solcher Reste versuchte Cockerell seine \u00E4u\u00DFerst scharfsinnige Restauration .
+2-1	63-66	Mit	APPR	mit	_	_	
+2-2	67-72	Hülfe	NN	<unknown>	_	_	
+2-3	73-80	solcher	PIAT	solche	_	_	
+2-4	81-86	Reste	NN	Rest	_	_	
+2-5	87-96	versuchte	VVFIN	versuchen	_	_	
+2-6	97-106	Cockerell	NN	<unknown>	*	PERmentioned	
+2-7	107-112	seine	PPOSAT	sein	_	_	
+2-8	113-120	äußerst	ADV	äußerst	_	_	
+2-9	121-134	scharfsinnige	ADJA	scharfsinnig	_	_	
+2-10	135-147	Restauration	NN	Restauration	_	_	
+2-11	148-149	.	$.	.	_	_	
+
+#Text=Da\u00DF diese jedoch sich von dem wahren ehemaligen Thatbestand entferne haben die neue ren Entdeckungen gelehrt , deren Hauptergebnisse hien\u00E4chst folgen .
+3-1	150-153	Daß	KOUS	dass	_	_	
+3-2	154-159	diese	PDS	diese	_	_	
+3-3	160-166	jedoch	ADV	jedoch	_	_	
+3-4	167-171	sich	PRF	sich	_	_	
+3-5	172-175	von	APPR	von	_	_	
+3-6	176-179	dem	ART	die	_	_	
+3-7	180-186	wahren	ADJA	wahr	_	_	
+3-8	187-197	ehemaligen	ADJA	ehemalig	_	_	
+3-9	198-209	Thatbestand	NN	<unknown>	_	_	
+3-10	210-218	entferne	VVFIN	entfernen	_	_	
+3-11	219-224	haben	VAFIN	haben	_	_	
+3-12	225-228	die	ART	die	_	_	
+3-13	229-233	neue	ADJA	neu	_	_	
+3-14	234-237	ren	ADJA	<unknown>	_	_	
+3-15	238-250	Entdeckungen	NN	Entdeckung	_	_	
+3-16	251-258	gelehrt	VVPP	lehren	_	_	
+3-17	259-260	,	$,	,	_	_	
+3-18	261-266	deren	PRELAT	die	_	_	
+3-19	267-282	Hauptergebnisse	NN	Hauptergebnis	_	_	
+3-20	283-292	hienächst	VVFIN	<unknown>	_	_	
+3-21	293-299	folgen	VVINF	folgen	_	_	
+3-22	300-301	.	$.	.	_	_	
+
+#Text=Das genannte Tempelchen , jedenfalls der Nike apteros , erhebt sich \u00FCber 3 Stufen unmittelbar vor dem Rand der vorderen Seite der Substruction , in einer Richtung von Westen nach Osten gelegen .
+4-1	302-305	Das	ART	die	_	_	
+4-2	306-314	genannte	ADJA	genannt	_	_	
+4-3	315-325	Tempelchen	NN	Tempelchen	*	OBJ	
+4-4	326-327	,	$,	,	_	_	
+4-5	328-338	jedenfalls	ADV	jedenfalls	_	_	
+4-6	339-342	der	ART	die	_	_	
+4-7	343-347	Nike	NN	<unknown>	*[8]	PERmentioned[8]	
+4-8	348-355	apteros	NE	<unknown>	*[8]	PERmentioned[8]	
+4-9	356-357	,	$,	,	_	_	
+4-10	358-364	erhebt	VVFIN	erheben	_	_	
+4-11	365-369	sich	PRF	sich	_	_	
+4-12	370-374	über	APPR	über	_	_	
+4-13	375-376	3	CARD	3	_	_	
+4-14	377-383	Stufen	NN	Stufe	_	_	
+4-15	384-395	unmittelbar	ADJD	unmittelbar	_	_	
+4-16	396-399	vor	APPR	vor	_	_	
+4-17	400-403	dem	ART	die	_	_	
+4-18	404-408	Rand	NN	Rand	_	_	
+4-19	409-412	der	ART	die	_	_	
+4-20	413-421	vorderen	ADJA	vorder	_	_	
+4-21	422-427	Seite	NN	Seite	_	_	
+4-22	428-431	der	ART	die	_	_	
+4-23	432-444	Substruction	NN	<unknown>	*	OBJ	
+4-24	445-446	,	$,	,	_	_	
+4-25	447-449	in	APPR	in	_	_	
+4-26	450-455	einer	ART	eine	_	_	
+4-27	456-464	Richtung	NN	Richtung	_	_	
+4-28	465-468	von	APPR	von	_	_	
+4-29	469-475	Westen	NN	Weste[74]|Westen[75]	_	_	
+4-30	476-480	nach	APPR	nach	_	_	
+4-31	481-486	Osten	NN	Osten	_	_	
+4-32	487-494	gelegen	VVPP	liegen	_	_	
+4-33	495-496	.	$.	.	_	_	
+
+#Text=Die Vorderseite sieht , wie gew\u00F6hnlich , nach Westen ; sie zeigt einen Porticus von 4 S\u00E4ulen , welchem ein \u00E4hnlicher auf der R\u00FCckseite entspricht .
+5-1	497-500	Die	ART	die	_	_	
+5-2	501-512	Vorderseite	NN	Vorderseite	_	_	
+5-3	513-518	sieht	VVFIN	sehen	_	_	
+5-4	519-520	,	$,	,	_	_	
+5-5	521-524	wie	KOKOM	wie	_	_	
+5-6	525-535	gewöhnlich	ADJD	gewöhnlich	_	_	
+5-7	536-537	,	$,	,	_	_	
+5-8	538-542	nach	APPR	nach	_	_	
+5-9	543-549	Westen	NN	Weste[88]|Westen[89]	_	_	
+5-10	550-551	;	$.	\;	_	_	
+5-11	552-555	sie	PPER	sie	_	_	
+5-12	556-561	zeigt	VVFIN	zeigen	_	_	
+5-13	562-567	einen	ART	eine	_	_	
+5-14	568-576	Porticus	NE	<unknown>	_	_	
+5-15	577-580	von	APPR	von	_	_	
+5-16	581-582	4	CARD	4	_	_	
+5-17	583-589	Säulen	NN	Säule	_	_	
+5-18	590-591	,	$,	,	_	_	
+5-19	592-599	welchem	PRELS	welche	_	_	
+5-20	600-603	ein	ART	eine	_	_	
+5-21	604-613	ähnlicher	ADJA	ähnlich	_	_	
+5-22	614-617	auf	APPR	auf	_	_	
+5-23	618-621	der	ART	die	_	_	
+5-24	622-631	Rückseite	NN	Rückseite	_	_	
+5-25	632-642	entspricht	VVFIN	entsprechen	_	_	
+5-26	643-644	.	$.	.	_	_	
+
+#Text=Die ganze Fl\u00E4che dieses Amphyprostylos gew\u00E4hrt das Maa\u00DF von 8 m.,2 X 5 m.,4 ; die Tiefe der Cella betr\u00E4gt 4 m.,8 X 5 m.,4 .
+6-1	645-648	Die	ART	die	_	_	
+6-2	649-654	ganze	ADJA	ganz	_	_	
+6-3	655-661	Fläche	NN	Fläche	_	_	
+6-4	662-668	dieses	PDAT	dies	_	_	
+6-5	669-683	Amphyprostylos	NN	<unknown>	*	OBJ	
+6-6	684-691	gewährt	VVFIN	gewähren	_	_	
+6-7	692-695	das	ART	die	_	_	
+6-8	696-700	Maaß	NN	<unknown>	_	_	
+6-9	701-704	von	APPR	von	_	_	
+6-10	705-706	8	CARD	8	_	_	
+6-11	707-711	m.,2	ADJA	<unknown>	_	_	
+6-12	712-713	X	NN	X	_	_	
+6-13	714-715	5	CARD	5	_	_	
+6-14	716-720	m.,4	VVFIN	<unknown>	_	_	
+6-15	721-722	;	$.	\;	_	_	
+6-16	723-726	die	ART	die	_	_	
+6-17	727-732	Tiefe	NN	Tiefe	_	_	
+6-18	733-736	der	ART	die	_	_	
+6-19	737-742	Cella	NE	Cella	_	_	
+6-20	743-750	beträgt	VVFIN	betragen	_	_	
+6-21	751-752	4	CARD	4	_	_	
+6-22	753-757	m.,8	ADJA	<unknown>	_	_	
+6-23	758-759	X	NN	X	_	_	
+6-24	760-761	5	CARD	5	_	_	
+6-25	762-766	m.,4	VVFIN	<unknown>	_	_	
+6-26	767-768	.	$.	.	_	_	
+
+#Text=Die Mauerfundamente zeigen dies deutlich .
+7-1	769-772	Die	ART	die	_	_	
+7-2	773-788	Mauerfundamente	NN	<unknown>	_	_	
+7-3	789-795	zeigen	VVFIN	zeigen	_	_	
+7-4	796-800	dies	PDS	dies	_	_	
+7-5	801-809	deutlich	ADJD	deutlich	_	_	
+7-6	810-811	.	$.	.	_	_	
+
+#Text=Aus ihnen lernt man auch , da\u00DF zu beiden Seiten der Th\u00FCr eine Nische von geringer Tiefe war , sei es da\u00DF sie bestimmt gewesen Fenster\u00F6ffnungen oder Reliefs aufzunehmen .
+8-1	812-815	Aus	APPR	aus	_	_	
+8-2	816-821	ihnen	PPER	sie	_	_	
+8-3	822-827	lernt	VVFIN	lernen	_	_	
+8-4	828-831	man	PIS	man	_	_	
+8-5	832-836	auch	ADV	auch	_	_	
+8-6	837-838	,	$,	,	_	_	
+8-7	839-842	daß	KOUS	dass	_	_	
+8-8	843-845	zu	APPR	zu	_	_	
+8-9	846-852	beiden	PIAT	beide	_	_	
+8-10	853-859	Seiten	NN	Seite	_	_	
+8-11	860-863	der	ART	die	_	_	
+8-12	864-868	Thür	NN	<unknown>	_	_	
+8-13	869-873	eine	ART	eine	_	_	
+8-14	874-880	Nische	NN	Nische	*	OBJ	
+8-15	881-884	von	APPR	von	_	_	
+8-16	885-893	geringer	ADJA	gering	_	_	
+8-17	894-899	Tiefe	NN	Tiefe	_	_	
+8-18	900-903	war	VAFIN	sein	_	_	
+8-19	904-905	,	$,	,	_	_	
+8-20	906-909	sei	VAFIN	sein	_	_	
+8-21	910-912	es	PPER	es	_	_	
+8-22	913-916	daß	KOUS	dass	_	_	
+8-23	917-920	sie	PPER	sie	_	_	
+8-24	921-929	bestimmt	ADJD	bestimmt	_	_	
+8-25	930-937	gewesen	VAPP	sein	_	_	
+8-26	938-954	Fensteröffnungen	NN	Fensteröffnung	_	_	
+8-27	955-959	oder	KON	oder	_	_	
+8-28	960-967	Reliefs	NN	Relief	*	OBJ	
+8-29	968-979	aufzunehmen	VVIZU	aufnehmen	_	_	
+8-30	980-981	.	$.	.	_	_	
+
+#Text=Die S\u00E4ulen sind von jonischer Ordnung , im Ganzen ungef\u00E4hr 4 m.,5 hoch .
+9-1	982-985	Die	ART	die	_	_	
+9-2	986-992	Säulen	NN	Säule	*	OBJ	
+9-3	993-997	sind	VAFIN	sein	_	_	
+9-4	998-1001	von	APPR	von	_	_	
+9-5	1002-1011	jonischer	ADJA	<unknown>	_	_	
+9-6	1012-1019	Ordnung	NN	Ordnung	_	_	
+9-7	1020-1021	,	$,	,	_	_	
+9-8	1022-1024	im	APPRART	in	_	_	
+9-9	1025-1031	Ganzen	NN	Ganze	_	_	
+9-10	1032-1040	ungefähr	ADJD	ungefähr	_	_	
+9-11	1041-1042	4	CARD	4	_	_	
+9-12	1043-1047	m.,5	NN	<unknown>	_	_	
+9-13	1048-1052	hoch	PTKVZ	hoch	_	_	
+9-14	1053-1054	.	$.	.	_	_	
+
+#Text=Sie tragen einfache Capitelle und diese sind von mittelm\u00E4\u00DFiger Arbeit , vielleicht aus den Zeiten eines fr\u00FCheren Kunststrebens , welches sich von den dorischen Verh\u00E4ltnissen gewaltsam befreien wollte ; dazu w\u00FCrden auch die auffallend schlanken Verh\u00E4ltnisse der S\u00E4ulensch\u00E4fte passen .
+10-1	1055-1058	Sie	PPER	Sie[183]|sie[184]	_	_	
+10-2	1059-1065	tragen	VVFIN	tragen	_	_	
+10-3	1066-1074	einfache	ADJA	einfach	_	_	
+10-4	1075-1084	Capitelle	NN	<unknown>	*	OBJ	
+10-5	1085-1088	und	KON	und	_	_	
+10-6	1089-1094	diese	PDAT	dies	_	_	
+10-7	1095-1099	sind	VAFIN	sein	_	_	
+10-8	1100-1103	von	APPR	von	_	_	
+10-9	1104-1117	mittelmäßiger	ADJA	mittelmäßig	_	_	
+10-10	1118-1124	Arbeit	NN	Arbeit	_	_	
+10-11	1125-1126	,	$,	,	_	_	
+10-12	1127-1137	vielleicht	ADV	vielleicht	_	_	
+10-13	1138-1141	aus	APPR	aus	_	_	
+10-14	1142-1145	den	ART	die	_	_	
+10-15	1146-1152	Zeiten	NN	Zeit	_	_	
+10-16	1153-1158	eines	ART	eine	_	_	
+10-17	1159-1167	früheren	ADJA	früh	_	_	
+10-18	1168-1181	Kunststrebens	NN	<unknown>	_	_	
+10-19	1182-1183	,	$,	,	_	_	
+10-20	1184-1191	welches	PRELS	welche	_	_	
+10-21	1192-1196	sich	PRF	sich	_	_	
+10-22	1197-1200	von	APPR	von	_	_	
+10-23	1201-1204	den	ART	die	_	_	
+10-24	1205-1214	dorischen	ADJA	dorisch	_	_	
+10-25	1215-1228	Verhältnissen	NN	Verhältnis	_	_	
+10-26	1229-1238	gewaltsam	ADJD	gewaltsam	_	_	
+10-27	1239-1247	befreien	VVINF	befreien	_	_	
+10-28	1248-1254	wollte	VMFIN	wollen	_	_	
+10-29	1255-1256	;	$.	\;	_	_	
+10-30	1257-1261	dazu	PAV	dazu	_	_	
+10-31	1262-1268	würden	VAFIN	werden	_	_	
+10-32	1269-1273	auch	ADV	auch	_	_	
+10-33	1274-1277	die	ART	die	_	_	
+10-34	1278-1288	auffallend	ADJD	auffallend	_	_	
+10-35	1289-1298	schlanken	ADJA	schlank	_	_	
+10-36	1299-1311	Verhältnisse	NN	Verhältnis	_	_	
+10-37	1312-1315	der	ART	die	_	_	
+10-38	1316-1329	Säulenschäfte	NN	<unknown>	_	_	
+10-39	1330-1336	passen	VVINF	passen	_	_	
+10-40	1337-1338	.	$.	.	_	_	
+
+#Text=Fast alle S\u00E4ulen mit'samt den'Capitellen und Basen sind , obwohl meist in Tr\u00FCmmern , erhalten .
+11-1	1339-1343	Fast	ADV	fast	_	_	
+11-2	1344-1348	alle	PIAT	alle	_	_	
+11-3	1349-1355	Säulen	NN	Säule	*	OBJ	
+11-4	1356-1364	mit'samt	NN	<unknown>	_	_	
+11-5	1365-1379	den'Capitellen	NN	<unknown>	*	OBJ	
+11-6	1380-1383	und	KON	und	_	_	
+11-7	1384-1389	Basen	NN	Base[230]|Basis[231]	*	OBJ	
+11-8	1390-1394	sind	VAFIN	sein	_	_	
+11-9	1395-1396	,	$,	,	_	_	
+11-10	1397-1403	obwohl	KOUS	obwohl	_	_	
+11-11	1404-1409	meist	ADV	meist	_	_	
+11-12	1410-1412	in	APPR	in	_	_	
+11-13	1413-1421	Trümmern	NN	Trümmer	_	_	
+11-14	1422-1423	,	$,	,	_	_	
+11-15	1424-1432	erhalten	VVPP	erhalten	_	_	
+11-16	1433-1434	.	$.	.	_	_	
+
+#Text=Die Anten zeigen ein einfaches aber artiges Capitell ; ihnen entspricht ein Gesimsfragment , das sich vorgefunden .
+12-1	1435-1438	Die	ART	die	_	_	
+12-2	1439-1444	Anten	NN	<unknown>	*	OBJ	
+12-3	1445-1451	zeigen	VVFIN	zeigen	_	_	
+12-4	1452-1455	ein	ART	eine	_	_	
+12-5	1456-1465	einfaches	ADJA	einfach	_	_	
+12-6	1466-1470	aber	KON	aber	_	_	
+12-7	1471-1478	artiges	ADJA	artig	_	_	
+12-8	1479-1487	Capitell	NN	<unknown>	*	OBJ	
+12-9	1488-1489	;	$.	\;	_	_	
+12-10	1490-1495	ihnen	PPER	sie	_	_	
+12-11	1496-1506	entspricht	VVFIN	entsprechen	_	_	
+12-12	1507-1510	ein	ART	eine	_	_	
+12-13	1511-1525	Gesimsfragment	NN	<unknown>	*	OBJ	
+12-14	1526-1527	,	$,	,	_	_	
+12-15	1528-1531	das	PRELS	die	_	_	
+12-16	1532-1536	sich	PRF	sich	_	_	
+12-17	1537-1548	vorgefunden	VVPP	vorfinden	_	_	
+12-18	1549-1550	.	$.	.	_	_	
+
+#Text=Die Reste des Architravs zeigen die dreifache
+13-1	1551-1554	Die	ART	die	_	_	
+13-2	1555-1560	Reste	NN	Rest	_	_	
+13-3	1561-1564	des	ART	die	_	_	
+13-4	1565-1575	Architravs	NN	<unknown>	*	OBJ	
+13-5	1576-1582	zeigen	VVFIN	zeigen	_	_	
+13-6	1583-1586	die	ART	die	_	_	
+13-7	1587-1596	dreifache	ADJA	dreifach	_	_	

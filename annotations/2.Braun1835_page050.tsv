@@ -1,0 +1,288 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS|PosValue
+#T_SP=de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=10 nender zur Anschuung zu bringen .
+1-1	0-2	10	CARD	10	_	_	
+1-2	3-9	nender	NN	<unknown>	_	_	
+1-3	10-13	zur	APPRART	zu	_	_	
+1-4	14-23	Anschuung	NN	<unknown>	_	_	
+1-5	24-26	zu	PTKZU	zu	_	_	
+1-6	27-34	bringen	VVINF	bringen	_	_	
+1-7	35-36	.	$.	.	_	_	
+
+#Text=( Fortsetzung folgt . )
+2-1	37-38	(	$(	(	_	_	
+2-2	39-50	Fortsetzung	NN	Fortsetzung	_	_	
+2-3	51-56	folgt	VVFIN	folgen	_	_	
+2-4	57-58	.	$.	.	_	_	
+2-5	59-60	)	$(	)	_	_	
+
+#Text=Braun an Gerhard Rom , November 1835 Die Darstellung des erw\u00E4hnten Spiegels scheint der Nekromantie des Homer w\u00F6rtlich.\u00B7 entnommen .
+3-1	61-66	Braun	NE	Braun	*	PERauthor	
+3-2	67-69	an	APPR	an	_	_	
+3-3	70-77	Gerhard	NE	Gerhard	*	PERaddressee	
+3-4	78-81	Rom	NE	Rom	*	PLACEfrom	
+3-5	82-83	,	$,	,	*[4]	DATEletter[4]	
+3-6	84-92	November	NN	November	*[4]	DATEletter[4]	
+3-7	93-97	1835	CARD	@card@	*[4]	DATEletter[4]	
+3-8	98-101	Die	ART	die	_	_	
+3-9	102-113	Darstellung	NN	Darstellung	_	_	
+3-10	114-117	des	ART	die	_	_	
+3-11	118-127	erwähnten	ADJA	erwähnt	_	_	
+3-12	128-136	Spiegels	NN	Spiegel	*	OBJ	
+3-13	137-144	scheint	VVFIN	scheinen	_	_	
+3-14	145-148	der	ART	die	_	_	
+3-15	149-160	Nekromantie	NN	<unknown>	_	_	
+3-16	161-164	des	ART	die	_	_	
+3-17	165-170	Homer	NN	<unknown>	*	PERmentioned	
+3-18	171-181	wörtlich.·	ADJD	<unknown>	_	_	
+3-19	182-191	entnommen	VVPP	entnehmen	_	_	
+3-20	192-193	.	$.	.	_	_	
+
+#Text=Odysseus , durch die Beischrift ythoxe ( V~ VI I E ) unverkennbar , hat sich auf einen Sessel niedergelassen , das entbl\u00F6\u00DFte Schwert in der Rechten und seine Scheide in der Linken haltend .
+4-1	194-202	Odysseus	NE	Odysseus	*	PERmentioned	
+4-2	203-204	,	$,	,	_	_	
+4-3	205-210	durch	APPR	durch	_	_	
+4-4	211-214	die	ART	die	_	_	
+4-5	215-225	Beischrift	NN	<unknown>	_	_	
+4-6	226-232	ythoxe	NN	<unknown>	_	_	
+4-7	233-234	(	$(	(	_	_	
+4-8	235-237	V~	NE	<unknown>	_	_	
+4-9	238-240	VI	NE	<unknown>	_	_	
+4-10	241-242	I	NE	I	_	_	
+4-11	243-244	E	NN	E	_	_	
+4-12	245-246	)	$(	)	_	_	
+4-13	247-259	unverkennbar	ADJD	unverkennbar	_	_	
+4-14	260-261	,	$,	,	_	_	
+4-15	262-265	hat	VAFIN	haben	_	_	
+4-16	266-270	sich	PRF	sich	_	_	
+4-17	271-274	auf	APPR	auf	_	_	
+4-18	275-280	einen	ART	eine	_	_	
+4-19	281-287	Sessel	NN	Sessel	_	_	
+4-20	288-302	niedergelassen	VVPP	niederlassen	_	_	
+4-21	303-304	,	$,	,	_	_	
+4-22	305-308	das	ART	die	_	_	
+4-23	309-318	entblößte	ADJA	entblößt	_	_	
+4-24	319-326	Schwert	NN	Schwert	_	_	
+4-25	327-329	in	APPR	in	_	_	
+4-26	330-333	der	ART	die	_	_	
+4-27	334-341	Rechten	NN	Recht[59]|Rechte[60]	_	_	
+4-28	342-345	und	KON	und	_	_	
+4-29	346-351	seine	PPOSAT	sein	_	_	
+4-30	352-359	Scheide	NN	Scheide	_	_	
+4-31	360-362	in	APPR	in	_	_	
+4-32	363-366	der	ART	die	_	_	
+4-33	367-373	Linken	NN	Linke	_	_	
+4-34	374-381	haltend	ADJD	haltend	_	_	
+4-35	382-383	.	$.	.	_	_	
+
+#Text=Hermes als psychopomp , ebenfalls durch Inschrift bezeichnet hat ihm einen Schatten zugef\u00FChrt , dem der Held von Ithaka mit ungetheilter Aufmerksamkeit entgegenlauscht , und dieser Schatten ist der des Tiresias wie eine dritte Inschrift in gleicher Weise lehrt .
+5-1	384-390	Hermes	NE	Hermes	*	PERmentioned	
+5-2	391-394	als	KOKOM	als	_	_	
+5-3	395-405	psychopomp	ADJA	<unknown>	_	_	
+5-4	406-407	,	$,	,	_	_	
+5-5	408-417	ebenfalls	ADV	ebenfalls	_	_	
+5-6	418-423	durch	APPR	durch	_	_	
+5-7	424-433	Inschrift	NN	Inschrift	_	_	
+5-8	434-444	bezeichnet	VVPP	bezeichnen	_	_	
+5-9	445-448	hat	VAFIN	haben	_	_	
+5-10	449-452	ihm	PPER	er	_	_	
+5-11	453-458	einen	ART	eine	_	_	
+5-12	459-467	Schatten	NN	Schatten	_	_	
+5-13	468-477	zugeführt	VVPP	zuführen	_	_	
+5-14	478-479	,	$,	,	_	_	
+5-15	480-483	dem	PRELS	die	_	_	
+5-16	484-487	der	ART	die	_	_	
+5-17	488-492	Held	NN	Held	*[9]	PERmentioned[9]	
+5-18	493-496	von	APPR	von	*[9]	PERmentioned[9]	
+5-19	497-503	Ithaka	NN	<unknown>	*[9]	PERmentioned[9]	
+5-20	504-507	mit	APPR	mit	_	_	
+5-21	508-520	ungetheilter	ADJA	<unknown>	_	_	
+5-22	521-535	Aufmerksamkeit	NN	Aufmerksamkeit	_	_	
+5-23	536-551	entgegenlauscht	VVFIN	<unknown>	_	_	
+5-24	552-553	,	$,	,	_	_	
+5-25	554-557	und	KON	und	_	_	
+5-26	558-564	dieser	PDAT	dies	_	_	
+5-27	565-573	Schatten	NN	Schatten	_	_	
+5-28	574-577	ist	VAFIN	sein	_	_	
+5-29	578-581	der	ART	die	_	_	
+5-30	582-585	des	ART	die	_	_	
+5-31	586-594	Tiresias	NN	<unknown>	*	PERmentioned	
+5-32	595-598	wie	KOKOM	wie	_	_	
+5-33	599-603	eine	ART	eine	_	_	
+5-34	604-610	dritte	ADJA	dritt	_	_	
+5-35	611-620	Inschrift	NN	Inschrift	_	_	
+5-36	621-623	in	APPR	in	_	_	
+5-37	624-632	gleicher	ADJA	gleich	_	_	
+5-38	633-638	Weise	NN	Weise	_	_	
+5-39	639-644	lehrt	VVFIN	lehren	_	_	
+5-40	645-646	.	$.	.	_	_	
+
+#Text=Er ist jugendlich d. h. ohne Bart , mit Stirnbinde , langem Gewand und Stab dargestellt .
+6-1	647-649	Er	PPER	er	_	_	
+6-2	650-653	ist	VAFIN	sein	_	_	
+6-3	654-664	jugendlich	ADJD	jugendlich	_	_	
+6-4	665-667	d.	PDS	d.	_	_	
+6-5	668-670	h.	VVFIN	heißen	_	_	
+6-6	671-675	ohne	APPR	ohne	_	_	
+6-7	676-680	Bart	NN	Bart	_	_	
+6-8	681-682	,	$,	,	_	_	
+6-9	683-686	mit	APPR	mit	_	_	
+6-10	687-697	Stirnbinde	NN	Stirnbinde	_	_	
+6-11	698-699	,	$,	,	_	_	
+6-12	700-706	langem	ADJA	lang	_	_	
+6-13	707-713	Gewand	NN	Gewand	_	_	
+6-14	714-717	und	KON	und	_	_	
+6-15	718-722	Stab	NN	Stab	_	_	
+6-16	723-734	dargestellt	VVPP	darstellen	_	_	
+6-17	735-736	.	$.	.	_	_	
+
+#Text=Den Stab , dessen bei Homer ausdr\u00FCckliche Erw\u00E4hnung geschieht , hat er unter dem Arm gesetzt und so den \u00FCbergeneigten K\u00F6rper gest\u00FCtzt .
+7-1	737-740	Den	ART	die	_	_	
+7-2	741-745	Stab	NN	Stab	_	_	
+7-3	746-747	,	$,	,	_	_	
+7-4	748-754	dessen	PRELAT	die	_	_	
+7-5	755-758	bei	APPR	bei	_	_	
+7-6	759-764	Homer	NN	<unknown>	_	_	
+7-7	765-778	ausdrückliche	ADJA	ausdrücklich	_	_	
+7-8	779-788	Erwähnung	NN	Erwähnung	_	_	
+7-9	789-798	geschieht	VVFIN	geschehen	_	_	
+7-10	799-800	,	$,	,	_	_	
+7-11	801-804	hat	VAFIN	haben	_	_	
+7-12	805-807	er	PPER	er	_	_	
+7-13	808-813	unter	APPR	unter	_	_	
+7-14	814-817	dem	ART	die	_	_	
+7-15	818-821	Arm	NN	Arm	_	_	
+7-16	822-829	gesetzt	VVPP	setzen	_	_	
+7-17	830-833	und	KON	und	_	_	
+7-18	834-836	so	ADV	so	_	_	
+7-19	837-840	den	ART	die	_	_	
+7-20	841-854	übergeneigten	ADJA	<unknown>	_	_	
+7-21	855-861	Körper	NN	Körper	_	_	
+7-22	862-870	gestützt	VVPP	stützen	_	_	
+7-23	871-872	.	$.	.	_	_	
+
+#Text=Seine Stellung zeigt von tiefem sinnvollen Nachdenken .
+8-1	873-878	Seine	PPOSAT	sein	_	_	
+8-2	879-887	Stellung	NN	Stellung	_	_	
+8-3	888-893	zeigt	VVFIN	zeigen	_	_	
+8-4	894-897	von	APPR	von	_	_	
+8-5	898-904	tiefem	ADJA	tief	_	_	
+8-6	905-915	sinnvollen	ADJA	sinnvoll	_	_	
+8-7	916-926	Nachdenken	NN	Nachdenken	_	_	
+8-8	927-928	.	$.	.	_	_	
+
+#Text=Die Augen des Sehers sind geschlossen .
+9-1	929-932	Die	ART	die	_	_	
+9-2	933-938	Augen	NN	Auge	_	_	
+9-3	939-942	des	ART	die	_	_	
+9-4	943-949	Sehers	NN	Seher	_	_	
+9-5	950-954	sind	VAFIN	sein	_	_	
+9-6	955-966	geschlossen	VVPP	schließen	_	_	
+9-7	967-968	.	$.	.	_	_	
+
+#Text=Was die Darstellung betrifft , so kann dieses Monument den sch\u00F6nsten seiner Art beigez\u00E4hlt werden .
+10-1	969-972	Was	PWS	was	_	_	
+10-2	973-976	die	ART	die	_	_	
+10-3	977-988	Darstellung	NN	Darstellung	_	_	
+10-4	989-997	betrifft	VVFIN	betreffen	_	_	
+10-5	998-999	,	$,	,	_	_	
+10-6	1000-1002	so	ADV	so	_	_	
+10-7	1003-1007	kann	VMFIN	können	_	_	
+10-8	1008-1014	dieses	PDAT	dies	*[11]	OBJ[11]	
+10-9	1015-1023	Monument	NN	Monument	*[11]	OBJ[11]	
+10-10	1024-1027	den	ART	die	_	_	
+10-11	1028-1037	schönsten	ADJA	schön	_	_	
+10-12	1038-1044	seiner	PPOSAT	sein	_	_	
+10-13	1045-1048	Art	NN	Art	_	_	
+10-14	1049-1059	beigezählt	VVPP	<unknown>	_	_	
+10-15	1060-1066	werden	VAINF	werden	_	_	
+10-16	1067-1068	.	$.	.	_	_	
+
+#Text=Die Zeichnung ist fein , die Composizion einfach und die Motive trefflich gew\u00E4hlt .
+11-1	1069-1072	Die	ART	die	_	_	
+11-2	1073-1082	Zeichnung	NN	Zeichnung	_	_	
+11-3	1083-1086	ist	VAFIN	sein	_	_	
+11-4	1087-1091	fein	ADJD	fein	_	_	
+11-5	1092-1093	,	$,	,	_	_	
+11-6	1094-1097	die	ART	die	_	_	
+11-7	1098-1109	Composizion	NN	<unknown>	_	_	
+11-8	1110-1117	einfach	ADJD	einfach	_	_	
+11-9	1118-1121	und	KON	und	_	_	
+11-10	1122-1125	die	ART	die	_	_	
+11-11	1126-1132	Motive	NN	Motiv	_	_	
+11-12	1133-1142	trefflich	ADJD	trefflich	_	_	
+11-13	1143-1150	gewählt	VVPP	wählen	_	_	
+11-14	1151-1152	.	$.	.	_	_	
+
+#Text=Interessanter jedoch als durch diese Vorz\u00FCge wird unser Monument wegen der Inschriften , von denen die des Hermes und des Tiresias nicht blo\u00DF die einfachen Namen , sondern noch eine wahrscheinlich erkl\u00E4rende Beischrift zeigen .
+12-1	1153-1166	Interessanter	ADJD	interessant	_	_	
+12-2	1167-1173	jedoch	ADV	jedoch	_	_	
+12-3	1174-1177	als	KOKOM	als	_	_	
+12-4	1178-1183	durch	APPR	durch	_	_	
+12-5	1184-1189	diese	PDAT	dies	_	_	
+12-6	1190-1197	Vorzüge	NN	Vorzug	_	_	
+12-7	1198-1202	wird	VAFIN	werden	_	_	
+12-8	1203-1208	unser	PPOSAT	unser	*[12]	OBJ[12]	
+12-9	1209-1217	Monument	NN	Monument	*[12]	OBJ[12]	
+12-10	1218-1223	wegen	APPR	wegen	_	_	
+12-11	1224-1227	der	ART	die	_	_	
+12-12	1228-1239	Inschriften	NN	Inschrift	_	_	
+12-13	1240-1241	,	$,	,	_	_	
+12-14	1242-1245	von	APPR	von	_	_	
+12-15	1246-1251	denen	PRELS	die	_	_	
+12-16	1252-1255	die	PDS	die	_	_	
+12-17	1256-1259	des	ART	die	_	_	
+12-18	1260-1266	Hermes	NE	Hermes	*	PERmentioned	
+12-19	1267-1270	und	KON	und	_	_	
+12-20	1271-1274	des	ART	die	_	_	
+12-21	1275-1283	Tiresias	NN	<unknown>	*	PERmentioned	
+12-22	1284-1289	nicht	PTKNEG	nicht	_	_	
+12-23	1290-1294	bloß	ADJD	bloß	_	_	
+12-24	1295-1298	die	ART	die	_	_	
+12-25	1299-1308	einfachen	ADJA	einfach	_	_	
+12-26	1309-1314	Namen	NN	Name	_	_	
+12-27	1315-1316	,	$,	,	_	_	
+12-28	1317-1324	sondern	KON	sondern	_	_	
+12-29	1325-1329	noch	ADV	noch	_	_	
+12-30	1330-1334	eine	ART	eine	_	_	
+12-31	1335-1349	wahrscheinlich	ADJD	wahrscheinlich	_	_	
+12-32	1350-1360	erklärende	ADJA	erklärend	_	_	
+12-33	1361-1371	Beischrift	NN	<unknown>	_	_	
+12-34	1372-1378	zeigen	VVFIN	zeigen	_	_	
+12-35	1379-1380	.	$.	.	_	_	
+
+#Text=Bei dem Namen des Hermes steht nemlich in demselben Quadrat eingeschlossen Aitas und zwar so , da\u00DF Tursus und Aitas untereinander geschrieben , beide von der rechten zur linken gele-
+13-1	1381-1384	Bei	APPR	bei	_	_	
+13-2	1385-1388	dem	ART	die	_	_	
+13-3	1389-1394	Namen	NN	Name	_	_	
+13-4	1395-1398	des	ART	die	_	_	
+13-5	1399-1405	Hermes	NE	Hermes	*	PERmentioned	
+13-6	1406-1411	steht	VVFIN	stehen	_	_	
+13-7	1412-1419	nemlich	ADJD	<unknown>	_	_	
+13-8	1420-1422	in	APPR	in	_	_	
+13-9	1423-1432	demselben	PDAT	dieselb	_	_	
+13-10	1433-1440	Quadrat	NN	Quadrat	_	_	
+13-11	1441-1455	eingeschlossen	ADJD	eingeschlossen	_	_	
+13-12	1456-1461	Aitas	NE	<unknown>	_	_	
+13-13	1462-1465	und	KON	und	_	_	
+13-14	1466-1470	zwar	ADV	zwar	_	_	
+13-15	1471-1473	so	ADV	so	_	_	
+13-16	1474-1475	,	$,	,	_	_	
+13-17	1476-1479	daß	KOUS	dass	_	_	
+13-18	1480-1486	Tursus	NN	<unknown>	*	PERmentioned	
+13-19	1487-1490	und	KON	und	_	_	
+13-20	1491-1496	Aitas	NE	<unknown>	*	PERmentioned	
+13-21	1497-1510	untereinander	ADV	untereinander	_	_	
+13-22	1511-1522	geschrieben	VVPP	schreiben	_	_	
+13-23	1523-1524	,	$,	,	_	_	
+13-24	1525-1530	beide	PIS	beide	_	_	
+13-25	1531-1534	von	APPR	von	_	_	
+13-26	1535-1538	der	ART	die	_	_	
+13-27	1539-1546	rechten	ADJA	recht[255]|rechts[256]	_	_	
+13-28	1547-1550	zur	APPRART	zu	_	_	
+13-29	1551-1557	linken	ADJA	links	_	_	
+13-30	1558-1563	gele-	TRUNC	<unknown>	_	_	

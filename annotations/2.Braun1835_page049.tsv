@@ -1,0 +1,283 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS|PosValue
+#T_SP=de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=9 Braun an Gerhard Rom , November 1835 vergangenen Jahren , wo man sich blo\u00DF auf die Gr\u00E4ber beschr\u00E4nkte .
+1-1	0-1	9	CARD	9	_	_	
+1-2	2-7	Braun	NN	Braun	*	PERauthor	
+1-3	8-10	an	APPR	an	_	_	
+1-4	11-18	Gerhard	NE	Gerhard	*	PERaddressee	
+1-5	19-22	Rom	NE	Rom	*	PLACEfrom	
+1-6	23-24	,	$,	,	*[4]	DATEletter[4]	
+1-7	25-33	November	NN	November	*[4]	DATEletter[4]	
+1-8	34-38	1835	CARD	@card@	*[4]	DATEletter[4]	
+1-9	39-50	vergangenen	ADJA	vergangen	_	_	
+1-10	51-57	Jahren	NN	Jahr	_	_	
+1-11	58-59	,	$,	,	_	_	
+1-12	60-62	wo	PWAV	wo	_	_	
+1-13	63-66	man	PIS	man	_	_	
+1-14	67-71	sich	PRF	sich	_	_	
+1-15	72-76	bloß	ADJD	bloß	_	_	
+1-16	77-80	auf	APPR	auf	_	_	
+1-17	81-84	die	ART	die	_	_	
+1-18	85-91	Gräber	NN	Grab	*	MISC	
+1-19	92-103	beschränkte	VVFIN	beschränken	_	_	
+1-20	104-105	.	$.	.	_	_	
+
+#Text=Dennoch befinden sich unter den Vasen mehrere St\u00FCcke von feiner Arbeit und interessanter Darstellung .
+2-1	106-113	Dennoch	ADV	dennoch	_	_	
+2-2	114-122	befinden	VVFIN	befinden	_	_	
+2-3	123-127	sich	PRF	sich	_	_	
+2-4	128-133	unter	APPR	unter	_	_	
+2-5	134-137	den	ART	die	_	_	
+2-6	138-143	Vasen	NN	Vase	*	OBJ	
+2-7	144-151	mehrere	PIAT	mehrere	_	_	
+2-8	152-158	Stücke	NN	Stück	_	_	
+2-9	159-162	von	APPR	von	_	_	
+2-10	163-169	feiner	ADJA	fein	_	_	
+2-11	170-176	Arbeit	NN	Arbeit	_	_	
+2-12	177-180	und	KON	und	_	_	
+2-13	181-194	interessanter	ADJA	interessant	_	_	
+2-14	195-206	Darstellung	NN	Darstellung	_	_	
+2-15	207-208	.	$.	.	_	_	
+
+#Text=Eine PhI ge des jungen Bacchus mit beigeschriebenen Namen auf einem kelchf\u00F6rmigen Gef\u00E4\u00DF von wei\u00DFlichem Grund ist wegen sch\u00F6ner Anordnung und polychromer Ausf\u00FChrung wegen interessant .
+3-1	209-213	Eine	ART	eine	_	_	
+3-2	214-217	PhI	NN	Phi	_	_	
+3-3	218-220	ge	VVFIN	<unknown>	_	_	
+3-4	221-224	des	ART	die	_	_	
+3-5	225-231	jungen	ADJA	jung	_	_	
+3-6	232-239	Bacchus	NN	<unknown>	*	PERmentioned	
+3-7	240-243	mit	APPR	mit	_	_	
+3-8	244-260	beigeschriebenen	ADJA	<unknown>	_	_	
+3-9	261-266	Namen	NN	Name	_	_	
+3-10	267-270	auf	APPR	auf	_	_	
+3-11	271-276	einem	ART	eine	_	_	
+3-12	277-290	kelchförmigen	ADJA	<unknown>	*[8]	OBJ[8]	
+3-13	291-296	Gefäß	NN	Gefäß	*[8]	OBJ[8]	
+3-14	297-300	von	APPR	von	*[8]	OBJ[8]	
+3-15	301-311	weißlichem	ADJA	<unknown>	*[8]	OBJ[8]	
+3-16	312-317	Grund	NN	Grund	*[8]	OBJ[8]	
+3-17	318-321	ist	VAFIN	sein	_	_	
+3-18	322-327	wegen	APPR	wegen	_	_	
+3-19	328-335	schöner	ADJA	schön	_	_	
+3-20	336-345	Anordnung	NN	Anordnung	_	_	
+3-21	346-349	und	KON	und	_	_	
+3-22	350-361	polychromer	ADJA	<unknown>	_	_	
+3-23	362-372	Ausführung	NN	Ausführung	_	_	
+3-24	373-378	wegen	APPR	wegen	_	_	
+3-25	379-390	interessant	ADJD	interessant	_	_	
+3-26	391-392	.	$.	.	_	_	
+
+#Text=Ein anderes kleines Gef\u00E4\u00DF zeigt die Helena , wie sie zu dem alten Schnitzbild der G\u00F6ttin flieht .
+4-1	393-396	Ein	ART	eine	*[9]	OBJ[9]	
+4-2	397-404	anderes	PIAT	andere	*[9]	OBJ[9]	
+4-3	405-412	kleines	ADJA	klein	*[9]	OBJ[9]	
+4-4	413-418	Gefäß	NN	Gefäß	*[9]	OBJ[9]	
+4-5	419-424	zeigt	VVFIN	zeigen	_	_	
+4-6	425-428	die	ART	die	_	_	
+4-7	429-435	Helena	NE	Helena	*	PERmentioned	
+4-8	436-437	,	$,	,	_	_	
+4-9	438-441	wie	KOUS	wie	_	_	
+4-10	442-445	sie	PPER	sie	_	_	
+4-11	446-448	zu	APPR	zu	_	_	
+4-12	449-452	dem	ART	die	_	_	
+4-13	453-458	alten	ADJA	alt	_	_	
+4-14	459-470	Schnitzbild	NN	<unknown>	_	_	
+4-15	471-474	der	ART	die	_	_	
+4-16	475-481	Göttin	NN	Göttin	_	_	
+4-17	482-488	flieht	VVFIN	fliehen	_	_	
+4-18	489-490	.	$.	.	_	_	
+
+#Text=Menelaus verfolgt sie mit gez\u00FCcktem Schwerdte , das er aber sofort seinen H\u00E4nden entgleiten l\u00E4\u00DFt , als er die Aphrodite und den sie begleitenden Fl\u00FCgelknaben zwischen sich und dem Gegen~ stand seiner Rache rettend einschreitend erblickt .
+5-1	491-499	Menelaus	NE	<unknown>	*	PERmentioned	
+5-2	500-508	verfolgt	VVFIN	verfolgen	_	_	
+5-3	509-512	sie	PPER	sie	_	_	
+5-4	513-516	mit	APPR	mit	_	_	
+5-5	517-526	gezücktem	ADJA	gezückt	_	_	
+5-6	527-536	Schwerdte	NN	<unknown>	_	_	
+5-7	537-538	,	$,	,	_	_	
+5-8	539-542	das	PRELS	die	_	_	
+5-9	543-545	er	PPER	er	_	_	
+5-10	546-550	aber	ADV	aber	_	_	
+5-11	551-557	sofort	ADV	sofort	_	_	
+5-12	558-564	seinen	PPOSAT	sein	_	_	
+5-13	565-571	Händen	NN	Hand	_	_	
+5-14	572-582	entgleiten	VVINF	entgleiten	_	_	
+5-15	583-587	läßt	VVFIN	lassen	_	_	
+5-16	588-589	,	$,	,	_	_	
+5-17	590-593	als	KOUS	als	_	_	
+5-18	594-596	er	PPER	er	_	_	
+5-19	597-600	die	ART	die	_	_	
+5-20	601-610	Aphrodite	NN	<unknown>	*	PERmentioned	
+5-21	611-614	und	KON	und	_	_	
+5-22	615-618	den	ART	die	_	_	
+5-23	619-622	sie	PPER	sie	_	_	
+5-24	623-635	begleitenden	ADJA	begleitend	_	_	
+5-25	636-648	Flügelknaben	NN	<unknown>	*	PERmentioned	
+5-26	649-657	zwischen	APPR	zwischen	_	_	
+5-27	658-662	sich	PRF	sich	_	_	
+5-28	663-666	und	KON	und	_	_	
+5-29	667-670	dem	ART	die	_	_	
+5-30	671-677	Gegen~	NN	<unknown>	_	_	
+5-31	678-683	stand	VVFIN	stehen	_	_	
+5-32	684-690	seiner	PPOSAT	sein	_	_	
+5-33	691-696	Rache	NN	Rache	_	_	
+5-34	697-704	rettend	ADJD	rettend	_	_	
+5-35	705-718	einschreitend	ADJD	<unknown>	_	_	
+5-36	719-727	erblickt	VVPP	erblicken	_	_	
+5-37	728-729	.	$.	.	_	_	
+
+#Text=Die drei Hauptfiguren der Darstellung sind durch Inschriften festgestellt ; das alte Schnitzbild ist ohne Namen .
+6-1	730-733	Die	ART	die	_	_	
+6-2	734-738	drei	CARD	drei	_	_	
+6-3	739-751	Hauptfiguren	NN	Hauptfigur	_	_	
+6-4	752-755	der	ART	die	_	_	
+6-5	756-767	Darstellung	NN	Darstellung	_	_	
+6-6	768-772	sind	VAFIN	sein	_	_	
+6-7	773-778	durch	APPR	durch	_	_	
+6-8	779-790	Inschriften	NN	Inschrift	_	_	
+6-9	791-803	festgestellt	VVPP	feststellen	_	_	
+6-10	804-805	;	$.	\;	_	_	
+6-11	806-809	das	ART	die	_	_	
+6-12	810-814	alte	ADJA	alt	_	_	
+6-13	815-826	Schnitzbild	NN	<unknown>	_	_	
+6-14	827-830	ist	VAFIN	sein	_	_	
+6-15	831-835	ohne	APPR	ohne	_	_	
+6-16	836-841	Namen	NN	Name	_	_	
+6-17	842-843	.	$.	.	_	_	
+
+#Text=Merkw\u00FCrdig d\u00FCrfte auch ein anderes kleines Gef\u00E4\u00DF sein , eine Art Gie\u00DFkanne , auf welchem ein langbekleideter Mann mit Scepter und Aermeltunika zwischen zwei Frauen erscheint .
+7-1	844-854	Merkwürdig	ADJD	merkwürdig	_	_	
+7-2	855-861	dürfte	VMFIN	dürfen	_	_	
+7-3	862-866	auch	ADV	auch	_	_	
+7-4	867-870	ein	ART	eine	*[14]	OBJ[14]	
+7-5	871-878	anderes	PIAT	andere	*[14]	OBJ[14]	
+7-6	879-886	kleines	ADJA	klein	*[14]	OBJ[14]	
+7-7	887-892	Gefäß	NN	Gefäß	*[14]	OBJ[14]	
+7-8	893-897	sein	VAINF	sein	*[14]	OBJ[14]	
+7-9	898-899	,	$,	,	*[14]	OBJ[14]	
+7-10	900-904	eine	ART	eine	*[14]	OBJ[14]	
+7-11	905-908	Art	NN	Art	*[14]	OBJ[14]	
+7-12	909-918	Gießkanne	NN	Gießkanne	*[14]	OBJ[14]	
+7-13	919-920	,	$,	,	_	_	
+7-14	921-924	auf	APPR	auf	_	_	
+7-15	925-932	welchem	PRELS	welche	_	_	
+7-16	933-936	ein	ART	eine	_	_	
+7-17	937-952	langbekleideter	ADJA	<unknown>	_	_	
+7-18	953-957	Mann	NN	Mann	_	_	
+7-19	958-961	mit	APPR	mit	_	_	
+7-20	962-969	Scepter	NN	<unknown>	_	_	
+7-21	970-973	und	KON	und	_	_	
+7-22	974-986	Aermeltunika	NN	<unknown>	_	_	
+7-23	987-995	zwischen	APPR	zwischen	_	_	
+7-24	996-1000	zwei	CARD	zwei	_	_	
+7-25	1001-1007	Frauen	NN	Frau	_	_	
+7-26	1008-1017	erscheint	VVFIN	erscheinen	_	_	
+7-27	1018-1019	.	$.	.	_	_	
+
+#Text=Die Tracht ist asiatisch aber von griechischer Anordnung wie in \u00E4hnlichen Darstellungen ; neben dem Sceptertragenden Herrscher steht DI=l~ I t\\fV E. , bei der Frau zur Linken die ihn libiren zu wollen scheint .\u00DF ~ ~/I\\ .
+8-1	1020-1023	Die	ART	die	_	_	
+8-2	1024-1030	Tracht	NN	Tracht	_	_	
+8-3	1031-1034	ist	VAFIN	sein	_	_	
+8-4	1035-1044	asiatisch	ADJD	asiatisch	_	_	
+8-5	1045-1049	aber	ADV	aber	_	_	
+8-6	1050-1053	von	APPR	von	_	_	
+8-7	1054-1066	griechischer	ADJA	griechisch	_	_	
+8-8	1067-1076	Anordnung	NN	Anordnung	_	_	
+8-9	1077-1080	wie	KOKOM	wie	_	_	
+8-10	1081-1083	in	APPR	in	_	_	
+8-11	1084-1093	ähnlichen	ADJA	ähnlich	_	_	
+8-12	1094-1107	Darstellungen	NN	Darstellung	_	_	
+8-13	1108-1109	;	$.	\;	_	_	
+8-14	1110-1115	neben	APPR	neben	_	_	
+8-15	1116-1119	dem	ART	die	_	_	
+8-16	1120-1136	Sceptertragenden	ADJA	<unknown>	_	_	
+8-17	1137-1146	Herrscher	NN	Herrscher	_	_	
+8-18	1147-1152	steht	VVFIN	stehen	_	_	
+8-19	1153-1158	DI=l~	NE	<unknown>	_	_	
+8-20	1159-1160	I	FM	I	_	_	
+8-21	1161-1165	t\fV	NE	<unknown>	_	_	
+8-22	1166-1168	E.	NE	E.	_	_	
+8-23	1169-1170	,	$,	,	_	_	
+8-24	1171-1174	bei	APPR	bei	_	_	
+8-25	1175-1178	der	ART	die	_	_	
+8-26	1179-1183	Frau	NN	Frau	_	_	
+8-27	1184-1187	zur	APPRART	zu	_	_	
+8-28	1188-1194	Linken	NN	Linke	_	_	
+8-29	1195-1198	die	ART	die	_	_	
+8-30	1199-1202	ihn	PPER	er	_	_	
+8-31	1203-1210	libiren	ADJD	<unknown>	_	_	
+8-32	1211-1213	zu	PTKZU	zu	_	_	
+8-33	1214-1220	wollen	VMINF	wollen	_	_	
+8-34	1221-1228	scheint	VVFIN	scheinen	_	_	
+8-35	1229-1231	.ß	ADJA	<unknown>	_	_	
+8-36	1232-1233	~	XY	~	_	_	
+8-37	1234-1238	~/I\	ADJD	<unknown>	_	_	
+8-38	1239-1240	.	$.	.	_	_	
+
+#Text={ ~ A Die dritte Frau rechts ist ohne Beischrift .
+9-1	1241-1242	{	$(	{	_	_	
+9-2	1243-1244	~	XY	~	_	_	
+9-3	1245-1246	A	NN	A	_	_	
+9-4	1247-1250	Die	ART	die	_	_	
+9-5	1251-1257	dritte	ADJA	dritt	_	_	
+9-6	1258-1262	Frau	NN	Frau	_	_	
+9-7	1263-1269	rechts	ADV	rechts	_	_	
+9-8	1270-1273	ist	VAFIN	sein	_	_	
+9-9	1274-1278	ohne	APPR	ohne	_	_	
+9-10	1279-1289	Beischrift	NN	<unknown>	_	_	
+9-11	1290-1291	.	$.	.	_	_	
+
+#Text=Von Goldschmuck hat man dieses Jahr verh\u00E4ltni\u00DFm\u00E4\u00DFig wenig gefunden .
+10-1	1292-1295	Von	APPR	von	_	_	
+10-2	1296-1307	Goldschmuck	NN	Goldschmuck	*	OBJ	
+10-3	1308-1311	hat	VAFIN	haben	_	_	
+10-4	1312-1315	man	PIS	man	_	_	
+10-5	1316-1322	dieses	PDAT	dies	_	_	
+10-6	1323-1327	Jahr	NN	Jahr	_	_	
+10-7	1328-1343	verhältnißmäßig	ADJD	<unknown>	_	_	
+10-8	1344-1349	wenig	PIS	wenige	_	_	
+10-9	1350-1358	gefunden	VVPP	finden	_	_	
+10-10	1359-1360	.	$.	.	_	_	
+
+#Text=Unter den Bronzeger\u00E4then zeichnet sich vor allem ein Spiegel~ , dessen sch\u00F6ne , festliche und anziehendeDarstellung einer Beschreibung sehr w\u00FCrdig w\u00E4re , wollte es nur gelingen die Eindr\u00FCcke welche das Auge empf\u00E4ngt , etwas deutlicher und bezeich-
+11-1	1361-1366	Unter	APPR	unter	_	_	
+11-2	1367-1370	den	ART	die	_	_	
+11-3	1371-1385	Bronzegeräthen	NN	<unknown>	*	OBJ	
+11-4	1386-1394	zeichnet	VVFIN	zeichnen	_	_	
+11-5	1395-1399	sich	PRF	sich	_	_	
+11-6	1400-1403	vor	APPR	vor	_	_	
+11-7	1404-1409	allem	PIS	alle	_	_	
+11-8	1410-1413	ein	ART	eine	_	_	
+11-9	1414-1422	Spiegel~	NN	<unknown>	*	OBJ	
+11-10	1423-1424	,	$,	,	_	_	
+11-11	1425-1431	dessen	PRELAT	die	_	_	
+11-12	1432-1438	schöne	ADJA	schön	_	_	
+11-13	1439-1440	,	$,	,	_	_	
+11-14	1441-1450	festliche	ADJA	festlich	_	_	
+11-15	1451-1454	und	KON	und	_	_	
+11-16	1455-1476	anziehendeDarstellung	NN	<unknown>	_	_	
+11-17	1477-1482	einer	ART	eine	_	_	
+11-18	1483-1495	Beschreibung	NN	Beschreibung	_	_	
+11-19	1496-1500	sehr	ADV	sehr	_	_	
+11-20	1501-1507	würdig	ADJD	würdig	_	_	
+11-21	1508-1512	wäre	VAFIN	sein	_	_	
+11-22	1513-1514	,	$,	,	_	_	
+11-23	1515-1521	wollte	VMFIN	wollen	_	_	
+11-24	1522-1524	es	PPER	es	_	_	
+11-25	1525-1528	nur	ADV	nur	_	_	
+11-26	1529-1537	gelingen	VVFIN	gelingen	_	_	
+11-27	1538-1541	die	ART	die	_	_	
+11-28	1542-1551	Eindrücke	NN	Eindruck	_	_	
+11-29	1552-1558	welche	PRELS	welche	_	_	
+11-30	1559-1562	das	ART	die	_	_	
+11-31	1563-1567	Auge	NN	Auge	_	_	
+11-32	1568-1576	empfängt	VVFIN	empfangen	_	_	
+11-33	1577-1578	,	$,	,	_	_	
+11-34	1579-1584	etwas	ADV	etwas	_	_	
+11-35	1585-1595	deutlicher	ADJD	deutlich	_	_	
+11-36	1596-1599	und	KON	und	_	_	
+11-37	1600-1608	bezeich-	ADJD	<unknown>	_	_	

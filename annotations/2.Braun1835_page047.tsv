@@ -1,0 +1,295 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS|PosValue
+#T_SP=de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=7 Braun an Gerhard Rom , November 1835 ihn zu b\u00E4ndigen .
+1-1	0-1	7	CARD	7	_	_	
+1-2	2-7	Braun	NN	Braun	*	PERauthor	
+1-3	8-10	an	APPR	an	_	_	
+1-4	11-18	Gerhard	NE	Gerhard	*	PERaddressee	
+1-5	19-22	Rom	NE	Rom	*	PLACEfrom	
+1-6	23-24	,	$,	,	*[4]	DATEletter[4]	
+1-7	25-33	November	NN	November	*[4]	DATEletter[4]	
+1-8	34-38	1835	ADV	@card@	*[4]	DATEletter[4]	
+1-9	39-42	ihn	PPER	er	_	_	
+1-10	43-45	zu	PTKZU	zu	_	_	
+1-11	46-54	bändigen	VVINF	bändigen	_	_	
+1-12	55-56	.	$.	.	_	_	
+
+#Text=Leider fehlen die K\u00F6pfe aller drei Figuren und auch andere Theile dieser der Schilderung nach dem Fries des phigalischen Tempels an Trefflichkeit gleichstehenden Monuments sind dem Unbill der Zeit nicht entgangen .
+2-1	57-63	Leider	ADV	leider	_	_	
+2-2	64-70	fehlen	VVFIN	fehlen	_	_	
+2-3	71-74	die	ART	die	_	_	
+2-4	75-80	Köpfe	NN	Kopf	_	_	
+2-5	81-86	aller	PIAT	alle	_	_	
+2-6	87-91	drei	CARD	drei	_	_	
+2-7	92-99	Figuren	NN	Figur	_	_	
+2-8	100-103	und	KON	und	_	_	
+2-9	104-108	auch	ADV	auch	_	_	
+2-10	109-115	andere	PIS	andere	_	_	
+2-11	116-122	Theile	NE	Theile	_	_	
+2-12	123-129	dieser	PDAT	dies	_	_	
+2-13	130-133	der	ART	die	_	_	
+2-14	134-145	Schilderung	NN	Schilderung	_	_	
+2-15	146-150	nach	APPR	nach	_	_	
+2-16	151-154	dem	ART	die	_	_	
+2-17	155-160	Fries	NN	Fries	*	OBJ	
+2-18	161-164	des	ART	die	_	_	
+2-19	165-177	phigalischen	ADJA	<unknown>	*[6]	OBJ[6]	
+2-20	178-185	Tempels	NN	Tempel	*[6]	OBJ[6]	
+2-21	186-188	an	APPR	an	_	_	
+2-22	189-202	Trefflichkeit	NN	<unknown>	_	_	
+2-23	203-218	gleichstehenden	ADJA	<unknown>	_	_	
+2-24	219-228	Monuments	NN	Monument	_	_	
+2-25	229-233	sind	VAFIN	sein	_	_	
+2-26	234-237	dem	ART	die	_	_	
+2-27	238-244	Unbill	NN	Unbill	_	_	
+2-28	245-248	der	ART	die	_	_	
+2-29	249-253	Zeit	NN	Zeit	_	_	
+2-30	254-259	nicht	PTKNEG	nicht	_	_	
+2-31	260-269	entgangen	VVPP	entgehen	_	_	
+2-32	270-271	.	$.	.	_	_	
+
+#Text=F\u00FCr die Topographie von Athen ist endlich die Nachricht von Belang , da\u00DF die Demolizion der oben erw\u00E4hnten Betterien kein dem Piedestall des Agrippa entsprechendes Gem\u00E4uer hat entdecken lassen .
+3-1	272-275	Für	APPR	für	_	_	
+3-2	276-279	die	ART	die	_	_	
+3-3	280-291	Topographie	NN	Topographie	_	_	
+3-4	292-295	von	APPR	von	_	_	
+3-5	296-301	Athen	NE	Athen	*	PLACEmentioned	
+3-6	302-305	ist	VAFIN	sein	_	_	
+3-7	306-313	endlich	ADV	endlich	_	_	
+3-8	314-317	die	ART	die	_	_	
+3-9	318-327	Nachricht	NN	Nachricht	_	_	
+3-10	328-331	von	APPR	von	_	_	
+3-11	332-338	Belang	NN	Belang	_	_	
+3-12	339-340	,	$,	,	_	_	
+3-13	341-344	daß	KOUS	dass	_	_	
+3-14	345-348	die	ART	die	_	_	
+3-15	349-359	Demolizion	NN	<unknown>	_	_	
+3-16	360-363	der	ART	die	_	_	
+3-17	364-368	oben	ADV	oben	_	_	
+3-18	369-378	erwähnten	ADJA	erwähnt	_	_	
+3-19	379-388	Betterien	NN	<unknown>	_	_	
+3-20	389-393	kein	PIAT	keine	_	_	
+3-21	394-397	dem	ART	die	_	_	
+3-22	398-408	Piedestall	NN	<unknown>	*[8]	OBJ[8]	
+3-23	409-412	des	ART	die	*[8]	OBJ[8]	
+3-24	413-420	Agrippa	NN	<unknown>	*[8]	OBJ[8]	
+3-25	421-435	entsprechendes	ADJA	entsprechend	_	_	
+3-26	436-443	Gemäuer	NN	Gemäuer	_	_	
+3-27	444-447	hat	VAFIN	haben	_	_	
+3-28	448-457	entdecken	VVINF	entdecken	_	_	
+3-29	458-464	lassen	VVINF	lassen	_	_	
+3-30	465-466	.	$.	.	_	_	
+
+#Text=Es h\u00E4tte sich nach Leake ( \u2022 o.
+4-1	467-469	Es	PPER	es	_	_	
+4-2	470-475	hätte	VAFIN	haben	_	_	
+4-3	476-480	sich	PRF	sich	_	_	
+4-4	481-485	nach	APPR	nach	_	_	
+4-5	486-491	Leake	NN	<unknown>	*	PERmentioned	
+4-6	492-493	(	$(	(	_	_	
+4-7	494-495	•	NN	<unknown>	_	_	
+4-8	496-498	o.	APPR	oder	_	_	
+
+#Text=\u2022 tav .
+5-1	499-500	•	NN	<unknown>	_	_	
+5-2	501-504	tav	NE	<unknown>	_	_	
+5-3	505-506	.	$.	.	_	_	
+
+#Text=111 ff. ) seinem gr\u00F6\u00DFeren Theile nach innerhalb der Substruction des beschriebenen Tempels befinden m\u00FCssen .
+6-1	507-510	111	CARD	@card@	_	_	
+6-2	511-514	ff.	NN	<unknown>	_	_	
+6-3	515-516	)	$(	)	_	_	
+6-4	517-523	seinem	PPOSAT	sein	_	_	
+6-5	524-532	größeren	ADJA	groß	_	_	
+6-6	533-539	Theile	NE	Theile	_	_	
+6-7	540-544	nach	APPR	nach	_	_	
+6-8	545-554	innerhalb	APPR	innerhalb	_	_	
+6-9	555-558	der	ART	die	_	_	
+6-10	559-571	Substruction	NN	<unknown>	*	OBJ	
+6-11	572-575	des	ART	die	_	_	
+6-12	576-589	beschriebenen	ADJA	beschrieben	_	_	
+6-13	590-597	Tempels	NN	Tempel	*	OBJ	
+6-14	598-606	befinden	VVINF	befinden	_	_	
+6-15	607-613	müssen	VMFIN	müssen	_	_	
+6-16	614-615	.	$.	.	_	_	
+
+#Text=F\u00FCr die zwei von Pausanias ( p.
+7-1	616-619	Für	APPR	für	_	_	
+7-2	620-623	die	ART	die	_	_	
+7-3	624-628	zwei	CARD	zwei	_	_	
+7-4	629-632	von	APPR	von	_	_	
+7-5	633-642	Pausanias	NE	<unknown>	*	PERmentioned	
+7-6	643-644	(	$(	(	_	_	
+7-7	645-647	p.	APPR	p.	_	_	
+
+#Text=41 .
+8-1	648-650	41	CARD	41	_	_	
+8-2	651-652	.	$.	.	_	_	
+
+#Text=4 ed.
+9-1	653-654	4	CARD	4	_	_	
+9-2	655-658	ed.	ADJA	ed.	_	_	
+
+#Text=Bekker ) erw\u00E4hnten Reiterstatuen scheinen sich die n\u00F6thigen Piedestalle also bis jetzt nicht gefunden zu haben , am wenigsten da , wo man sie vermuthet hat .
+10-1	659-665	Bekker	NE	<unknown>	*	PERmentioned	
+10-2	666-667	)	$(	)	_	_	
+10-3	668-677	erwähnten	ADJA	erwähnt	_	_	
+10-4	678-691	Reiterstatuen	NN	<unknown>	*	OBJ	
+10-5	692-700	scheinen	VVFIN	scheinen	_	_	
+10-6	701-705	sich	PRF	sich	_	_	
+10-7	706-709	die	ART	die	_	_	
+10-8	710-718	nöthigen	ADJA	<unknown>	_	_	
+10-9	719-730	Piedestalle	NN	<unknown>	_	_	
+10-10	731-735	also	ADV	also	_	_	
+10-11	736-739	bis	KON	bis	_	_	
+10-12	740-745	jetzt	ADV	jetzt	_	_	
+10-13	746-751	nicht	PTKNEG	nicht	_	_	
+10-14	752-760	gefunden	VVPP	finden	_	_	
+10-15	761-763	zu	PTKZU	zu	_	_	
+10-16	764-769	haben	VAINF	haben	_	_	
+10-17	770-771	,	$,	,	_	_	
+10-18	772-774	am	APPRART	an	_	_	
+10-19	775-784	wenigsten	PIS	wenigste	_	_	
+10-20	785-787	da	PTKVZ	da	_	_	
+10-21	788-789	,	$,	,	_	_	
+10-22	790-792	wo	PWAV	wo	_	_	
+10-23	793-796	man	PIS	man	_	_	
+10-24	797-800	sie	PPER	sie	_	_	
+10-25	801-810	vermuthet	NN	<unknown>	_	_	
+10-26	811-814	hat	VAFIN	haben	_	_	
+10-27	815-816	.	$.	.	_	_	
+
+#Text=In Etrurien gr\u00E4bt man aller Orten .
+11-1	817-819	In	APPR	in	_	_	
+11-2	820-828	Etrurien	NN	<unknown>	*	PLACEmentioned	
+11-3	829-834	gräbt	VVFIN	graben	_	_	
+11-4	835-838	man	PIS	man	_	_	
+11-5	839-844	aller	PIAT	alle	_	_	
+11-6	845-850	Orten	NN	Ort[145]|Orten[146]	_	_	
+11-7	851-852	.	$.	.	_	_	
+
+#Text=Hauptpunkte sind immer noch Vulci und die anliegenden Orte .
+12-1	853-864	Hauptpunkte	NN	Hauptpunkt	_	_	
+12-2	865-869	sind	VAFIN	sein	_	_	
+12-3	870-875	immer	ADV	immer	_	_	
+12-4	876-880	noch	ADV	noch	_	_	
+12-5	881-886	Vulci	NE	<unknown>	*	PLACEmentioned	
+12-6	887-890	und	KON	und	_	_	
+12-7	891-894	die	ART	die	_	_	
+12-8	895-906	anliegenden	ADJA	anliegend	_	_	
+12-9	907-911	Orte	NN	Ort	_	_	
+12-10	912-913	.	$.	.	_	_	
+
+#Text=Caeri und Cerveteri waren besonders ergiebig ; an anderen Orten werden die Nachgrabungen weniger systematisch betrieben .
+13-1	914-919	Caeri	NE	<unknown>	*	PLACEmentioned	
+13-2	920-923	und	KON	und	_	_	
+13-3	924-933	Cerveteri	NE	<unknown>	*	PLACEmentioned	
+13-4	934-939	waren	VAFIN	sein	_	_	
+13-5	940-949	besonders	ADV	besonders	_	_	
+13-6	950-958	ergiebig	ADJD	ergiebig	_	_	
+13-7	959-960	;	$.	\;	_	_	
+13-8	961-963	an	APPR	an	_	_	
+13-9	964-971	anderen	PIAT	andere	_	_	
+13-10	972-977	Orten	NN	Ort[167]|Orten[168]	_	_	
+13-11	978-984	werden	VAFIN	werden	_	_	
+13-12	985-988	die	ART	die	_	_	
+13-13	989-1002	Nachgrabungen	NN	Nachgrabung	_	_	
+13-14	1003-1010	weniger	ADV	weniger	_	_	
+13-15	1011-1023	systematisch	ADJD	systematisch	_	_	
+13-16	1024-1033	betrieben	VVPP	betreiben	_	_	
+13-17	1034-1035	.	$.	.	_	_	
+
+#Text=Von Todi aus wird der Fund einer kostbaren Bronzestatue berichtet , auf die wir nachher zur\u00FCckkommen wollen .
+14-1	1036-1039	Von	APPR	von	_	_	
+14-2	1040-1044	Todi	NN	<unknown>	*	PLACEmentioned	
+14-3	1045-1048	aus	APZR	aus	_	_	
+14-4	1049-1053	wird	VAFIN	werden	_	_	
+14-5	1054-1057	der	ART	die	_	_	
+14-6	1058-1062	Fund	NN	Fund	_	_	
+14-7	1063-1068	einer	ART	eine	_	_	
+14-8	1069-1078	kostbaren	ADJA	kostbar	_	_	
+14-9	1079-1091	Bronzestatue	NN	Bronzestatue	*	OBJ	
+14-10	1092-1101	berichtet	VVFIN	berichten	_	_	
+14-11	1102-1103	,	$,	,	_	_	
+14-12	1104-1107	auf	APPR	auf	_	_	
+14-13	1108-1111	die	PRELS	die	_	_	
+14-14	1112-1115	wir	PPER	wir	_	_	
+14-15	1116-1123	nachher	ADV	nachher	_	_	
+14-16	1124-1136	zurückkommen	VVINF	zurückkommen	_	_	
+14-17	1137-1143	wollen	VMFIN	wollen	_	_	
+14-18	1144-1145	.	$.	.	_	_	
+
+#Text=Auch Chiusi und seine Umgebungen liefern dankenswerthe Notizen .
+15-1	1146-1150	Auch	ADV	auch	_	_	
+15-2	1151-1157	Chiusi	NE	<unknown>	*	PLACEmentioned	
+15-3	1158-1161	und	KON	und	_	_	
+15-4	1162-1167	seine	PPOSAT	sein	_	_	
+15-5	1168-1178	Umgebungen	NN	Umgebung	_	_	
+15-6	1179-1186	liefern	VVFIN	liefern	_	_	
+15-7	1187-1200	dankenswerthe	NE	<unknown>	_	_	
+15-8	1201-1208	Notizen	NN	Notiz	_	_	
+15-9	1209-1210	.	$.	.	_	_	
+
+#Text=In Vulci hat man vorerst eine r\u00F6mische Inschrift entdeckt , welcher , wenn es noch anders eines solchen Beweises bed\u00FCrfte , zuerst den alten Namen dieser Stadt liefert , dann aber Zeugni\u00DF ablegt , da\u00DF zu den Zeiten des Kaisers F. Valerius Severus dieser einst so reiche Ort sich doch noch seiner Existenz , wenn auch nicht sei-
+16-1	1211-1213	In	APPR	in	_	_	
+16-2	1214-1219	Vulci	NE	<unknown>	*	PLACEmentioned	
+16-3	1220-1223	hat	VAFIN	haben	_	_	
+16-4	1224-1227	man	PIS	man	_	_	
+16-5	1228-1235	vorerst	ADV	vorerst	_	_	
+16-6	1236-1240	eine	ART	eine	_	_	
+16-7	1241-1249	römische	ADJA	römisch	*[23]	OBJ[23]	
+16-8	1250-1259	Inschrift	NN	Inschrift	*[23]	OBJ[23]	
+16-9	1260-1268	entdeckt	VVPP	entdecken	_	_	
+16-10	1269-1270	,	$,	,	_	_	
+16-11	1271-1278	welcher	PWS	welche	_	_	
+16-12	1279-1280	,	$,	,	_	_	
+16-13	1281-1285	wenn	KOUS	wenn	_	_	
+16-14	1286-1288	es	PPER	es	_	_	
+16-15	1289-1293	noch	ADV	noch	_	_	
+16-16	1294-1300	anders	ADV	anders	_	_	
+16-17	1301-1306	eines	ART	eine	_	_	
+16-18	1307-1314	solchen	PIAT	solche	_	_	
+16-19	1315-1323	Beweises	NN	Beweis	_	_	
+16-20	1324-1332	bedürfte	VVFIN	bedürfte	_	_	
+16-21	1333-1334	,	$,	,	_	_	
+16-22	1335-1341	zuerst	ADV	zuerst	_	_	
+16-23	1342-1345	den	ART	die	_	_	
+16-24	1346-1351	alten	ADJA	alt	_	_	
+16-25	1352-1357	Namen	NN	Name	_	_	
+16-26	1358-1364	dieser	PDAT	dies	_	_	
+16-27	1365-1370	Stadt	NN	Stadt	_	_	
+16-28	1371-1378	liefert	VVFIN	liefern	_	_	
+16-29	1379-1380	,	$,	,	_	_	
+16-30	1381-1385	dann	ADV	dann	_	_	
+16-31	1386-1390	aber	ADV	aber	_	_	
+16-32	1391-1398	Zeugniß	NN	<unknown>	_	_	
+16-33	1399-1405	ablegt	VVFIN	ablegen	_	_	
+16-34	1406-1407	,	$,	,	_	_	
+16-35	1408-1411	daß	KOUS	dass	_	_	
+16-36	1412-1414	zu	APPR	zu	_	_	
+16-37	1415-1418	den	ART	die	_	_	
+16-38	1419-1425	Zeiten	NN	Zeit	_	_	
+16-39	1426-1429	des	ART	die	_	_	
+16-40	1430-1437	Kaisers	NN	Kaiser	*[24]	PERmentioned[24]	
+16-41	1438-1440	F.	NE	F.	*[24]	PERmentioned[24]	
+16-42	1441-1449	Valerius	NE	Valerius	*[24]	PERmentioned[24]	
+16-43	1450-1457	Severus	NN	<unknown>	*[24]	PERmentioned[24]	
+16-44	1458-1464	dieser	PDAT	dies	_	_	
+16-45	1465-1470	einst	ADV	einst	_	_	
+16-46	1471-1473	so	ADV	so	_	_	
+16-47	1474-1480	reiche	ADJA	reich	_	_	
+16-48	1481-1484	Ort	NN	Ort	_	_	
+16-49	1485-1489	sich	PRF	sich	_	_	
+16-50	1490-1494	doch	ADV	doch	_	_	
+16-51	1495-1499	noch	ADV	noch	_	_	
+16-52	1500-1506	seiner	PPOSAT	sein	_	_	
+16-53	1507-1515	Existenz	NN	Existenz	_	_	
+16-54	1516-1517	,	$,	,	_	_	
+16-55	1518-1522	wenn	KOUS	wenn	_	_	
+16-56	1523-1527	auch	ADV	auch	_	_	
+16-57	1528-1533	nicht	PTKNEG	nicht	_	_	
+16-58	1534-1538	sei-	TRUNC	sei-	_	_	

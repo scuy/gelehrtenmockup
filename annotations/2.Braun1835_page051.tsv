@@ -1,0 +1,304 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS|PosValue
+#T_SP=de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=11 Braun an Gerhard Rom , November 1835 sen werden .
+1-1	0-2	11	CARD	11	_	_	
+1-2	3-8	Braun	NN	Braun	*	PERauthor	
+1-3	9-11	an	APPR	an	_	_	
+1-4	12-19	Gerhard	NE	Gerhard	*	PERaddressee	
+1-5	20-23	Rom	NE	Rom	*	PLACEfrom	
+1-6	24-25	,	$,	,	*[4]	DATEletter[4]	
+1-7	26-34	November	NN	November	*[4]	DATEletter[4]	
+1-8	35-39	1835	CARD	@card@	*[4]	DATEletter[4]	
+1-9	40-43	sen	VVPP	<unknown>	_	_	
+1-10	44-50	werden	VAFIN	werden	_	_	
+1-11	51-52	.	$.	.	_	_	
+
+#Text=Dem Namen des Tiresias ( Teresias : ) dagegen ist vorangestellt das Wort Finthial ( ) und zwar sind beide Worte von der linken zur rechten geschrieben , vielleicht zur Unterscheidung von der Inschrift des Hermes .
+2-1	53-56	Dem	ART	die	_	_	
+2-2	57-62	Namen	NN	Name	_	_	
+2-3	63-66	des	ART	die	_	_	
+2-4	67-75	Tiresias	NN	<unknown>	*	PERmentioned	
+2-5	76-77	(	$(	(	_	_	
+2-6	78-86	Teresias	NE	<unknown>	*	PERmentioned	
+2-7	87-88	:	$.	:	_	_	
+2-8	89-90	)	$(	)	_	_	
+2-9	91-98	dagegen	PAV	dagegen	_	_	
+2-10	99-102	ist	VAFIN	sein	_	_	
+2-11	103-116	vorangestellt	VVPP	voranstellen	_	_	
+2-12	117-120	das	ART	die	_	_	
+2-13	121-125	Wort	NN	Wort	_	_	
+2-14	126-134	Finthial	NN	<unknown>	_	_	
+2-15	135-136	(	$(	(	_	_	
+2-16	137-138	)	$(	)	_	_	
+2-17	139-142	und	KON	und	_	_	
+2-18	143-147	zwar	ADV	zwar	_	_	
+2-19	148-152	sind	VAFIN	sein	_	_	
+2-20	153-158	beide	PIAT	beide	_	_	
+2-21	159-164	Worte	NN	Wort	_	_	
+2-22	165-168	von	APPR	von	_	_	
+2-23	169-172	der	ART	die	_	_	
+2-24	173-179	linken	ADJA	links	_	_	
+2-25	180-183	zur	APPRART	zu	_	_	
+2-26	184-191	rechten	ADJA	recht[37]|rechts[38]	_	_	
+2-27	192-203	geschrieben	VVPP	schreiben	_	_	
+2-28	204-205	,	$,	,	_	_	
+2-29	206-216	vielleicht	ADV	vielleicht	_	_	
+2-30	217-220	zur	APPRART	zu	_	_	
+2-31	221-235	Unterscheidung	NN	Unterscheidung	_	_	
+2-32	236-239	von	APPR	von	_	_	
+2-33	240-243	der	ART	die	_	_	
+2-34	244-253	Inschrift	NN	Inschrift	_	_	
+2-35	254-257	des	ART	die	_	_	
+2-36	258-264	Hermes	NE	Hermes	*	PERmentioned	
+2-37	265-266	.	$.	.	_	_	
+
+#Text=Grf .
+3-1	267-270	Grf	NE	<unknown>	_	_	
+3-2	271-272	.	$.	.	_	_	
+
+#Text=Geh .
+4-1	273-276	Geh	VVIMP	gehen	_	_	
+4-2	277-278	.	$.	.	_	_	
+
+#Text=Rath Bunsen hat von beiden Inschriften folgende Erkl\u00E4rung versucht : die griechischen Nomina propria sagt er , pflegen im Etruskischen das S des Nominativs zu verlieren , im Genitiv dagegen tritt gerade dieser Buchstabe als Casusendung auf .
+5-1	279-283	Rath	NE	Rath	_	_	
+5-2	284-290	Bunsen	NN	<unknown>	*	PERmentioned	
+5-3	291-294	hat	VAFIN	haben	_	_	
+5-4	295-298	von	APPR	von	_	_	
+5-5	299-305	beiden	PIAT	beide	_	_	
+5-6	306-317	Inschriften	NN	Inschrift	_	_	
+5-7	318-326	folgende	ADJA	folgend	_	_	
+5-8	327-336	Erklärung	NN	Erklärung	_	_	
+5-9	337-345	versucht	VVPP	versuchen	_	_	
+5-10	346-347	:	$.	:	_	_	
+5-11	348-351	die	ART	die	_	_	
+5-12	352-364	griechischen	ADJA	griechisch	_	_	
+5-13	365-371	Nomina	NN	Nomen	_	_	
+5-14	372-379	propria	NE	<unknown>	_	_	
+5-15	380-384	sagt	VVFIN	sagen	_	_	
+5-16	385-387	er	PPER	er	_	_	
+5-17	388-389	,	$,	,	_	_	
+5-18	390-397	pflegen	VVFIN	pflegen	_	_	
+5-19	398-400	im	APPRART	in	_	_	
+5-20	401-413	Etruskischen	NN	<unknown>	_	_	
+5-21	414-417	das	ART	die	_	_	
+5-22	418-419	S	NN	S	_	_	
+5-23	420-423	des	ART	die	_	_	
+5-24	424-434	Nominativs	NN	<unknown>	_	_	
+5-25	435-437	zu	PTKZU	zu	_	_	
+5-26	438-447	verlieren	VVINF	verlieren	_	_	
+5-27	448-449	,	$,	,	_	_	
+5-28	450-452	im	APPRART	in	_	_	
+5-29	453-460	Genitiv	NN	Genitiv	_	_	
+5-30	461-468	dagegen	PAV	dagegen	_	_	
+5-31	469-474	tritt	VVFIN	treten	_	_	
+5-32	475-481	gerade	ADV	gerade	_	_	
+5-33	482-488	dieser	PDAT	dies	_	_	
+5-34	489-498	Buchstabe	NN	Buchstabe	_	_	
+5-35	499-502	als	KOKOM	als	_	_	
+5-36	503-514	Casusendung	NN	<unknown>	_	_	
+5-37	515-518	auf	PTKVZ	auf	_	_	
+5-38	519-520	.	$.	.	_	_	
+
+#Text=Teresias scheint daher in unsrer Inschrift im Genitiv zu stehen .
+6-1	521-529	Teresias	NE	<unknown>	*	PERmentioned	
+6-2	530-537	scheint	VVFIN	scheinen	_	_	
+6-3	538-543	daher	PAV	daher	_	_	
+6-4	544-546	in	APPR	in	_	_	
+6-5	547-553	unsrer	PPOSAT	unser	_	_	
+6-6	554-563	Inschrift	NN	Inschrift	_	_	
+6-7	564-566	im	APPRART	in	_	_	
+6-8	567-574	Genitiv	NN	Genitiv	_	_	
+6-9	575-577	zu	PTKZU	zu	_	_	
+6-10	578-584	stehen	VVINF	stehen	_	_	
+6-11	585-586	.	$.	.	_	_	
+
+#Text=Dieser Genitiv m\u00FC\u00DFte nun nothwendig von dem beistehendem Worte Finthial regiert werden und dieses k\u00F6nnte dann schwerlich eine von der des griechischen wesentlich verschiedne Bedeutung haben , so da\u00DF wir unsere Inschrift frei weg in A / .
+7-1	587-593	Dieser	PDAT	dies	_	_	
+7-2	594-601	Genitiv	NN	Genitiv	_	_	
+7-3	602-607	müßte	VMFIN	müssen	_	_	
+7-4	608-611	nun	ADV	nun	_	_	
+7-5	612-622	nothwendig	ADJD	<unknown>	_	_	
+7-6	623-626	von	APPR	von	_	_	
+7-7	627-630	dem	ART	die	_	_	
+7-8	631-643	beistehendem	ADJA	<unknown>	_	_	
+7-9	644-649	Worte	NN	Wort	_	_	
+7-10	650-658	Finthial	NN	<unknown>	_	_	
+7-11	659-666	regiert	VVPP	regieren	_	_	
+7-12	667-673	werden	VAFIN	werden	_	_	
+7-13	674-677	und	KON	und	_	_	
+7-14	678-684	dieses	PDS	diese	_	_	
+7-15	685-691	könnte	VMFIN	können	_	_	
+7-16	692-696	dann	ADV	dann	_	_	
+7-17	697-707	schwerlich	ADJD	schwerlich	_	_	
+7-18	708-712	eine	ART	eine	_	_	
+7-19	713-716	von	APPR	von	_	_	
+7-20	717-720	der	ART	die	_	_	
+7-21	721-724	des	ART	die	_	_	
+7-22	725-737	griechischen	ADJA	griechisch	_	_	
+7-23	738-748	wesentlich	ADJD	wesentlich	_	_	
+7-24	749-760	verschiedne	ADJA	<unknown>	_	_	
+7-25	761-770	Bedeutung	NN	Bedeutung	_	_	
+7-26	771-776	haben	VAINF	haben	_	_	
+7-27	777-778	,	$,	,	_	_	
+7-28	779-781	so	ADV	so	_	_	
+7-29	782-785	daß	KOUS	dass	_	_	
+7-30	786-789	wir	PPER	wir	_	_	
+7-31	790-796	unsere	PPOSAT	unser	_	_	
+7-32	797-806	Inschrift	NN	Inschrift	_	_	
+7-33	807-811	frei	ADJD	frei	_	_	
+7-34	812-815	weg	ADV	weg	_	_	
+7-35	816-818	in	APPR	in	_	_	
+7-36	819-820	A	NN	A	_	_	
+7-37	821-822	/	$(	/	_	_	
+7-38	823-824	.	$.	.	_	_	
+
+#Text=\u00FCbersetzen d\u00FCrfen .
+8-1	825-835	übersetzen	VVINF	übersetzen	_	_	
+8-2	836-842	dürfen	VMFIN	dürfen	_	_	
+8-3	843-844	.	$.	.	_	_	
+
+#Text=Tursus Aitas dagegen m\u00FC\u00DFte ein Hermes Chthonios , sein , dem Hermes Psychopompos gleichbedeutend , was zu unsrer Darstellung vollkommen passen w\u00FCrde .
+9-1	845-851	Tursus	NN	<unknown>	*[10]	PERmentioned[10]	
+9-2	852-857	Aitas	NE	<unknown>	*[10]	PERmentioned[10]	
+9-3	858-865	dagegen	PAV	dagegen	_	_	
+9-4	866-871	müßte	VMFIN	müssen	_	_	
+9-5	872-875	ein	ART	eine	_	_	
+9-6	876-882	Hermes	NE	Hermes	*[11]	PERmentioned[11]	
+9-7	883-892	Chthonios	NE	<unknown>	*[11]	PERmentioned[11]	
+9-8	893-894	,	$,	,	_	_	
+9-9	895-899	sein	PPOSAT	sein	_	_	
+9-10	900-901	,	$,	,	_	_	
+9-11	902-905	dem	ART	die	_	_	
+9-12	906-912	Hermes	NE	Hermes	*[12]	PERmentioned[12]	
+9-13	913-925	Psychopompos	NN	<unknown>	*[12]	PERmentioned[12]	
+9-14	926-941	gleichbedeutend	ADJD	gleichbedeutend	_	_	
+9-15	942-943	,	$,	,	_	_	
+9-16	944-947	was	PRELS	was	_	_	
+9-17	948-950	zu	APPR	zu	_	_	
+9-18	951-957	unsrer	PPOSAT	unser	_	_	
+9-19	958-969	Darstellung	NN	Darstellung	_	_	
+9-20	970-980	vollkommen	ADJD	vollkommen	_	_	
+9-21	981-987	passen	VVINF	passen	_	_	
+9-22	988-993	würde	VAFIN	werden	_	_	
+9-23	994-995	.	$.	.	_	_	
+
+#Text=Nicht minder ergiebig als die Nachgrabungen in ( >U der Stadt und Nekropole von Volci sind , wie wir schon oben andeuteten die Nachgrabungen von Caeri gewesen .
+10-1	996-1001	Nicht	PTKNEG	nicht	_	_	
+10-2	1002-1008	minder	ADJD	minder	_	_	
+10-3	1009-1017	ergiebig	ADJD	ergiebig	_	_	
+10-4	1018-1021	als	KOKOM	als	_	_	
+10-5	1022-1025	die	ART	die	_	_	
+10-6	1026-1039	Nachgrabungen	NN	Nachgrabung	_	_	
+10-7	1040-1042	in	APPR	in	_	_	
+10-8	1043-1044	(	$(	(	_	_	
+10-9	1045-1047	>U	NN	<unknown>	_	_	
+10-10	1048-1051	der	ART	die	*[13]	OBJtopography[13]	
+10-11	1052-1057	Stadt	NN	Stadt	*[13]	OBJtopography[13]	
+10-12	1058-1061	und	KON	und	_	_	
+10-13	1062-1071	Nekropole	NN	<unknown>	*	OBJtopography	
+10-14	1072-1075	von	APPR	von	_	_	
+10-15	1076-1081	Volci	NE	<unknown>	*	PLACEmentioned	
+10-16	1082-1086	sind	VAFIN	sein	_	_	
+10-17	1087-1088	,	$,	,	_	_	
+10-18	1089-1092	wie	KOUS	wie	_	_	
+10-19	1093-1096	wir	PPER	wir	_	_	
+10-20	1097-1102	schon	ADV	schon	_	_	
+10-21	1103-1107	oben	ADV	oben	_	_	
+10-22	1108-1118	andeuteten	VVFIN	andeuten	_	_	
+10-23	1119-1122	die	ART	die	_	_	
+10-24	1123-1136	Nachgrabungen	NN	Nachgrabung	_	_	
+10-25	1137-1140	von	APPR	von	_	_	
+10-26	1141-1146	Caeri	NE	<unknown>	*	PLACEmentioned	
+10-27	1147-1154	gewesen	VAPP	sein	_	_	
+10-28	1155-1156	.	$.	.	_	_	
+
+#Text=Obgleich an diesem Orte die Nachsuchungen weniger systematisch betrieben werden - der Prinz Ruspoli , Torlonia , General Galassi , ein Herr Alibrandi gruben theils in Gemeinschaft , theils jeder f\u00FCr sich allein - so haben sie doch viele sch\u00F6ne Monumente zu Tage gef\u00F6rdert .
+11-1	1157-1165	Obgleich	KOUS	obgleich	_	_	
+11-2	1166-1168	an	APPR	an	_	_	
+11-3	1169-1175	diesem	PDAT	dies	_	_	
+11-4	1176-1180	Orte	NN	Ort	_	_	
+11-5	1181-1184	die	ART	die	_	_	
+11-6	1185-1198	Nachsuchungen	NN	<unknown>	_	_	
+11-7	1199-1206	weniger	ADV	weniger	_	_	
+11-8	1207-1219	systematisch	ADJD	systematisch	_	_	
+11-9	1220-1229	betrieben	VVPP	betreiben	_	_	
+11-10	1230-1236	werden	VAINF	werden	_	_	
+11-11	1237-1238	-	$(	-	_	_	
+11-12	1239-1242	der	ART	die	_	_	
+11-13	1243-1248	Prinz	NE	Prinz	*[17]	PERmentioned[17]	
+11-14	1249-1256	Ruspoli	NE	<unknown>	*[17]	PERmentioned[17]	
+11-15	1257-1258	,	$,	,	_	_	
+11-16	1259-1267	Torlonia	NE	<unknown>	*	PERmentioned	
+11-17	1268-1269	,	$,	,	_	_	
+11-18	1270-1277	General	NN	General	*[19]	PERmentioned[19]	
+11-19	1278-1285	Galassi	NE	<unknown>	*[19]	PERmentioned[19]	
+11-20	1286-1287	,	$,	,	_	_	
+11-21	1288-1291	ein	ART	eine	_	_	
+11-22	1292-1296	Herr	NN	Herr	*[20]	PERmentioned[20]	
+11-23	1297-1306	Alibrandi	NE	<unknown>	*[20]	PERmentioned[20]	
+11-24	1307-1313	gruben	VVFIN	graben	_	_	
+11-25	1314-1320	theils	ADJD	<unknown>	_	_	
+11-26	1321-1323	in	APPR	in	_	_	
+11-27	1324-1336	Gemeinschaft	NN	Gemeinschaft	_	_	
+11-28	1337-1338	,	$,	,	_	_	
+11-29	1339-1345	theils	NN	<unknown>	_	_	
+11-30	1346-1351	jeder	PIS	jede	_	_	
+11-31	1352-1355	für	APPR	für	_	_	
+11-32	1356-1360	sich	PRF	sich	_	_	
+11-33	1361-1367	allein	ADV	allein	_	_	
+11-34	1368-1369	-	$(	-	_	_	
+11-35	1370-1372	so	ADV	so	_	_	
+11-36	1373-1378	haben	VAFIN	haben	_	_	
+11-37	1379-1382	sie	PPER	sie	_	_	
+11-38	1383-1387	doch	ADV	doch	_	_	
+11-39	1388-1393	viele	PIAT	viele	_	_	
+11-40	1394-1400	schöne	ADJA	schön	_	_	
+11-41	1401-1410	Monumente	NN	Monument	_	_	
+11-42	1411-1413	zu	APPR	zu	_	_	
+11-43	1414-1418	Tage	NN	Tag	_	_	
+11-44	1419-1428	gefördert	VVPP	fördern	_	_	
+11-45	1429-1430	.	$.	.	_	_	
+
+#Text=Vor allem verdient ein gro\u00DFes Grabmal erw\u00E4hnt zu werden , welches der Herzog Torlonia entdeckt hat .
+12-1	1431-1434	Vor	APPR	vor	_	_	
+12-2	1435-1440	allem	PIS	alle	_	_	
+12-3	1441-1449	verdient	VVFIN	verdienen	_	_	
+12-4	1450-1453	ein	ART	eine	*[21]	OBJ[21]	
+12-5	1454-1460	großes	ADJA	groß	*[21]	OBJ[21]	
+12-6	1461-1468	Grabmal	NN	Grabmal	*[21]	OBJ[21]	
+12-7	1469-1476	erwähnt	VVPP	erwähnen	_	_	
+12-8	1477-1479	zu	PTKZU	zu	_	_	
+12-9	1480-1486	werden	VAINF	werden	_	_	
+12-10	1487-1488	,	$,	,	_	_	
+12-11	1489-1496	welches	PWAT	welche	_	_	
+12-12	1497-1500	der	ART	die	_	_	
+12-13	1501-1507	Herzog	NE	Herzog	*[22]	PERmentioned[22]	
+12-14	1508-1516	Torlonia	NE	<unknown>	*[22]	PERmentioned[22]	
+12-15	1517-1525	entdeckt	VVPP	entdecken	_	_	
+12-16	1526-1529	hat	VAFIN	haben	_	_	
+12-17	1530-1531	.	$.	.	_	_	
+
+#Text=Der Umfang des Monuments ist \u00FCberaus gro\u00DF , die Construction weniger neu ; die darin aufgefundenen antiken Gegenst\u00E4n-
+13-1	1532-1535	Der	ART	die	_	_	
+13-2	1536-1542	Umfang	NN	Umfang	_	_	
+13-3	1543-1546	des	ART	die	*[23]	OBJ[23]	
+13-4	1547-1556	Monuments	NN	Monument	*[23]	OBJ[23]	
+13-5	1557-1560	ist	VAFIN	sein	_	_	
+13-6	1561-1568	überaus	ADV	überaus	_	_	
+13-7	1569-1573	groß	ADJD	groß	_	_	
+13-8	1574-1575	,	$,	,	_	_	
+13-9	1576-1579	die	ART	die	_	_	
+13-10	1580-1592	Construction	NN	<unknown>	_	_	
+13-11	1593-1600	weniger	ADV	weniger	_	_	
+13-12	1601-1604	neu	ADJD	neu	_	_	
+13-13	1605-1606	;	$.	\;	_	_	
+13-14	1607-1610	die	ART	die	_	_	
+13-15	1611-1616	darin	PAV	darin	_	_	
+13-16	1617-1630	aufgefundenen	ADJA	aufgefunden	_	_	
+13-17	1631-1638	antiken	ADJA	antik	*[24]	OBJ[24]	
+13-18	1639-1649	Gegenstän-	NN	<unknown>	*[24]	OBJ[24]	

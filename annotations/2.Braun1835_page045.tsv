@@ -1,0 +1,320 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS|PosValue
+#T_SP=de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=5 Braun an Gerhard Rom , November 1835 ken h\u00E4lt sie einen Schild , der rechte Arm st\u00FCtzt sich vielleicht auf irgend einen Gegenstand auf .
+1-1	0-1	5	CARD	5	_	_	
+1-2	2-7	Braun	NN	Braun	*	PERauthor	
+1-3	8-10	an	APPR	an	_	_	
+1-4	11-18	Gerhard	NE	Gerhard	*	PERaddressee	
+1-5	19-22	Rom	NE	Rom	*	PLACEfrom	
+1-6	23-24	,	$,	,	*[4]	DATEletter[4]	
+1-7	25-33	November	NN	November	*[4]	DATEletter[4]	
+1-8	34-38	1835	CARD	@card@	*[4]	DATEletter[4]	
+1-9	39-42	ken	NN	<unknown>	_	_	
+1-10	43-47	hält	VVFIN	halten	_	_	
+1-11	48-51	sie	PPER	sie	_	_	
+1-12	52-57	einen	ART	eine	_	_	
+1-13	58-64	Schild	NN	Schild	_	_	
+1-14	65-66	,	$,	,	_	_	
+1-15	67-70	der	ART	die	_	_	
+1-16	71-77	rechte	ADJA	recht[16]|rechts[17]	_	_	
+1-17	78-81	Arm	NN	Arm	_	_	
+1-18	82-88	stützt	VVFIN	stützen	_	_	
+1-19	89-93	sich	PRF	sich	_	_	
+1-20	94-104	vielleicht	ADV	vielleicht	_	_	
+1-21	105-108	auf	APPR	auf	_	_	
+1-22	109-115	irgend	ADV	irgend	_	_	
+1-23	116-121	einen	ART	eine	_	_	
+1-24	122-132	Gegenstand	NN	Gegenstand	_	_	
+1-25	133-136	auf	PTKVZ	auf	_	_	
+1-26	137-138	.	$.	.	_	_	
+
+#Text=Dieser Frau gegen\u00FCber , nach der Linken hin , befindet sich eine m\u00E4nnliche Figur , nach unten mit dem Chlamys bedeckt .
+2-1	139-145	Dieser	PDAT	dies	_	_	
+2-2	146-150	Frau	NN	Frau	_	_	
+2-3	151-160	gegenüber	PTKVZ	gegenüber	_	_	
+2-4	161-162	,	$,	,	_	_	
+2-5	163-167	nach	APPR	nach	_	_	
+2-6	168-171	der	ART	die	_	_	
+2-7	172-178	Linken	NN	Linke	_	_	
+2-8	179-182	hin	PTKVZ	hin	_	_	
+2-9	183-184	,	$,	,	_	_	
+2-10	185-193	befindet	VVFIN	befinden	_	_	
+2-11	194-198	sich	PRF	sich	_	_	
+2-12	199-203	eine	ART	eine	_	_	
+2-13	204-213	männliche	ADJA	männlich	_	_	
+2-14	214-219	Figur	NN	Figur	_	_	
+2-15	220-221	,	$,	,	_	_	
+2-16	222-226	nach	APPR	nach	_	_	
+2-17	227-232	unten	ADV	unten	_	_	
+2-18	233-236	mit	APPR	mit	_	_	
+2-19	237-240	dem	ART	die	_	_	
+2-20	241-248	Chlamys	NN	<unknown>	_	_	
+2-21	249-256	bedeckt	VVPP	bedecken	_	_	
+2-22	257-258	.	$.	.	_	_	
+
+#Text=Den linken Fu\u00DF hat dieser letztere auf einen Vorsprung gestellt , auf dem Schenkel des aufgest\u00FCtzten Fu\u00DFes ruht der Arm .
+3-1	259-262	Den	ART	die	_	_	
+3-2	263-269	linken	ADJA	links	_	_	
+3-3	270-273	Fuß	NN	Fuß	_	_	
+3-4	274-277	hat	VAFIN	haben	_	_	
+3-5	278-284	dieser	PDAT	dies	_	_	
+3-6	285-293	letztere	ADJA	letzt	_	_	
+3-7	294-297	auf	APPR	auf	_	_	
+3-8	298-303	einen	ART	eine	_	_	
+3-9	304-313	Vorsprung	NN	Vorsprung	_	_	
+3-10	314-322	gestellt	VVPP	stellen	_	_	
+3-11	323-324	,	$,	,	_	_	
+3-12	325-328	auf	APPR	auf	_	_	
+3-13	329-332	dem	ART	die	_	_	
+3-14	333-341	Schenkel	NN	Schenkel	_	_	
+3-15	342-345	des	ART	die	_	_	
+3-16	346-359	aufgestützten	ADJA	<unknown>	_	_	
+3-17	360-365	Fußes	NN	Fuß	_	_	
+3-18	366-370	ruht	VVFIN	ruhen	_	_	
+3-19	371-374	der	ART	die	_	_	
+3-20	375-378	Arm	NN	Arm	_	_	
+3-21	379-380	.	$.	.	_	_	
+
+#Text=Weiter nach der Mitte des Reliefs hin , ist eine andre Gruppe von 5 Figuren .
+4-1	381-387	Weiter	ADV	weiter	_	_	
+4-2	388-392	nach	APPR	nach	_	_	
+4-3	393-396	der	ART	die	_	_	
+4-4	397-402	Mitte	NN	Mitte	_	_	
+4-5	403-406	des	ART	die	_	_	
+4-6	407-414	Reliefs	NN	Relief	*	OBJ	
+4-7	415-418	hin	PTKVZ	hin	_	_	
+4-8	419-420	,	$,	,	_	_	
+4-9	421-424	ist	VAFIN	sein	_	_	
+4-10	425-429	eine	ART	eine	_	_	
+4-11	430-435	andre	ADJA	<unknown>	_	_	
+4-12	436-442	Gruppe	NN	Gruppe	_	_	
+4-13	443-446	von	APPR	von	_	_	
+4-14	447-448	5	CARD	5	_	_	
+4-15	449-456	Figuren	NN	Figur	_	_	
+4-16	457-458	.	$.	.	_	_	
+
+#Text=Rechts eine Frau in ruhiger Stellung mit erhobenem Arm , gegen die ein fast nackter J\u00FCngling mit nachl\u00E4ssig \u00FCbergebogenen und auf einen langen Stab gelehnten K\u00F6rper gewandt ist .
+5-1	459-465	Rechts	ADV	rechts	_	_	
+5-2	466-470	eine	ART	eine	_	_	
+5-3	471-475	Frau	NN	Frau	_	_	
+5-4	476-478	in	APPR	in	_	_	
+5-5	479-486	ruhiger	ADJA	ruhig	_	_	
+5-6	487-495	Stellung	NN	Stellung	_	_	
+5-7	496-499	mit	APPR	mit	_	_	
+5-8	500-509	erhobenem	ADJA	erhoben	_	_	
+5-9	510-513	Arm	NN	Arm	_	_	
+5-10	514-515	,	$,	,	_	_	
+5-11	516-521	gegen	APPR	gegen	_	_	
+5-12	522-525	die	PRELS	die	_	_	
+5-13	526-529	ein	ART	eine	_	_	
+5-14	530-534	fast	ADV	fast	_	_	
+5-15	535-542	nackter	ADJA	nackt	_	_	
+5-16	543-551	Jüngling	NN	Jüngling	_	_	
+5-17	552-555	mit	APPR	mit	_	_	
+5-18	556-566	nachlässig	ADJD	nachlässig	_	_	
+5-19	567-580	übergebogenen	ADJA	<unknown>	_	_	
+5-20	581-584	und	KON	und	_	_	
+5-21	585-588	auf	APPR	auf	_	_	
+5-22	589-594	einen	ART	eine	_	_	
+5-23	595-601	langen	ADJA	lang	_	_	
+5-24	602-606	Stab	NN	Stab	_	_	
+5-25	607-616	gelehnten	ADJA	gelehnt	_	_	
+5-26	617-623	Körper	NN	Körper	_	_	
+5-27	624-631	gewandt	VVPP	wenden	_	_	
+5-28	632-635	ist	VAFIN	sein	_	_	
+5-29	636-637	.	$.	.	_	_	
+
+#Text=Die andern 3 Figuren sind abermals 2 Frauen , die einen jungen Mann zwischen sich haben .
+6-1	638-641	Die	ART	die	_	_	
+6-2	642-648	andern	ADJA	andere	_	_	
+6-3	649-650	3	CARD	3	_	_	
+6-4	651-658	Figuren	NN	Figur	_	_	
+6-5	659-663	sind	VAFIN	sein	_	_	
+6-6	664-672	abermals	ADV	abermals	_	_	
+6-7	673-674	2	CARD	2	_	_	
+6-8	675-681	Frauen	NN	Frau	_	_	
+6-9	682-683	,	$,	,	_	_	
+6-10	684-687	die	PRELS	die	_	_	
+6-11	688-693	einen	ART	eine	_	_	
+6-12	694-700	jungen	ADJA	jung	_	_	
+6-13	701-705	Mann	NN	Mann	_	_	
+6-14	706-714	zwischen	APPR	zwischen	_	_	
+6-15	715-719	sich	PRF	sich	_	_	
+6-16	720-725	haben	VAFIN	haben	_	_	
+6-17	726-727	.	$.	.	_	_	
+
+#Text=Weiter nach der linken hin , wo der Marmor gebrochen ist , befinden sich die Reste einer achten Figur , die sitzend dargestellt war .
+7-1	728-734	Weiter	ADV	weiter	_	_	
+7-2	735-739	nach	APPR	nach	_	_	
+7-3	740-743	der	ART	die	_	_	
+7-4	744-750	linken	ADJA	links	_	_	
+7-5	751-754	hin	PTKVZ	hin	_	_	
+7-6	755-756	,	$,	,	_	_	
+7-7	757-759	wo	PWAV	wo	_	_	
+7-8	760-763	der	ART	die	_	_	
+7-9	764-770	Marmor	NN	Marmor	_	_	
+7-10	771-780	gebrochen	VVPP	brechen	_	_	
+7-11	781-784	ist	VAFIN	sein	_	_	
+7-12	785-786	,	$,	,	_	_	
+7-13	787-795	befinden	VVFIN	befinden	_	_	
+7-14	796-800	sich	PRF	sich	_	_	
+7-15	801-804	die	ART	die	_	_	
+7-16	805-810	Reste	NN	Rest	_	_	
+7-17	811-816	einer	ART	eine	_	_	
+7-18	817-823	achten	ADJA	acht	_	_	
+7-19	824-829	Figur	NN	Figur	_	_	
+7-20	830-831	,	$,	,	_	_	
+7-21	832-835	die	PRELS	die	_	_	
+7-22	836-843	sitzend	ADJD	sitzend	_	_	
+7-23	844-855	dargestellt	VVPP	darstellen	_	_	
+7-24	856-859	war	VAFIN	sein	_	_	
+7-25	860-861	.	$.	.	_	_	
+
+#Text=Was die Erhaltung eines so wichtigen Monuments betrifft , so fehlen fast allen Figuren die K\u00F6pfe , mehreren auch ein Theil der Brust ; fast alle haben den einen oder den anderen , h\u00E4ufig auch beide Arme eingeb\u00FC\u00DFt .
+8-1	862-865	Was	PWS	was	_	_	
+8-2	866-869	die	ART	die	_	_	
+8-3	870-879	Erhaltung	NN	Erhaltung	_	_	
+8-4	880-885	eines	ART	eine	_	_	
+8-5	886-888	so	ADV	so	_	_	
+8-6	889-898	wichtigen	ADJA	wichtig	_	_	
+8-7	899-908	Monuments	NN	Monument	_	_	
+8-8	909-917	betrifft	VVFIN	betreffen	_	_	
+8-9	918-919	,	$,	,	_	_	
+8-10	920-922	so	ADV	so	_	_	
+8-11	923-929	fehlen	VVFIN	fehlen	_	_	
+8-12	930-934	fast	ADV	fast	_	_	
+8-13	935-940	allen	PIAT	alle	_	_	
+8-14	941-948	Figuren	NN	Figur	_	_	
+8-15	949-952	die	ART	die	_	_	
+8-16	953-958	Köpfe	NN	Kopf	_	_	
+8-17	959-960	,	$,	,	_	_	
+8-18	961-969	mehreren	PIS	mehrere	_	_	
+8-19	970-974	auch	ADV	auch	_	_	
+8-20	975-978	ein	ART	eine	_	_	
+8-21	979-984	Theil	NN	<unknown>	_	_	
+8-22	985-988	der	ART	die	_	_	
+8-23	989-994	Brust	NN	Brust	_	_	
+8-24	995-996	;	$.	\;	_	_	
+8-25	997-1001	fast	ADV	fast	_	_	
+8-26	1002-1006	alle	PIS	alle	_	_	
+8-27	1007-1012	haben	VAFIN	haben	_	_	
+8-28	1013-1016	den	ART	die	_	_	
+8-29	1017-1022	einen	ADJA	einen	_	_	
+8-30	1023-1027	oder	KON	oder	_	_	
+8-31	1028-1031	den	ART	die	_	_	
+8-32	1032-1039	anderen	PIS	andere	_	_	
+8-33	1040-1041	,	$,	,	_	_	
+8-34	1042-1048	häufig	ADJD	häufig	_	_	
+8-35	1049-1053	auch	ADV	auch	_	_	
+8-36	1054-1059	beide	PIAT	beide	_	_	
+8-37	1060-1064	Arme	NN	Arm[194]|Arme[195]	_	_	
+8-38	1065-1074	eingebüßt	VVPP	einbüßen	_	_	
+8-39	1075-1076	.	$.	.	_	_	
+
+#Text=Die weiblichen Figuren zeigen wenig Mannigfaltigkeit ; ihre Haltung zeigt meist Ruhe und W\u00FCrde ; nur durch die grazi\u00F6sen Bewegungen der Arme wird eine gewisse Einf\u00F6rmigkeit gehoben .
+9-1	1077-1080	Die	ART	die	_	_	
+9-2	1081-1091	weiblichen	ADJA	weiblich	_	_	
+9-3	1092-1099	Figuren	NN	Figur	_	_	
+9-4	1100-1106	zeigen	VVFIN	zeigen	_	_	
+9-5	1107-1112	wenig	PIAT	wenige	_	_	
+9-6	1113-1129	Mannigfaltigkeit	NN	Mannigfaltigkeit	_	_	
+9-7	1130-1131	;	$.	\;	_	_	
+9-8	1132-1136	ihre	PPOSAT	ihr	_	_	
+9-9	1137-1144	Haltung	NN	Haltung	_	_	
+9-10	1145-1150	zeigt	VVFIN	zeigen	_	_	
+9-11	1151-1156	meist	ADV	meist	_	_	
+9-12	1157-1161	Ruhe	NN	Ruhe	_	_	
+9-13	1162-1165	und	KON	und	_	_	
+9-14	1166-1171	Würde	NN	Würde	_	_	
+9-15	1172-1173	;	$.	\;	_	_	
+9-16	1174-1177	nur	ADV	nur	_	_	
+9-17	1178-1183	durch	APPR	durch	_	_	
+9-18	1184-1187	die	ART	die	_	_	
+9-19	1188-1197	graziösen	ADJA	graziös	_	_	
+9-20	1198-1208	Bewegungen	NN	Bewegung	_	_	
+9-21	1209-1212	der	ART	die	_	_	
+9-22	1213-1217	Arme	NN	Arm[219]|Arme[220]	_	_	
+9-23	1218-1222	wird	VAFIN	werden	_	_	
+9-24	1223-1227	eine	ART	eine	_	_	
+9-25	1228-1235	gewisse	ADJA	gewiss	_	_	
+9-26	1236-1249	Einförmigkeit	NN	Einförmigkeit	_	_	
+9-27	1250-1257	gehoben	VVPP	heben	_	_	
+9-28	1258-1259	.	$.	.	_	_	
+
+#Text=Die Oberfl\u00E4che des Marmors ist durch den eingedrungenen Kalkstaub sehr zer~ fressen .
+10-1	1260-1263	Die	ART	die	_	_	
+10-2	1264-1274	Oberfläche	NN	Oberfläche	_	_	
+10-3	1275-1278	des	ART	die	_	_	
+10-4	1279-1286	Marmors	NN	Marmor	_	_	
+10-5	1287-1290	ist	VAFIN	sein	_	_	
+10-6	1291-1296	durch	APPR	durch	_	_	
+10-7	1297-1300	den	ART	die	_	_	
+10-8	1301-1315	eingedrungenen	ADJA	eingedrungen	_	_	
+10-9	1316-1325	Kalkstaub	NN	Kalkstaub	_	_	
+10-10	1326-1330	sehr	ADV	sehr	_	_	
+10-11	1331-1335	zer~	ADJD	<unknown>	_	_	
+10-12	1336-1343	fressen	VVINF	fressen	_	_	
+10-13	1344-1345	.	$.	.	_	_	
+
+#Text=Die anderen vier Friesst\u00FCcke sind kleiner und weniger erhalten .
+11-1	1346-1349	Die	ART	die	_	_	
+11-2	1350-1357	anderen	PIAT	andere	_	_	
+11-3	1358-1362	vier	CARD	vier	_	_	
+11-4	1363-1374	Friesstücke	NN	<unknown>	*	OBJ	
+11-5	1375-1379	sind	VAFIN	sein	_	_	
+11-6	1380-1387	kleiner	ADJD	klein	_	_	
+11-7	1388-1391	und	KON	und	_	_	
+11-8	1392-1399	weniger	ADV	weniger	_	_	
+11-9	1400-1408	erhalten	VVINF	erhalten	_	_	
+11-10	1409-1410	.	$.	.	_	_	
+
+#Text=Sie sind mit den Darstellungen von K\u00E4mpfen geschm\u00FCckt .
+12-1	1411-1414	Sie	PPER	Sie[250]|sie[251]	_	_	
+12-2	1415-1419	sind	VAFIN	sein	_	_	
+12-3	1420-1423	mit	APPR	mit	_	_	
+12-4	1424-1427	den	ART	die	_	_	
+12-5	1428-1441	Darstellungen	NN	Darstellung	_	_	
+12-6	1442-1445	von	APPR	von	_	_	
+12-7	1446-1453	Kämpfen	NN	Kampf[257]|Kämpfen[258]	_	_	
+12-8	1454-1464	geschmückt	VVPP	schmücken	_	_	
+12-9	1465-1466	.	$.	.	_	_	
+
+#Text=Unter ihnen befinden sich mehrere Endst\u00FCcke .
+13-1	1467-1472	Unter	APPR	unter	_	_	
+13-2	1473-1478	ihnen	PPER	sie	_	_	
+13-3	1479-1487	befinden	VVFIN	befinden	_	_	
+13-4	1488-1492	sich	PRF	sich	_	_	
+13-5	1493-1500	mehrere	PIAT	mehrere	_	_	
+13-6	1501-1510	Endstücke	NN	Endstück	_	_	
+13-7	1511-1512	.	$.	.	_	_	
+
+#Text=Eines derselben tr\u00E4gt auf der l\u00E4ngeren Seite des Winkels K\u00E4mpfe , auf der andern drei trefflich erhaltene Figuren : die erste st\u00FCtzt ihren Fu\u00DF auf
+14-1	1513-1518	Eines	PIS	eine	_	_	
+14-2	1519-1528	derselben	PDS	dieselbe	_	_	
+14-3	1529-1534	trägt	VVFIN	tragen	_	_	
+14-4	1535-1538	auf	APPR	auf	_	_	
+14-5	1539-1542	der	ART	die	_	_	
+14-6	1543-1551	längeren	ADJA	lang	_	_	
+14-7	1552-1557	Seite	NN	Seite	_	_	
+14-8	1558-1561	des	ART	die	_	_	
+14-9	1562-1569	Winkels	NN	Winkel	_	_	
+14-10	1570-1576	Kämpfe	NN	Kampf	_	_	
+14-11	1577-1578	,	$,	,	_	_	
+14-12	1579-1582	auf	APPR	auf	_	_	
+14-13	1583-1586	der	ART	die	_	_	
+14-14	1587-1593	andern	ADJA	andere	_	_	
+14-15	1594-1598	drei	CARD	drei	_	_	
+14-16	1599-1608	trefflich	ADJD	trefflich	_	_	
+14-17	1609-1618	erhaltene	ADJA	erhalten	_	_	
+14-18	1619-1626	Figuren	NN	Figur	_	_	
+14-19	1627-1628	:	$.	:	_	_	
+14-20	1629-1632	die	ART	die	_	_	
+14-21	1633-1638	erste	ADJA	erst	_	_	
+14-22	1639-1645	stützt	VVFIN	stützen	_	_	
+14-23	1646-1651	ihren	PPOSAT	ihr	_	_	
+14-24	1652-1655	Fuß	NN	Fuß	_	_	
+14-25	1656-1659	auf	APPR	auf	_	_	

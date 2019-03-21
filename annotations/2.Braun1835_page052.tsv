@@ -1,0 +1,316 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS|PosValue
+#T_SP=de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=12 Braun an Gerhard Rom , November 1835 de bestanden in Vasen , Bronzen und Goldarbeiten .
+1-1	0-2	12	CARD	12	_	_	
+1-2	3-8	Braun	NN	Braun	*	PERauthor	
+1-3	9-11	an	APPR	an	_	_	
+1-4	12-19	Gerhard	NE	Gerhard	*	PERaddressee	
+1-5	20-23	Rom	NE	Rom	*	PLACEfrom	
+1-6	24-25	,	$,	,	*[4]	DATEletter[4]	
+1-7	26-34	November	NN	November	*[4]	DATEletter[4]	
+1-8	35-39	1835	ADJA	@card@	*[4]	DATEletter[4]	
+1-9	40-42	de	NE	de	*	OBJ	
+1-10	43-52	bestanden	VVFIN	bestehen	_	_	
+1-11	53-55	in	APPR	in	_	_	
+1-12	56-61	Vasen	NN	Vase	*	OBJ	
+1-13	62-63	,	$,	,	_	_	
+1-14	64-71	Bronzen	NN	Bronze	*	OBJ	
+1-15	72-75	und	KON	und	_	_	
+1-16	76-88	Goldarbeiten	NN	<unknown>	*	OBJ	
+1-17	89-90	.	$.	.	_	_	
+
+#Text=Der Geschmack schien mehr als gew\u00F6hnlich zu \u00E4gyptisiren .
+2-1	91-94	Der	ART	die	_	_	
+2-2	95-104	Geschmack	NN	Geschmack	_	_	
+2-3	105-111	schien	VVFIN	scheinen	_	_	
+2-4	112-116	mehr	ADV	mehr	_	_	
+2-5	117-120	als	KOKOM	als	_	_	
+2-6	121-131	gewöhnlich	ADJD	gewöhnlich	_	_	
+2-7	132-134	zu	PTKZU	zu	_	_	
+2-8	135-146	ägyptisiren	ADJA	<unknown>	_	_	
+2-9	147-148	.	$.	.	_	_	
+
+#Text=Das N\u00E4here \u00FCber diesen merkw\u00FCrdigen Fund soll ein Werk lehren , das dem Publicum versprochen wird .
+3-1	149-152	Das	ART	die	_	_	
+3-2	153-159	Nähere	NN	Nähere	_	_	
+3-3	160-164	über	APPR	über	_	_	
+3-4	165-171	diesen	PDAT	dies	_	_	
+3-5	172-184	merkwürdigen	ADJA	merkwürdig	_	_	
+3-6	185-189	Fund	NN	Fund	_	_	
+3-7	190-194	soll	VMFIN	sollen	_	_	
+3-8	195-198	ein	ART	eine	_	_	
+3-9	199-203	Werk	NN	Werk	_	_	
+3-10	204-210	lehren	VVINF	lehren	_	_	
+3-11	211-212	,	$,	,	_	_	
+3-12	213-216	das	PRELS	die	_	_	
+3-13	217-220	dem	ART	die	_	_	
+3-14	221-229	Publicum	NN	<unknown>	_	_	
+3-15	230-241	versprochen	VVPP	versprechen	_	_	
+3-16	242-246	wird	VAFIN	werden	_	_	
+3-17	247-248	.	$.	.	_	_	
+
+#Text=Zu solchem Zweck ist der Plan des Grabes bereits aufgenommen und analysirt , und die aufgefundnen Monumente gezeichnet .
+4-1	249-251	Zu	APPR	zu	_	_	
+4-2	252-259	solchem	PIAT	solche	_	_	
+4-3	260-265	Zweck	NN	Zweck	_	_	
+4-4	266-269	ist	VAFIN	sein	_	_	
+4-5	270-273	der	ART	die	_	_	
+4-6	274-278	Plan	NN	Plan	_	_	
+4-7	279-282	des	ART	die	_	_	
+4-8	283-289	Grabes	NN	Grab	*	OBJ	
+4-9	290-297	bereits	ADV	bereits	_	_	
+4-10	298-309	aufgenommen	VVPP	aufnehmen	_	_	
+4-11	310-313	und	KON	und	_	_	
+4-12	314-323	analysirt	NN	<unknown>	_	_	
+4-13	324-325	,	$,	,	_	_	
+4-14	326-329	und	KON	und	_	_	
+4-15	330-333	die	ART	die	_	_	
+4-16	334-346	aufgefundnen	ADJA	<unknown>	_	_	
+4-17	347-356	Monumente	NN	Monument	_	_	
+4-18	357-367	gezeichnet	VVPP	zeichnen	_	_	
+4-19	368-369	.	$.	.	_	_	
+
+#Text=Was die Vasenfunde von Caeri f\u00FCr den Augenblick besonders merkw\u00FCrdig macht , sind Particolarit\u00E4ten , die hier besonders h\u00E4ufig , anderw\u00E4rts z.
+5-1	370-373	Was	PWS	was	_	_	
+5-2	374-377	die	ART	die	_	_	
+5-3	378-388	Vasenfunde	NN	<unknown>	*	OBJ	
+5-4	389-392	von	APPR	von	_	_	
+5-5	393-398	Caeri	NE	<unknown>	*	PLACEmentioned	
+5-6	399-402	für	APPR	für	_	_	
+5-7	403-406	den	ART	die	_	_	
+5-8	407-417	Augenblick	NN	Augenblick	_	_	
+5-9	418-427	besonders	ADV	besonders	_	_	
+5-10	428-438	merkwürdig	ADJD	merkwürdig	_	_	
+5-11	439-444	macht	VVFIN	machen	_	_	
+5-12	445-446	,	$,	,	_	_	
+5-13	447-451	sind	VAFIN	sein	_	_	
+5-14	452-468	Particolaritäten	NN	<unknown>	_	_	
+5-15	469-470	,	$,	,	_	_	
+5-16	471-474	die	PRELS	die	_	_	
+5-17	475-479	hier	ADV	hier	_	_	
+5-18	480-489	besonders	ADV	besonders	_	_	
+5-19	490-496	häufig	ADJD	häufig	_	_	
+5-20	497-498	,	$,	,	_	_	
+5-21	499-509	anderwärts	ADV	anderwärts	_	_	
+5-22	510-512	z.	APPRART	z.	_	_	
+
+#Text=B. in Vulci selten oder gar nicht vorkommen .
+6-1	513-515	B.	NN	B.	_	_	
+6-2	516-518	in	APPR	in	_	_	
+6-3	519-524	Vulci	NE	<unknown>	*	PLACEmentioned	
+6-4	525-531	selten	ADJD	selten	_	_	
+6-5	532-536	oder	KON	oder	_	_	
+6-6	537-540	gar	ADV	gar	_	_	
+6-7	541-546	nicht	PTKNEG	nicht	_	_	
+6-8	547-556	vorkommen	VVFIN	vorkommen	_	_	
+6-9	557-558	.	$.	.	_	_	
+
+#Text=Ueber den K\u00FCnstlernamen kehxthier der des Nikosthenes am h\u00E4ufigsten wieder .
+7-1	559-564	Ueber	NN	<unknown>	_	_	
+7-2	565-568	den	ART	die	_	_	
+7-3	569-582	Künstlernamen	NN	Künstlername	_	_	
+7-4	583-592	kehxthier	VVFIN	<unknown>	_	_	
+7-5	593-596	der	ART	die	_	_	
+7-6	597-600	des	ART	die	_	_	
+7-7	601-612	Nikosthenes	NN	<unknown>	*	PERmentioned	
+7-8	613-615	am	PTKA	am	_	_	
+7-9	616-626	häufigsten	ADJD	häufig	_	_	
+7-10	627-633	wieder	ADV	wieder	_	_	
+7-11	634-635	.	$.	.	_	_	
+
+#Text=Die Gef\u00E4\u00DFe seines Namens zeigen fast \u00FCberall denselben \u00FCberladenen Decorationsgeschmack .
+8-1	636-639	Die	ART	die	_	_	
+8-2	640-646	Gefäße	NN	Gefäß	*	OBJ	
+8-3	647-653	seines	PPOSAT	sein	_	_	
+8-4	654-660	Namens	NN	Name	_	_	
+8-5	661-667	zeigen	VVFIN	zeigen	_	_	
+8-6	668-672	fast	ADV	fast	_	_	
+8-7	673-680	überall	ADV	überall	_	_	
+8-8	681-690	denselben	PDAT	derselb	_	_	
+8-9	691-702	überladenen	ADJA	überladen	_	_	
+8-10	703-723	Decorationsgeschmack	NN	<unknown>	_	_	
+8-11	724-725	.	$.	.	_	_	
+
+#Text=Darstellungen von Figuren kommen zwar vor , aber seltener ; im allgemeinen scheint sich dieser Meister in Ornamenten ergangen zu haben .
+9-1	726-739	Darstellungen	NN	Darstellung	_	_	
+9-2	740-743	von	APPR	von	_	_	
+9-3	744-751	Figuren	NN	Figur	_	_	
+9-4	752-758	kommen	VVFIN	kommen	_	_	
+9-5	759-763	zwar	ADV	zwar	_	_	
+9-6	764-767	vor	PTKVZ	vor	_	_	
+9-7	768-769	,	$,	,	_	_	
+9-8	770-774	aber	ADV	aber	_	_	
+9-9	775-783	seltener	ADJD	selten	_	_	
+9-10	784-785	;	$.	\;	_	_	
+9-11	786-788	im	APPRART	in	_	_	
+9-12	789-800	allgemeinen	ADJA	allgemein	_	_	
+9-13	801-808	scheint	VVFIN	scheinen	_	_	
+9-14	809-813	sich	PRF	sich	_	_	
+9-15	814-820	dieser	PDAT	dies	_	_	
+9-16	821-828	Meister	NN	Meister	_	_	
+9-17	829-831	in	APPR	in	_	_	
+9-18	832-842	Ornamenten	NN	Ornament	_	_	
+9-19	843-851	ergangen	VVPP	ergehen	_	_	
+9-20	852-854	zu	PTKZU	zu	_	_	
+9-21	855-860	haben	VAINF	haben	_	_	
+9-22	861-862	.	$.	.	_	_	
+
+#Text=So genau wie die gro\u00DFgriechischen Vasenfabriken lassen sich nun zwar die Gef\u00E4\u00DFe von Ceri und Vuldi nicht unterscheiden , die Anzahl des gleichartigen ist - immer noch sehr gro\u00DF , aber dennoch m\u00FC\u00DFte es gerathen scheinen die unterscheidenden Namenszeichen , insofern sie sich in den obenerw\u00E4hnten Particolarit\u00E4ten aussprechen , schon jetzt zu fixiren .
+10-1	863-865	So	ADV	so	_	_	
+10-2	866-871	genau	ADJD	genau	_	_	
+10-3	872-875	wie	KOKOM	wie	_	_	
+10-4	876-879	die	ART	die	_	_	
+10-5	880-896	großgriechischen	ADJA	<unknown>	_	_	
+10-6	897-910	Vasenfabriken	NN	<unknown>	_	_	
+10-7	911-917	lassen	VVFIN	lassen	_	_	
+10-8	918-922	sich	PRF	sich	_	_	
+10-9	923-926	nun	ADV	nun	_	_	
+10-10	927-931	zwar	ADV	zwar	_	_	
+10-11	932-935	die	ART	die	_	_	
+10-12	936-942	Gefäße	NN	Gefäß	*	OBJ	
+10-13	943-946	von	APPR	von	_	_	
+10-14	947-951	Ceri	NE	<unknown>	*	PLACEmentioned	
+10-15	952-955	und	KON	und	_	_	
+10-16	956-961	Vuldi	NE	<unknown>	*	PLACEmentioned	
+10-17	962-967	nicht	PTKNEG	nicht	_	_	
+10-18	968-981	unterscheiden	VVINF	unterscheiden	_	_	
+10-19	982-983	,	$,	,	_	_	
+10-20	984-987	die	ART	die	_	_	
+10-21	988-994	Anzahl	NN	Anzahl	_	_	
+10-22	995-998	des	ART	die	_	_	
+10-23	999-1012	gleichartigen	ADJA	gleichartig	_	_	
+10-24	1013-1016	ist	VAFIN	sein	_	_	
+10-25	1017-1018	-	$(	-	_	_	
+10-26	1019-1024	immer	ADV	immer	_	_	
+10-27	1025-1029	noch	ADV	noch	_	_	
+10-28	1030-1034	sehr	ADV	sehr	_	_	
+10-29	1035-1039	groß	ADJD	groß	_	_	
+10-30	1040-1041	,	$,	,	_	_	
+10-31	1042-1046	aber	KON	aber	_	_	
+10-32	1047-1054	dennoch	ADV	dennoch	_	_	
+10-33	1055-1060	müßte	VMFIN	müssen	_	_	
+10-34	1061-1063	es	PPER	es	_	_	
+10-35	1064-1072	gerathen	NN	<unknown>	_	_	
+10-36	1073-1081	scheinen	VVFIN	scheinen	_	_	
+10-37	1082-1085	die	ART	die	_	_	
+10-38	1086-1102	unterscheidenden	ADJA	unterscheidend	_	_	
+10-39	1103-1116	Namenszeichen	NN	<unknown>	_	_	
+10-40	1117-1118	,	$,	,	_	_	
+10-41	1119-1127	insofern	KOUS	insofern	_	_	
+10-42	1128-1131	sie	PPER	sie	_	_	
+10-43	1132-1136	sich	PRF	sich	_	_	
+10-44	1137-1139	in	APPR	in	_	_	
+10-45	1140-1143	den	ART	die	_	_	
+10-46	1144-1157	obenerwähnten	ADJA	obenerwähnt	_	_	
+10-47	1158-1174	Particolaritäten	NN	<unknown>	_	_	
+10-48	1175-1186	aussprechen	VVFIN	aussprechen	_	_	
+10-49	1187-1188	,	$,	,	_	_	
+10-50	1189-1194	schon	ADV	schon	_	_	
+10-51	1195-1200	jetzt	ADV	jetzt	_	_	
+10-52	1201-1203	zu	APPR	zu	_	_	
+10-53	1204-1211	fixiren	NN	<unknown>	_	_	
+10-54	1212-1213	.	$.	.	_	_	
+
+#Text=Unter den neulich gefundnen Vasen zeichnen sich mehrere durch Sch\u00F6nheit der Form , Zeichnung und selbst der zudem seltenen Darstellung aus .
+11-1	1214-1219	Unter	APPR	unter	_	_	
+11-2	1220-1223	den	ART	die	_	_	
+11-3	1224-1231	neulich	ADV	neulich	_	_	
+11-4	1232-1241	gefundnen	ADJA	<unknown>	_	_	
+11-5	1242-1247	Vasen	NN	Vase	*	OBJ	
+11-6	1248-1256	zeichnen	VVFIN	zeichnen	_	_	
+11-7	1257-1261	sich	PRF	sich	_	_	
+11-8	1262-1269	mehrere	PIS	mehrere	_	_	
+11-9	1270-1275	durch	APPR	durch	_	_	
+11-10	1276-1285	Schönheit	NN	Schönheit	_	_	
+11-11	1286-1289	der	ART	die	_	_	
+11-12	1290-1294	Form	NN	Form	_	_	
+11-13	1295-1296	,	$,	,	_	_	
+11-14	1297-1306	Zeichnung	NN	Zeichnung	_	_	
+11-15	1307-1310	und	KON	und	_	_	
+11-16	1311-1317	selbst	ADV	selbst	_	_	
+11-17	1318-1321	der	ART	die	_	_	
+11-18	1322-1327	zudem	ADV	zudem	_	_	
+11-19	1328-1336	seltenen	ADJA	selten	_	_	
+11-20	1337-1348	Darstellung	NN	Darstellung	_	_	
+11-21	1349-1352	aus	PTKVZ	aus	_	_	
+11-22	1353-1354	.	$.	.	_	_	
+
+#Text=Obenan verdient eine Vase des Kaufmann Alibrandi genannt zu werden .
+12-1	1355-1361	Obenan	ADV	obenan	_	_	
+12-2	1362-1370	verdient	VVFIN	verdienen	_	_	
+12-3	1371-1375	eine	ART	eine	_	_	
+12-4	1376-1380	Vase	NN	Vase	*	OBJ	
+12-5	1381-1384	des	ART	die	_	_	
+12-6	1385-1393	Kaufmann	NN	Kaufmann	*[20]	PERmentioned[20]	
+12-7	1394-1403	Alibrandi	NE	<unknown>	*[20]	PERmentioned[20]	
+12-8	1404-1411	genannt	VVPP	nennen	_	_	
+12-9	1412-1414	zu	PTKZU	zu	_	_	
+12-10	1415-1421	werden	VAINF	werden	_	_	
+12-11	1422-1423	.	$.	.	_	_	
+
+#Text=Eine hohe Amphore mit Volutenhenkeln und hohem Hals ist auf letzterem mit zwei sch\u00F6nen Darstellungen geschm\u00FCckt : auf der einen Seite Achilles und Hektor im Kampf ; der eine von der Minerva , der andere von Apoll unterst\u00FCtzt ; auf der anderen Seite Achilles und Memnon mit ihren g\u00F6ttlichen M\u00FCttern der Thetis und der Aurora .
+13-1	1424-1428	Eine	ART	eine	_	_	
+13-2	1429-1433	hohe	ADJA	hoch	*[21]	OBJ[21]	
+13-3	1434-1441	Amphore	NN	Amphore	*[21]	OBJ[21]	
+13-4	1442-1445	mit	APPR	mit	*[21]	OBJ[21]	
+13-5	1446-1460	Volutenhenkeln	ADJA	<unknown>	*[21]	OBJ[21]	
+13-6	1461-1464	und	KON	und	*[21]	OBJ[21]	
+13-7	1465-1470	hohem	ADJA	hoch	*[21]	OBJ[21]	
+13-8	1471-1475	Hals	NN	Hals	*[21]	OBJ[21]	
+13-9	1476-1479	ist	VAFIN	sein	_	_	
+13-10	1480-1483	auf	APPR	auf	_	_	
+13-11	1484-1493	letzterem	ADJA	letzt	_	_	
+13-12	1494-1497	mit	APPR	mit	_	_	
+13-13	1498-1502	zwei	CARD	zwei	_	_	
+13-14	1503-1510	schönen	ADJA	schön	_	_	
+13-15	1511-1524	Darstellungen	NN	Darstellung	_	_	
+13-16	1525-1535	geschmückt	VVPP	schmücken	_	_	
+13-17	1536-1537	:	$.	:	_	_	
+13-18	1538-1541	auf	APPR	auf	_	_	
+13-19	1542-1545	der	ART	die	_	_	
+13-20	1546-1551	einen	ADJA	einen	_	_	
+13-21	1552-1557	Seite	NN	Seite	_	_	
+13-22	1558-1566	Achilles	NE	Achilles	*	PERmentioned	
+13-23	1567-1570	und	KON	und	_	_	
+13-24	1571-1577	Hektor	NE	Hektor	*	PERmentioned	
+13-25	1578-1580	im	APPRART	in	_	_	
+13-26	1581-1586	Kampf	NN	Kampf	_	_	
+13-27	1587-1588	;	$.	\;	_	_	
+13-28	1589-1592	der	ART	die	_	_	
+13-29	1593-1597	eine	PIS	eine	_	_	
+13-30	1598-1601	von	APPR	von	_	_	
+13-31	1602-1605	der	ART	die	_	_	
+13-32	1606-1613	Minerva	NE	Minerva	*	PERmentioned	
+13-33	1614-1615	,	$,	,	_	_	
+13-34	1616-1619	der	PRELS	die	_	_	
+13-35	1620-1626	andere	PIS	andere	_	_	
+13-36	1627-1630	von	APPR	von	_	_	
+13-37	1631-1636	Apoll	NN	Apoll	*	PERmentioned	
+13-38	1637-1648	unterstützt	VVPP	unterstützen	_	_	
+13-39	1649-1650	;	$.	\;	_	_	
+13-40	1651-1654	auf	APPR	auf	_	_	
+13-41	1655-1658	der	ART	die	_	_	
+13-42	1659-1666	anderen	PIAT	andere	_	_	
+13-43	1667-1672	Seite	NN	Seite	_	_	
+13-44	1673-1681	Achilles	NE	Achilles	*	PERmentioned	
+13-45	1682-1685	und	KON	und	_	_	
+13-46	1686-1692	Memnon	NE	<unknown>	*	PERmentioned	
+13-47	1693-1696	mit	APPR	mit	_	_	
+13-48	1697-1702	ihren	PPOSAT	ihr	_	_	
+13-49	1703-1713	göttlichen	ADJA	göttlich	_	_	
+13-50	1714-1721	Müttern	NN	Mutter	_	_	
+13-51	1722-1725	der	ART	die	_	_	
+13-52	1726-1732	Thetis	NN	<unknown>	*	PERmentioned	
+13-53	1733-1736	und	KON	und	_	_	
+13-54	1737-1740	der	ART	die	_	_	
+13-55	1741-1747	Aurora	NE	Aurora	*	PERmentioned	
+13-56	1748-1749	.	$.	.	_	_	
+
+#Text=S\u00E4mtliche Figuren f\u00FCh-
+14-1	1750-1759	Sämtliche	PIAT	sämtliche	_	_	
+14-2	1760-1767	Figuren	NN	Figur	_	_	
+14-3	1768-1772	füh-	TRUNC	füh-	_	_	

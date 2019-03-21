@@ -1,0 +1,314 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS|PosValue
+#T_SP=de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=6 Braun an Gerhard Rom , November 1835 ein Felsst\u00FCck , auf dem Fu\u00DF ruht der Ellbogen .
+1-1	0-1	6	CARD	6	_	_	
+1-2	2-7	Braun	NN	Braun	*	PERauthor	
+1-3	8-10	an	APPR	an	_	_	
+1-4	11-18	Gerhard	NE	Gerhard	*	PERaddressee	
+1-5	19-22	Rom	NE	Rom	*	PLACEfrom	
+1-6	23-24	,	$,	,	*[4]	DATEletter[4]	
+1-7	25-33	November	NN	November	*[4]	DATEletter[4]	
+1-8	34-38	1835	CARD	@card@	*[4]	DATEletter[4]	
+1-9	39-42	ein	ART	eine	_	_	
+1-10	43-52	Felsstück	NN	Felsstück	_	_	
+1-11	53-54	,	$,	,	_	_	
+1-12	55-58	auf	APPR	auf	_	_	
+1-13	59-62	dem	ART	die	_	_	
+1-14	63-66	Fuß	NN	Fuß	_	_	
+1-15	67-71	ruht	VVFIN	ruhen	_	_	
+1-16	72-75	der	ART	die	_	_	
+1-17	76-84	Ellbogen	NN	Ellbogen	_	_	
+1-18	85-86	.	$.	.	_	_	
+
+#Text=Links schlie\u00DFen sich 2 andre Frauenfiguren:an , von denen eine die andre f\u00FChrt .
+2-1	87-92	Links	ADV	links	_	_	
+2-2	93-102	schließen	VVFIN	schließen	_	_	
+2-3	103-107	sich	PRF	sich	_	_	
+2-4	108-109	2	CARD	2	_	_	
+2-5	110-115	andre	VVFIN	<unknown>	_	_	
+2-6	116-132	Frauenfiguren:an	NE	<unknown>	_	_	
+2-7	133-134	,	$,	,	_	_	
+2-8	135-138	von	APPR	von	_	_	
+2-9	139-144	denen	PRELS	die	_	_	
+2-10	145-149	eine	PIS	eine	_	_	
+2-11	150-153	die	PRELS	die	_	_	
+2-12	154-159	andre	ADV	<unknown>	_	_	
+2-13	160-165	führt	VVFIN	führen	_	_	
+2-14	166-167	.	$.	.	_	_	
+
+#Text=Alle drei sind ohne K\u00F6pfe .
+3-1	168-172	Alle	PIAT	alle	_	_	
+3-2	173-177	drei	CARD	drei	_	_	
+3-3	178-182	sind	VAFIN	sein	_	_	
+3-4	183-187	ohne	APPR	ohne	_	_	
+3-5	188-193	Köpfe	NN	Kopf	_	_	
+3-6	194-195	.	$.	.	_	_	
+
+#Text=Aus dieser Vertheilung der Darstellungen zieht Hr.
+4-1	196-199	Aus	APPR	aus	_	_	
+4-2	200-206	dieser	PDAT	dies	_	_	
+4-3	207-218	Vertheilung	NN	<unknown>	_	_	
+4-4	219-222	der	ART	die	_	_	
+4-5	223-236	Darstellungen	NN	Darstellung	_	_	
+4-6	237-242	zieht	VVFIN	zeihen[44]|ziehen[45]	_	_	
+4-7	243-246	Hr.	NN	Hr.	_	_	
+
+#Text=Dr. Kramer den sehr einleuchtenden Schlu~ , da\u00DF drei Seiten des Frieses mit K\u00E4mpfen geschm\u00FCckt gewesen sein m\u00F6gen , die vierte aber welche sich \u00FCber der Fa~ade befunden haben mag , mit anderen Darstellungen , deren Erkl\u00E4rung bis jetzt wenig Anhaltungspunkte gefunden hat .
+5-1	247-250	Dr.	NN	Dr.	_	_	
+5-2	251-257	Kramer	NE	Kramer	*	PERmentioned	
+5-3	258-261	den	ART	die	_	_	
+5-4	262-266	sehr	ADV	sehr	_	_	
+5-5	267-281	einleuchtenden	ADJA	einleuchtend	_	_	
+5-6	282-288	Schlu~	NN	<unknown>	_	_	
+5-7	289-290	,	$,	,	_	_	
+5-8	291-294	daß	KOUS	dass	_	_	
+5-9	295-299	drei	CARD	drei	_	_	
+5-10	300-306	Seiten	NN	Seite	_	_	
+5-11	307-310	des	ART	die	_	_	
+5-12	311-318	Frieses	NN	Fries	*	OBJ	
+5-13	319-322	mit	APPR	mit	_	_	
+5-14	323-330	Kämpfen	NN	Kampf[60]|Kämpfen[61]	_	_	
+5-15	331-341	geschmückt	VVPP	schmücken	_	_	
+5-16	342-349	gewesen	VAPP	sein	_	_	
+5-17	350-354	sein	VAINF	sein	_	_	
+5-18	355-360	mögen	VMFIN	mögen	_	_	
+5-19	361-362	,	$,	,	_	_	
+5-20	363-366	die	ART	die	_	_	
+5-21	367-373	vierte	ADJA	viert	_	_	
+5-22	374-378	aber	KON	aber	_	_	
+5-23	379-385	welche	PRELS	welche	_	_	
+5-24	386-390	sich	PRF	sich	_	_	
+5-25	391-395	über	APPR	über	_	_	
+5-26	396-399	der	ART	die	_	_	
+5-27	400-406	Fa~ade	NN	<unknown>	_	_	
+5-28	407-415	befunden	VVPP	befinden	_	_	
+5-29	416-421	haben	VAINF	haben	_	_	
+5-30	422-425	mag	VMFIN	mögen	_	_	
+5-31	426-427	,	$,	,	_	_	
+5-32	428-431	mit	APPR	mit	_	_	
+5-33	432-439	anderen	PIS	andere	_	_	
+5-34	440-453	Darstellungen	NN	Darstellung	_	_	
+5-35	454-455	,	$,	,	_	_	
+5-36	456-461	deren	PRELAT	die	_	_	
+5-37	462-471	Erklärung	NN	Erklärung	_	_	
+5-38	472-475	bis	APPR	bis	_	_	
+5-39	476-481	jetzt	ADV	jetzt	_	_	
+5-40	482-487	wenig	PIAT	wenige	_	_	
+5-41	488-504	Anhaltungspunkte	NN	<unknown>	_	_	
+5-42	505-513	gefunden	VVPP	finden	_	_	
+5-43	514-517	hat	VAFIN	haben	_	_	
+5-44	518-519	.	$.	.	_	_	
+
+#Text=Nur einzelne der oben aufgef\u00FChrten Figuren hat man zu deuten versucht , wie den thronenden Mann zur Linken des ersten St\u00FCcks auf dem Zeus , die Frau mit dem Schild auf die Athena , den Mann auf dem Felsenriff auf Poseidon .
+6-1	520-523	Nur	ADV	nur	_	_	
+6-2	524-532	einzelne	ADJA	einzeln	_	_	
+6-3	533-536	der	ART	die	_	_	
+6-4	537-541	oben	ADV	oben	_	_	
+6-5	542-554	aufgeführten	ADJA	aufgeführt	_	_	
+6-6	555-562	Figuren	NN	Figur	_	_	
+6-7	563-566	hat	VAFIN	haben	_	_	
+6-8	567-570	man	PIS	man	_	_	
+6-9	571-573	zu	PTKZU	zu	_	_	
+6-10	574-580	deuten	VVINF	deuten	_	_	
+6-11	581-589	versucht	VVFIN	versuchen	_	_	
+6-12	590-591	,	$,	,	_	_	
+6-13	592-595	wie	KOUS	wie	_	_	
+6-14	596-599	den	ART	die	_	_	
+6-15	600-610	thronenden	ADJA	thronend	_	_	
+6-16	611-615	Mann	NN	Mann	_	_	
+6-17	616-619	zur	APPRART	zu	_	_	
+6-18	620-626	Linken	NN	Linke	_	_	
+6-19	627-630	des	ART	die	_	_	
+6-20	631-637	ersten	ADJA	erst	_	_	
+6-21	638-644	Stücks	NN	Stück	_	_	
+6-22	645-648	auf	APPR	auf	_	_	
+6-23	649-652	dem	ART	die	_	_	
+6-24	653-657	Zeus	NE	Zeus	*	PERmentioned	
+6-25	658-659	,	$,	,	_	_	
+6-26	660-663	die	ART	die	_	_	
+6-27	664-668	Frau	NN	Frau	_	_	
+6-28	669-672	mit	APPR	mit	_	_	
+6-29	673-676	dem	ART	die	_	_	
+6-30	677-683	Schild	NN	Schild	_	_	
+6-31	684-687	auf	APPR	auf	_	_	
+6-32	688-691	die	ART	die	_	_	
+6-33	692-698	Athena	NE	Athena	*	PERmentioned	
+6-34	699-700	,	$,	,	_	_	
+6-35	701-704	den	ART	die	_	_	
+6-36	705-709	Mann	NN	Mann	_	_	
+6-37	710-713	auf	APPR	auf	_	_	
+6-38	714-717	dem	ART	die	_	_	
+6-39	718-728	Felsenriff	NN	Felsenriff	_	_	
+6-40	729-732	auf	APPR	auf	_	_	
+6-41	733-741	Poseidon	NE	<unknown>	*	PERmentioned	
+6-42	742-743	.	$.	.	_	_	
+
+#Text=Die Darstellungen der K\u00E4mpfe , welche Leake gegen Hr.
+7-1	744-747	Die	ART	die	_	_	
+7-2	748-761	Darstellungen	NN	Darstellung	_	_	
+7-3	762-765	der	ART	die	_	_	
+7-4	766-772	Kämpfe	NN	Kampf	_	_	
+7-5	773-774	,	$,	,	_	_	
+7-6	775-781	welche	PRELS	welche	_	_	
+7-7	782-787	Leake	NN	<unknown>	*	PERmentioned	
+7-8	788-793	gegen	APPR	gegen	_	_	
+7-9	794-797	Hr.	NN	Hr.	_	_	
+
+#Text=Kramers Meinung auf K\u00E4mpfen zwischen Griechen und Persern hat beziehen wollen , werden als \u00E4u\u00DFerst lebensvoll und trefflich ausgef\u00FChrt geschildert .
+8-1	798-805	Kramers	NE	Kramer	*	PERmentioned	
+8-2	806-813	Meinung	NN	Meinung	_	_	
+8-3	814-817	auf	APPR	auf	_	_	
+8-4	818-825	Kämpfen	NN	Kampf[146]|Kämpfen[147]	_	_	
+8-5	826-834	zwischen	APPR	zwischen	_	_	
+8-6	835-843	Griechen	NN	Grieche	*	MISC	
+8-7	844-847	und	KON	und	_	_	
+8-8	848-855	Persern	NN	Perser	*	MISC	
+8-9	856-859	hat	VAFIN	haben	_	_	
+8-10	860-868	beziehen	VVINF	beziehen	_	_	
+8-11	869-875	wollen	VMINF	wollen	_	_	
+8-12	876-877	,	$,	,	_	_	
+8-13	878-884	werden	VAFIN	werden	_	_	
+8-14	885-888	als	KOKOM	als	_	_	
+8-15	889-896	äußerst	ADV	äußerst	_	_	
+8-16	897-907	lebensvoll	ADJD	lebensvoll	_	_	
+8-17	908-911	und	KON	und	_	_	
+8-18	912-921	trefflich	ADJD	trefflich	_	_	
+8-19	922-932	ausgeführt	ADJD	ausgeführt	_	_	
+8-20	933-944	geschildert	VVPP	schildern	_	_	
+8-21	945-946	.	$.	.	_	_	
+
+#Text=Farben hat man bisher nicht entdeckt .
+9-1	947-953	Farben	NN	Farbe	_	_	
+9-2	954-957	hat	VAFIN	haben	_	_	
+9-3	958-961	man	PIS	man	_	_	
+9-4	962-968	bisher	ADV	bisher	_	_	
+9-5	969-974	nicht	PTKNEG	nicht	_	_	
+9-6	975-983	entdeckt	VVPP	entdecken	_	_	
+9-7	984-985	.	$.	.	_	_	
+
+#Text=Der Marmor ist pentalisch .
+10-1	986-989	Der	ART	die	_	_	
+10-2	990-996	Marmor	NN	Marmor	_	_	
+10-3	997-1000	ist	VAFIN	sein	_	_	
+10-4	1001-1011	pentalisch	ADJD	<unknown>	_	_	
+10-5	1012-1013	.	$.	.	_	_	
+
+#Text=Die Figuren haben eine H\u00F6he von ungef\u00E4hr 1'4 f1 ' .
+11-1	1014-1017	Die	ART	die	_	_	
+11-2	1018-1025	Figuren	NN	Figur	_	_	
+11-3	1026-1031	haben	VAFIN	haben	_	_	
+11-4	1032-1036	eine	ART	eine	_	_	
+11-5	1037-1041	Höhe	NN	Höhe	_	_	
+11-6	1042-1045	von	APPR	von	_	_	
+11-7	1046-1054	ungefähr	ADJD	ungefähr	_	_	
+11-8	1055-1058	1'4	ADJA	<unknown>	_	_	
+11-9	1059-1061	f1	NN	<unknown>	_	_	
+11-10	1062-1063	'	$(	'	_	_	
+11-11	1064-1065	.	$.	.	_	_	
+
+#Text=Von dem obenerw\u00E4hnten Gesims , der mit L\u00F6wenk\u00F6p ! en geschm\u00FCckt gewesen zu sein scheint , sind nur wruiige Reste \u00FCbrig .
+12-1	1066-1069	Von	APPR	von	_	_	
+12-2	1070-1073	dem	ART	die	_	_	
+12-3	1074-1087	obenerwähnten	ADJA	obenerwähnt	_	_	
+12-4	1088-1094	Gesims	NN	Gesims	*	OBJ	
+12-5	1095-1096	,	$,	,	_	_	
+12-6	1097-1100	der	PRELS	die	_	_	
+12-7	1101-1104	mit	APPR	mit	_	_	
+12-8	1105-1113	Löwenköp	NN	<unknown>	*[15]	OBJ[15]	
+12-9	1114-1115	!	$.	!	*[15]	OBJ[15]	
+12-10	1116-1118	en	FM	en	*[15]	OBJ[15]	
+12-11	1119-1129	geschmückt	VVPP	schmücken	_	_	
+12-12	1130-1137	gewesen	VAPP	sein	_	_	
+12-13	1138-1140	zu	PTKZU	zu	_	_	
+12-14	1141-1145	sein	VAINF	sein	_	_	
+12-15	1146-1153	scheint	VVFIN	scheinen	_	_	
+12-16	1154-1155	,	$,	,	_	_	
+12-17	1156-1160	sind	VAFIN	sein	_	_	
+12-18	1161-1164	nur	ADV	nur	_	_	
+12-19	1165-1172	wruiige	ADJA	<unknown>	_	_	
+12-20	1173-1178	Reste	NN	Rest	_	_	
+12-21	1179-1184	übrig	ADJD	übrig	_	_	
+12-22	1185-1186	.	$.	.	_	_	
+
+#Text=Von anderen architektonischen Gliedern des Daches , des Frontespizes etc. hat sich aller Nachforschungen ungeachtet nichts entdecken lassen .
+13-1	1187-1190	Von	APPR	von	_	_	
+13-2	1191-1198	anderen	PIAT	andere	_	_	
+13-3	1199-1216	architektonischen	ADJA	architektonisch	_	_	
+13-4	1217-1225	Gliedern	NN	Glied[213]|Gliedern[214]	_	_	
+13-5	1226-1229	des	ART	die	_	_	
+13-6	1230-1236	Daches	NN	Dach	*	OBJ	
+13-7	1237-1238	,	$,	,	_	_	
+13-8	1239-1242	des	ART	die	_	_	
+13-9	1243-1255	Frontespizes	NN	<unknown>	*	OBJ	
+13-10	1256-1260	etc.	ADV	etc.	_	_	
+13-11	1261-1264	hat	VAFIN	haben	_	_	
+13-12	1265-1269	sich	PRF	sich	_	_	
+13-13	1270-1275	aller	PIAT	alle	_	_	
+13-14	1276-1291	Nachforschungen	NN	Nachforschung	_	_	
+13-15	1292-1302	ungeachtet	APPO	ungeachtet	_	_	
+13-16	1303-1309	nichts	PIS	nichts	_	_	
+13-17	1310-1319	entdecken	VVINF	entdecken	_	_	
+13-18	1320-1326	lassen	VVINF	lassen	_	_	
+13-19	1327-1328	.	$.	.	_	_	
+
+#Text=Die deutschen Architekten , welche in Griechenland dienen , versprachen die Publication dieses Monumentes .
+14-1	1329-1332	Die	ART	die	_	_	
+14-2	1333-1342	deutschen	ADJA	deutsch	_	_	
+14-3	1343-1354	Architekten	NN	Architekt	_	_	
+14-4	1355-1356	,	$,	,	_	_	
+14-5	1357-1363	welche	PRELS	welche	_	_	
+14-6	1364-1366	in	APPR	in	_	_	
+14-7	1367-1379	Griechenland	NE	Griechenland	*	PLACEmentioned	
+14-8	1380-1386	dienen	VVFIN	dienen	_	_	
+14-9	1387-1388	,	$,	,	_	_	
+14-10	1389-1400	versprachen	VVFIN	versprechen	_	_	
+14-11	1401-1404	die	ART	die	_	_	
+14-12	1405-1416	Publication	NN	<unknown>	_	_	
+14-13	1417-1423	dieses	PDAT	dies	_	_	
+14-14	1424-1434	Monumentes	NN	<unknown>	_	_	
+14-15	1435-1436	.	$.	.	_	_	
+
+#Text=Auf dem Boden dieses TemPelchens fand sich eine Marmortafel mit Reliefs von trefflicher Arbeit und herrlicher Erhaltung angelehnt .
+15-1	1437-1440	Auf	APPR	auf	_	_	
+15-2	1441-1444	dem	ART	die	_	_	
+15-3	1445-1450	Boden	NN	Boden	_	_	
+15-4	1451-1457	dieses	PDAT	dies	_	_	
+15-5	1458-1469	TemPelchens	NN	<unknown>	*	OBJ	
+15-6	1470-1474	fand	VVFIN	finden	_	_	
+15-7	1475-1479	sich	PRF	sich	_	_	
+15-8	1480-1484	eine	ART	eine	_	_	
+15-9	1485-1496	Marmortafel	NN	Marmortafel	*[20]	OBJ[20]	
+15-10	1497-1500	mit	APPR	mit	*[20]	OBJ[20]	
+15-11	1501-1508	Reliefs	NN	Relief	*[20]	OBJ[20]	
+15-12	1509-1512	von	APPR	von	_	_	
+15-13	1513-1524	trefflicher	ADJA	trefflich	_	_	
+15-14	1525-1531	Arbeit	NN	Arbeit	_	_	
+15-15	1532-1535	und	KON	und	_	_	
+15-16	1536-1546	herrlicher	ADJA	herrlich	_	_	
+15-17	1547-1556	Erhaltung	NN	Erhaltung	_	_	
+15-18	1557-1566	angelehnt	VVPP	anlehnen	_	_	
+15-19	1567-1568	.	$.	.	_	_	
+
+#Text=Zwischen zwei bekleideten Fl\u00FCgelfiguren s1\u00DCrmt ein Stier in gewaltiger Bewegung daher ; die eine der beiden Fl\u00FCgelfrauen_l sucht
+16-1	1569-1577	Zwischen	APPR	zwischen	_	_	
+16-2	1578-1582	zwei	CARD	zwei	_	_	
+16-3	1583-1594	bekleideten	ADJA	bekleidet	_	_	
+16-4	1595-1608	Flügelfiguren	NN	<unknown>	_	_	
+16-5	1609-1615	s1Ürmt	VVFIN	<unknown>	_	_	
+16-6	1616-1619	ein	ART	eine	_	_	
+16-7	1620-1625	Stier	NN	Stier	_	_	
+16-8	1626-1628	in	APPR	in	_	_	
+16-9	1629-1639	gewaltiger	ADJA	gewaltig	_	_	
+16-10	1640-1648	Bewegung	NN	Bewegung	_	_	
+16-11	1649-1654	daher	PAV	daher	_	_	
+16-12	1655-1656	;	$.	\;	_	_	
+16-13	1657-1660	die	ART	die	_	_	
+16-14	1661-1665	eine	PIS	eine	_	_	
+16-15	1666-1669	der	ART	die	_	_	
+16-16	1670-1676	beiden	PIAT	beide	_	_	
+16-17	1677-1691	Flügelfrauen_l	NN	<unknown>	_	_	
+16-18	1692-1697	sucht	VVFIN	suchen	_	_	

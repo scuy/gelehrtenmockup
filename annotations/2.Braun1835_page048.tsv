@@ -1,0 +1,297 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS|PosValue
+#T_SP=de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=8 Braun an Gerhard Rom , November 1835 ner ehemaligen Bl\u00FCthe erfreute .
+1-1	0-1	8	CARD	8	_	_	
+1-2	2-7	Braun	NN	Braun	*	PERauthor	
+1-3	8-10	an	APPR	an	_	_	
+1-4	11-18	Gerhard	NE	Gerhard	*	PERaddressee	
+1-5	19-22	Rom	NE	Rom	*	PLACEfrom	
+1-6	23-24	,	$,	,	*[4]	DATEletter[4]	
+1-7	25-33	November	NN	November	*[4]	DATEletter[4]	
+1-8	34-38	1835	CARD	@card@	*[4]	DATEletter[4]	
+1-9	39-42	ner	ADJA	<unknown>	_	_	
+1-10	43-53	ehemaligen	ADJA	ehemalig	_	_	
+1-11	54-60	Blüthe	NN	<unknown>	_	_	
+1-12	61-69	erfreute	VVFIN	erfreuen	_	_	
+1-13	70-71	.	$.	.	_	_	
+
+#Text=Mehr versprechend als wichtig ist sodann die Entdeckung eines antiken T\u00F6pferofens gewesen , in welchem man eine zahlreiche Menge grazi\u00F6ser Terracottenfig\u00FCrchen aufgefunden hat .
+2-1	72-76	Mehr	ADV	mehr	_	_	
+2-2	77-89	versprechend	ADJD	versprechend	_	_	
+2-3	90-93	als	KOKOM	als	_	_	
+2-4	94-101	wichtig	ADJD	wichtig	_	_	
+2-5	102-105	ist	VAFIN	sein	_	_	
+2-6	106-112	sodann	ADV	sodann	_	_	
+2-7	113-116	die	ART	die	_	_	
+2-8	117-127	Entdeckung	NN	Entdeckung	_	_	
+2-9	128-133	eines	ART	eine	_	_	
+2-10	134-141	antiken	ADJA	antik	*[5]	OBJ[5]	
+2-11	142-153	Töpferofens	NN	<unknown>	*[5]	OBJ[5]	
+2-12	154-161	gewesen	VAPP	sein	_	_	
+2-13	162-163	,	$,	,	_	_	
+2-14	164-166	in	APPR	in	_	_	
+2-15	167-174	welchem	PRELS	welche	_	_	
+2-16	175-178	man	PIS	man	_	_	
+2-17	179-183	eine	ART	eine	_	_	
+2-18	184-194	zahlreiche	ADJA	zahlreich	_	_	
+2-19	195-200	Menge	NN	Menge	_	_	
+2-20	201-210	graziöser	ADJA	graziös	_	_	
+2-21	211-231	Terracottenfigürchen	NN	<unknown>	*	OBJ	
+2-22	232-243	aufgefunden	VVPP	auffinden	_	_	
+2-23	244-247	hat	VAFIN	haben	_	_	
+2-24	248-249	.	$.	.	_	_	
+
+#Text=W\u00FCrde man bei der bald zu erhoffenden Fortsetzung dieser Grabung auch Spuren von Vasenfabrication entdecken , so w\u00FCrden auch die m\u00FC\u00DFigen Untersuchungen \u00FCber ausw\u00E4rtige und einheimische Fertigung der herrlichen Thongef\u00E4\u00DFe , die sich all\u00FCberall in Etrurien bei Haufen finden , ein erfreuliches und beruhigendes Ende r\u00B1nde~ .
+3-1	250-255	Würde	VAFIN	werden	_	_	
+3-2	256-259	man	PIS	man	_	_	
+3-3	260-263	bei	APPR	bei	_	_	
+3-4	264-267	der	ART	die	_	_	
+3-5	268-272	bald	ADV	bald	_	_	
+3-6	273-275	zu	PTKZU	zu	_	_	
+3-7	276-287	erhoffenden	ADJA	erhoffend	_	_	
+3-8	288-299	Fortsetzung	NN	Fortsetzung	_	_	
+3-9	300-306	dieser	PDAT	dies	_	_	
+3-10	307-314	Grabung	NN	Grabung	_	_	
+3-11	315-319	auch	ADV	auch	_	_	
+3-12	320-326	Spuren	NN	Spur[49]|Spuren[50]	_	_	
+3-13	327-330	von	APPR	von	_	_	
+3-14	331-347	Vasenfabrication	NN	<unknown>	_	_	
+3-15	348-357	entdecken	VVINF	entdecken	_	_	
+3-16	358-359	,	$,	,	_	_	
+3-17	360-362	so	ADV	so	_	_	
+3-18	363-369	würden	VAFIN	werden	_	_	
+3-19	370-374	auch	ADV	auch	_	_	
+3-20	375-378	die	ART	die	_	_	
+3-21	379-386	müßigen	ADJA	müßig	_	_	
+3-22	387-401	Untersuchungen	NN	Untersuchung	_	_	
+3-23	402-406	über	APPR	über	_	_	
+3-24	407-417	auswärtige	ADJA	auswärtig	_	_	
+3-25	418-421	und	KON	und	_	_	
+3-26	422-434	einheimische	ADJA	einheimisch	_	_	
+3-27	435-444	Fertigung	NN	Fertigung	_	_	
+3-28	445-448	der	ART	die	_	_	
+3-29	449-459	herrlichen	ADJA	herrlich	_	_	
+3-30	460-470	Thongefäße	NN	<unknown>	_	_	
+3-31	471-472	,	$,	,	_	_	
+3-32	473-476	die	PRELS	die	_	_	
+3-33	477-481	sich	PRF	sich	_	_	
+3-34	482-492	allüberall	ADV	allüberall	_	_	
+3-35	493-495	in	APPR	in	_	_	
+3-36	496-504	Etrurien	NN	<unknown>	*	PLACEmentioned	
+3-37	505-508	bei	APPR	bei	_	_	
+3-38	509-515	Haufen	NN	Haufe	_	_	
+3-39	516-522	finden	VVFIN	finden	_	_	
+3-40	523-524	,	$,	,	_	_	
+3-41	525-528	ein	ART	eine	_	_	
+3-42	529-541	erfreuliches	ADJA	erfreulich	_	_	
+3-43	542-545	und	KON	und	_	_	
+3-44	546-558	beruhigendes	ADJA	beruhigend	_	_	
+3-45	559-563	Ende	NN	Ende	_	_	
+3-46	564-570	r±nde~	VVFIN	<unknown>	_	_	
+3-47	571-572	.	$.	.	_	_	
+
+#Text=Der wichtigste Fund endlich , welchen die Grabungen des vergangenen Winters geliefert , ist eine prachtvolle Bronzestatue , deren Kopf leider fehlt .
+4-1	573-576	Der	ART	die	_	_	
+4-2	577-587	wichtigste	ADJA	wichtig	_	_	
+4-3	588-592	Fund	NN	Fund	_	_	
+4-4	593-600	endlich	ADV	endlich	_	_	
+4-5	601-602	,	$,	,	_	_	
+4-6	603-610	welchen	PRELS	welche	_	_	
+4-7	611-614	die	ART	die	_	_	
+4-8	615-624	Grabungen	NN	Grabung	_	_	
+4-9	625-628	des	ART	die	_	_	
+4-10	629-640	vergangenen	ADJA	vergangen	_	_	
+4-11	641-648	Winters	NN	Winter	_	_	
+4-12	649-658	geliefert	VVPP	liefern	_	_	
+4-13	659-660	,	$,	,	_	_	
+4-14	661-664	ist	VAFIN	sein	_	_	
+4-15	665-669	eine	ART	eine	_	_	
+4-16	670-681	prachtvolle	ADJA	prachtvoll	_	_	
+4-17	682-694	Bronzestatue	NN	Bronzestatue	*	OBJ	
+4-18	695-696	,	$,	,	_	_	
+4-19	697-702	deren	PRELAT	die	_	_	
+4-20	703-707	Kopf	NN	Kopf	_	_	
+4-21	708-714	leider	ADV	leider	_	_	
+4-22	715-720	fehlt	VVFIN	fehlen	_	_	
+4-23	721-722	.	$.	.	_	_	
+
+#Text=Ihr Gewand zeigt einen reichen Faltenwurf , an ihrer Linken befinden sich 2 Ringe ; es ist also vorauszusetzen , da\u00DF es eine r\u00F6mische vielleicht kaiserliche Bildni\u00DFstatue gewesen sein m\u00F6ge .
+5-1	723-726	Ihr	PPOSAT	ihr	_	_	
+5-2	727-733	Gewand	NN	Gewand	_	_	
+5-3	734-739	zeigt	VVFIN	zeigen	_	_	
+5-4	740-745	einen	ART	eine	_	_	
+5-5	746-753	reichen	ADJA	reich	_	_	
+5-6	754-764	Faltenwurf	NN	Faltenwurf	_	_	
+5-7	765-766	,	$,	,	_	_	
+5-8	767-769	an	APPR	an	_	_	
+5-9	770-775	ihrer	PPOSAT	ihr	_	_	
+5-10	776-782	Linken	NN	Linke	_	_	
+5-11	783-791	befinden	VVFIN	befinden	_	_	
+5-12	792-796	sich	PRF	sich	_	_	
+5-13	797-798	2	CARD	2	_	_	
+5-14	799-804	Ringe	NN	Ring	_	_	
+5-15	805-806	;	$.	\;	_	_	
+5-16	807-809	es	PPER	es	_	_	
+5-17	810-813	ist	VAFIN	sein	_	_	
+5-18	814-818	also	ADV	also	_	_	
+5-19	819-833	vorauszusetzen	VVIZU	voraussetzen	_	_	
+5-20	834-835	,	$,	,	_	_	
+5-21	836-839	daß	KOUS	dass	_	_	
+5-22	840-842	es	PPER	es	_	_	
+5-23	843-847	eine	ART	eine	_	_	
+5-24	848-856	römische	ADJA	römisch	_	_	
+5-25	857-867	vielleicht	ADV	vielleicht	_	_	
+5-26	868-879	kaiserliche	ADJA	kaiserlich	_	_	
+5-27	880-893	Bildnißstatue	NN	<unknown>	_	_	
+5-28	894-901	gewesen	VAPP	sein	_	_	
+5-29	902-906	sein	VAINF	sein	_	_	
+5-30	907-911	möge	VMFIN	mögen	_	_	
+5-31	912-913	.	$.	.	_	_	
+
+#Text=Die Finder wollen dies nicht zugeben .
+6-1	914-917	Die	ART	die	_	_	
+6-2	918-924	Finder	NN	Finder	_	_	
+6-3	925-931	wollen	VMFIN	wollen	_	_	
+6-4	932-936	dies	PDS	dies	_	_	
+6-5	937-942	nicht	PTKNEG	nicht	_	_	
+6-6	943-950	zugeben	VVINF	zugeben	_	_	
+6-7	951-952	.	$.	.	_	_	
+
+#Text=Sie trafen die Statue innerhalb des Bezirkes der alten Stadt .
+7-1	953-956	Sie	PPER	Sie[147]|sie[148]	_	_	
+7-2	957-963	trafen	VVFIN	treffen	_	_	
+7-3	964-967	die	ART	die	_	_	
+7-4	968-974	Statue	NN	Statue	*	OBJ	
+7-5	975-984	innerhalb	APPR	innerhalb	_	_	
+7-6	985-988	des	ART	die	_	_	
+7-7	989-997	Bezirkes	NN	Bezirk	_	_	
+7-8	998-1001	der	ART	die	_	_	
+7-9	1002-1007	alten	ADJA	alt	*[10]	OBJtopography[10]	
+7-10	1008-1013	Stadt	NN	Stadt	*[10]	OBJtopography[10]	
+7-11	1014-1015	.	$.	.	_	_	
+
+#Text=Sie war unter Travertin gut verwahrt ; neben ihr oder auf ihr lag ein gro\u00DFer bronzener Helmbusch .
+8-1	1016-1019	Sie	PPER	Sie[159]|sie[160]	_	_	
+8-2	1020-1023	war	VAFIN	sein	_	_	
+8-3	1024-1029	unter	APPR	unter	_	_	
+8-4	1030-1039	Travertin	NN	<unknown>	_	_	
+8-5	1040-1043	gut	ADJD	gut	_	_	
+8-6	1044-1052	verwahrt	VVPP	verwahren	_	_	
+8-7	1053-1054	;	$.	\;	_	_	
+8-8	1055-1060	neben	APPR	neben	_	_	
+8-9	1061-1064	ihr	PPOSAT	ihr	_	_	
+8-10	1065-1069	oder	KON	oder	_	_	
+8-11	1070-1073	auf	APPR	auf	_	_	
+8-12	1074-1077	ihr	PPER	ihr	_	_	
+8-13	1078-1081	lag	VVFIN	liegen	_	_	
+8-14	1082-1085	ein	ART	eine	_	_	
+8-15	1086-1092	großer	ADJA	groß	_	_	
+8-16	1093-1102	bronzener	ADJA	bronzen	*[11]	OBJ[11]	
+8-17	1103-1112	Helmbusch	NE	<unknown>	*[11]	OBJ[11]	
+8-18	1113-1114	.	$.	.	_	_	
+
+#Text=Diesen wollte man der Statue zuertheilen und sie so zu einer Minerva machen .
+9-1	1115-1121	Diesen	PDS	diese	_	_	
+9-2	1122-1128	wollte	VMFIN	wollen	_	_	
+9-3	1129-1132	man	PIS	man	_	_	
+9-4	1133-1136	der	ART	die	_	_	
+9-5	1137-1143	Statue	NN	Statue	*	OBJ	
+9-6	1144-1155	zuertheilen	VVFIN	<unknown>	_	_	
+9-7	1156-1159	und	KON	und	_	_	
+9-8	1160-1163	sie	PPER	sie	_	_	
+9-9	1164-1166	so	ADV	so	_	_	
+9-10	1167-1169	zu	APPR	zu	_	_	
+9-11	1170-1175	einer	ART	eine	_	_	
+9-12	1176-1183	Minerva	NE	Minerva	*	PERmentioned	
+9-13	1184-1190	machen	VVINF	machen	_	_	
+9-14	1191-1192	.	$.	.	_	_	
+
+#Text=Glauben mag jedoch kein Mensch an diese Annahme und Thorwaldsen restaurirt sie mit einem Portraitkopf .
+10-1	1193-1200	Glauben	NN	Glaube	_	_	
+10-2	1201-1204	mag	VMFIN	mögen	_	_	
+10-3	1205-1211	jedoch	ADV	jedoch	_	_	
+10-4	1212-1216	kein	PIAT	keine	_	_	
+10-5	1217-1223	Mensch	NN	Mensch	_	_	
+10-6	1224-1226	an	APPR	an	_	_	
+10-7	1227-1232	diese	PDAT	dies	_	_	
+10-8	1233-1240	Annahme	NN	Annahme	_	_	
+10-9	1241-1244	und	KON	und	_	_	
+10-10	1245-1256	Thorwaldsen	NE	<unknown>	*	PERmentioned	
+10-11	1257-1267	restaurirt	VVFIN	<unknown>	_	_	
+10-12	1268-1271	sie	PPER	sie	_	_	
+10-13	1272-1275	mit	APPR	mit	_	_	
+10-14	1276-1281	einem	ART	eine	_	_	
+10-15	1282-1294	Portraitkopf	NN	<unknown>	_	_	
+10-16	1295-1296	.	$.	.	_	_	
+
+#Text=Dadurch da\u00DF sich das hiesige Guvernum den Herren Campanaris auf drei Jahre associirt hat , haben die Grabungen an Ausdehnung gewonnen .
+11-1	1297-1304	Dadurch	PAV	dadurch	_	_	
+11-2	1305-1308	daß	KOUS	dass	_	_	
+11-3	1309-1313	sich	PRF	sich	_	_	
+11-4	1314-1317	das	ART	die	_	_	
+11-5	1318-1325	hiesige	ADJA	hiesig	_	_	
+11-6	1326-1334	Guvernum	NN	<unknown>	*	ORGmentioned	
+11-7	1335-1338	den	ART	die	_	_	
+11-8	1339-1345	Herren	NN	Herr	_	_	
+11-9	1346-1356	Campanaris	NE	<unknown>	*	PERmentioned	
+11-10	1357-1360	auf	APPR	auf	_	_	
+11-11	1361-1365	drei	CARD	drei	_	_	
+11-12	1366-1371	Jahre	NN	Jahr	_	_	
+11-13	1372-1381	associirt	NN	<unknown>	_	_	
+11-14	1382-1385	hat	VAFIN	haben	_	_	
+11-15	1386-1387	,	$,	,	_	_	
+11-16	1388-1393	haben	VAFIN	haben	_	_	
+11-17	1394-1397	die	ART	die	_	_	
+11-18	1398-1407	Grabungen	NN	Grabung	_	_	
+11-19	1408-1410	an	APPR	an	_	_	
+11-20	1411-1421	Ausdehnung	NN	Ausdehnung	_	_	
+11-21	1422-1430	gewonnen	VVPP	gewinnen	_	_	
+11-22	1431-1432	.	$.	.	_	_	
+
+#Text=Man gr\u00E4bt in der alten Stadt und in der Necropole zugleich .
+12-1	1433-1436	Man	PIS	man	_	_	
+12-2	1437-1442	gräbt	VVFIN	graben	_	_	
+12-3	1443-1445	in	APPR	in	_	_	
+12-4	1446-1449	der	ART	die	_	_	
+12-5	1450-1455	alten	ADJA	alt	*[17]	OBJtopography[17]	
+12-6	1456-1461	Stadt	NN	Stadt	*[17]	OBJtopography[17]	
+12-7	1462-1465	und	KON	und	_	_	
+12-8	1466-1468	in	APPR	in	_	_	
+12-9	1469-1472	der	ART	die	_	_	
+12-10	1473-1482	Necropole	NN	<unknown>	*	OBJtopography	
+12-11	1483-1491	zugleich	ADV	zugleich	_	_	
+12-12	1492-1493	.	$.	.	_	_	
+
+#Text=Dadurch sind jedoch die Kr\u00E4fte zugleicher Zeit getheilt worden ; man hat sonach auch nur eine geringere Ausbeute von Vasen und andern Gr\u00E4berger\u00E4then machen k\u00F6nnen , als in
+13-1	1494-1501	Dadurch	PAV	dadurch	_	_	
+13-2	1502-1506	sind	VAFIN	sein	_	_	
+13-3	1507-1513	jedoch	ADV	jedoch	_	_	
+13-4	1514-1517	die	ART	die	_	_	
+13-5	1518-1524	Kräfte	NN	Kraft	_	_	
+13-6	1525-1535	zugleicher	ADJA	<unknown>	_	_	
+13-7	1536-1540	Zeit	NN	Zeit	_	_	
+13-8	1541-1549	getheilt	VVPP	<unknown>	_	_	
+13-9	1550-1556	worden	VAPP	werden	_	_	
+13-10	1557-1558	;	$.	\;	_	_	
+13-11	1559-1562	man	PIS	man	_	_	
+13-12	1563-1566	hat	VAFIN	haben	_	_	
+13-13	1567-1573	sonach	ADV	sonach	_	_	
+13-14	1574-1578	auch	ADV	auch	_	_	
+13-15	1579-1582	nur	ADV	nur	_	_	
+13-16	1583-1587	eine	ART	eine	_	_	
+13-17	1588-1597	geringere	ADJA	gering	_	_	
+13-18	1598-1606	Ausbeute	NN	Ausbeute	_	_	
+13-19	1607-1610	von	APPR	von	_	_	
+13-20	1611-1616	Vasen	NN	Vase	*	OBJ	
+13-21	1617-1620	und	KON	und	_	_	
+13-22	1621-1627	andern	ADJA	andere	_	_	
+13-23	1628-1642	Gräbergeräthen	NN	<unknown>	*	OBJ	
+13-24	1643-1649	machen	VVINF	machen	_	_	
+13-25	1650-1656	können	VMINF	können	_	_	
+13-26	1657-1658	,	$,	,	_	_	
+13-27	1659-1662	als	KOUS	als	_	_	
+13-28	1663-1665	in	APPR	in	_	_	

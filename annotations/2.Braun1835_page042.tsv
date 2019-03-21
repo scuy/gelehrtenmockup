@@ -1,0 +1,326 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS|PosValue
+#T_SP=de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=2 Braun an Gerhard Rom , November 1835 Notizen erhalten .
+1-1	0-1	2	CARD	2	_	_	
+1-2	2-7	Braun	NN	Braun	*	PERauthor	
+1-3	8-10	an	APPR	an	_	_	
+1-4	11-18	Gerhard	NE	Gerhard	*	PERaddressee	
+1-5	19-22	Rom	NE	Rom	*	PLACEfrom	
+1-6	23-24	,	$,	,	*[4]	DATEletter[4]	
+1-7	25-33	November	NN	November	*[4]	DATEletter[4]	
+1-8	34-38	1835	CARD	@card@	*[4]	DATEletter[4]	
+1-9	39-46	Notizen	NN	Notiz	_	_	
+1-10	47-55	erhalten	VVPP	erhalten	_	_	
+1-11	56-57	.	$.	.	_	_	
+
+#Text=Auch er klagt \u00FCber die langsamen Fortschritte dortiger Nachsuchungen , f\u00FCgt jedoch zugleich den entschuldigenden Grund in der Andeutung der f\u00FCr \u00E4hnliche Versuche so \u00FCberaus ung\u00FCnstigen Verh\u00E4ltnisse und Umst\u00E4nde bei .
+2-1	58-62	Auch	ADV	auch	_	_	
+2-2	63-65	er	PPER	er	_	_	
+2-3	66-71	klagt	VVFIN	klagen	_	_	
+2-4	72-76	über	APPR	über	_	_	
+2-5	77-80	die	ART	die	_	_	
+2-6	81-90	langsamen	ADJA	langsam	_	_	
+2-7	91-103	Fortschritte	NN	Fortschritt	_	_	
+2-8	104-112	dortiger	ADJA	dortig	_	_	
+2-9	113-126	Nachsuchungen	NN	<unknown>	_	_	
+2-10	127-128	,	$,	,	_	_	
+2-11	129-133	fügt	VVFIN	fügen	_	_	
+2-12	134-140	jedoch	ADV	jedoch	_	_	
+2-13	141-149	zugleich	ADV	zugleich	_	_	
+2-14	150-153	den	ART	die	_	_	
+2-15	154-170	entschuldigenden	ADJA	entschuldigend	_	_	
+2-16	171-176	Grund	NN	Grund	_	_	
+2-17	177-179	in	APPR	in	_	_	
+2-18	180-183	der	ART	die	_	_	
+2-19	184-193	Andeutung	NN	Andeutung	_	_	
+2-20	194-197	der	ART	die	_	_	
+2-21	198-201	für	APPR	für	_	_	
+2-22	202-210	ähnliche	ADJA	ähnlich	_	_	
+2-23	211-219	Versuche	NN	Versuch	_	_	
+2-24	220-222	so	ADV	so	_	_	
+2-25	223-230	überaus	ADV	überaus	_	_	
+2-26	231-242	ungünstigen	ADJA	ungünstig	_	_	
+2-27	243-255	Verhältnisse	NN	Verhältnis	_	_	
+2-28	256-259	und	KON	und	_	_	
+2-29	260-268	Umstände	NN	Umstand	_	_	
+2-30	269-272	bei	PTKVZ	bei	_	_	
+2-31	273-274	.	$.	.	_	_	
+
+#Text=Feste Mauern , welche durch Pulver zu sprengen nicht entfernt in den Sinn kommen kann , bieten einer mehr und mehr sich verringernden Arbeiterzahl bedeutende Schwierigkeiten dar .
+3-1	275-280	Feste	ADJA	fest	_	_	
+3-2	281-287	Mauern	NN	Mauer	_	_	
+3-3	288-289	,	$,	,	_	_	
+3-4	290-296	welche	PRELS	welche	_	_	
+3-5	297-302	durch	APPR	durch	_	_	
+3-6	303-309	Pulver	NN	Pulver	_	_	
+3-7	310-312	zu	PTKVZ	zu	_	_	
+3-8	313-321	sprengen	VVFIN	sprengen	_	_	
+3-9	322-327	nicht	PTKNEG	nicht	_	_	
+3-10	328-336	entfernt	ADJD	entfernt	_	_	
+3-11	337-339	in	APPR	in	_	_	
+3-12	340-343	den	ART	die	_	_	
+3-13	344-348	Sinn	NN	Sinn	_	_	
+3-14	349-355	kommen	VVINF	kommen	_	_	
+3-15	356-360	kann	VMFIN	können	_	_	
+3-16	361-362	,	$,	,	_	_	
+3-17	363-369	bieten	VVFIN	bieten	_	_	
+3-18	370-375	einer	PIS	eine	_	_	
+3-19	376-380	mehr	ADV	mehr	_	_	
+3-20	381-384	und	KON	und	_	_	
+3-21	385-389	mehr	ADV	mehr	_	_	
+3-22	390-394	sich	PRF	sich	_	_	
+3-23	395-408	verringernden	ADJA	verringernd	_	_	
+3-24	409-421	Arbeiterzahl	NN	<unknown>	_	_	
+3-25	422-432	bedeutende	ADJA	bedeutend	_	_	
+3-26	433-448	Schwierigkeiten	NN	Schwierigkeit	_	_	
+3-27	449-452	dar	PTKVZ	dar	_	_	
+3-28	453-454	.	$.	.	_	_	
+
+#Text=Den Eingang zu den Propyl\u00E4en durchaus frei zu machen , mu\u00DF man sich mit der Demolition der bei Laake Topographie von Athen Tav .
+4-1	455-458	Den	ART	die	_	_	
+4-2	459-466	Eingang	NN	Eingang	_	_	
+4-3	467-469	zu	APPR	zu	_	_	
+4-4	470-473	den	ART	die	_	_	
+4-5	474-483	Propyläen	NN	<unknown>	*	OBJ	
+4-6	484-492	durchaus	ADV	durchaus	_	_	
+4-7	493-497	frei	ADJD	frei	_	_	
+4-8	498-500	zu	PTKZU	zu	_	_	
+4-9	501-507	machen	VVINF	machen	_	_	
+4-10	508-509	,	$,	,	_	_	
+4-11	510-513	muß	VMFIN	müssen	_	_	
+4-12	514-517	man	PIS	man	_	_	
+4-13	518-522	sich	PRF	sich	_	_	
+4-14	523-526	mit	APPR	mit	_	_	
+4-15	527-530	der	ART	die	_	_	
+4-16	531-541	Demolition	NN	<unknown>	_	_	
+4-17	542-545	der	ART	die	_	_	
+4-18	546-549	bei	APPR	bei	_	_	
+4-19	550-555	Laake	NN	<unknown>	*	PERmentioned	
+4-20	556-567	Topographie	NN	Topographie	_	_	
+4-21	568-571	von	APPR	von	_	_	
+4-22	572-577	Athen	NE	Athen	_	_	
+4-23	578-581	Tav	NE	<unknown>	_	_	
+4-24	582-583	.	$.	.	_	_	
+
+#Text=2 deutsche Uebersetzung angegebenen oberen Batterie abqu\u00E4len und um das Parthenon auf \u00E4hnliche Weise zu ehren , ist man mit der Hinwegschaffung des an seiner S\u00FCdost- und S\u00FCdseite aufgeh\u00E4uften Schuttes besch\u00E4ftigt .
+5-1	584-585	2	CARD	2	_	_	
+5-2	586-594	deutsche	ADJA	deutsch	_	_	
+5-3	595-607	Uebersetzung	NN	<unknown>	_	_	
+5-4	608-619	angegebenen	ADJA	angegeben	_	_	
+5-5	620-626	oberen	ADJA	ober	_	_	
+5-6	627-635	Batterie	NN	Batterie	_	_	
+5-7	636-644	abquälen	VVINF	abquälen	_	_	
+5-8	645-648	und	KON	und	_	_	
+5-9	649-651	um	APPR	um	_	_	
+5-10	652-655	das	ART	die	_	_	
+5-11	656-665	Parthenon	NN	<unknown>	*	OBJ	
+5-12	666-669	auf	APPR	auf	_	_	
+5-13	670-678	ähnliche	ADJA	ähnlich	_	_	
+5-14	679-684	Weise	NN	Weise	_	_	
+5-15	685-687	zu	PTKZU	zu	_	_	
+5-16	688-693	ehren	VVINF	ehren	_	_	
+5-17	694-695	,	$,	,	_	_	
+5-18	696-699	ist	VAFIN	sein	_	_	
+5-19	700-703	man	PIS	man	_	_	
+5-20	704-707	mit	APPR	mit	_	_	
+5-21	708-711	der	ART	die	_	_	
+5-22	712-727	Hinwegschaffung	NN	<unknown>	_	_	
+5-23	728-731	des	ART	die	_	_	
+5-24	732-734	an	APPR	an	_	_	
+5-25	735-741	seiner	PPOSAT	sein	_	_	
+5-26	742-749	Südost-	TRUNC	Südost-	_	_	
+5-27	750-753	und	KON	und	_	_	
+5-28	754-762	Südseite	NN	Südseite	_	_	
+5-29	763-775	aufgehäuften	ADJA	aufgehäuft	_	_	
+5-30	776-784	Schuttes	NN	<unknown>	_	_	
+5-31	785-796	beschäftigt	VVPP	beschäftigen	_	_	
+5-32	797-798	.	$.	.	_	_	
+
+#Text=In der alten Mauersubstruction , auf welche die T\u00FCrken die Batterie , welche sich l\u00E4ngst des gr\u00F6\u00DFeren Theiles der Propyl\u00E4en nach Norden erstreckt ( Leake a.
+6-1	799-801	In	APPR	in	_	_	
+6-2	802-805	der	ART	die	_	_	
+6-3	806-811	alten	ADJA	alt	_	_	
+6-4	812-829	Mauersubstruction	NN	<unknown>	*	OBJ	
+6-5	830-831	,	$,	,	_	_	
+6-6	832-835	auf	APPR	auf	_	_	
+6-7	836-842	welche	PRELS	welche	_	_	
+6-8	843-846	die	ART	die	_	_	
+6-9	847-853	Türken	NN	Türke	_	_	
+6-10	854-857	die	ART	die	_	_	
+6-11	858-866	Batterie	NN	Batterie	_	_	
+6-12	867-868	,	$,	,	_	_	
+6-13	869-875	welche	PRELS	welche	_	_	
+6-14	876-880	sich	PRF	sich	_	_	
+6-15	881-887	längst	ADV	längst	_	_	
+6-16	888-891	des	ART	die	_	_	
+6-17	892-900	größeren	ADJA	groß	_	_	
+6-18	901-908	Theiles	NN	<unknown>	_	_	
+6-19	909-912	der	ART	die	_	_	
+6-20	913-922	Propyläen	NN	<unknown>	*	OBJ	
+6-21	923-927	nach	APPR	nach	_	_	
+6-22	928-934	Norden	NN	Norden	_	_	
+6-23	935-944	erstreckt	VVFIN	erstrecken	_	_	
+6-24	945-946	(	$(	(	_	_	
+6-25	947-952	Leake	NN	<unknown>	*	PERmentioned	
+6-26	953-955	a.	APPR	a.	_	_	
+
+#Text=- : \u2022 O. Tav .
+7-1	956-957	-	$(	-	_	_	
+7-2	958-959	:	$.	:	_	_	
+7-3	960-961	•	NN	<unknown>	_	_	
+7-4	962-964	O.	APPR	o.	_	_	
+7-5	965-968	Tav	NE	<unknown>	_	_	
+7-6	969-970	.	$.	.	_	_	
+
+#Text=111 ) , hat man die beiden Nischen , die fr\u00FCher von Leake f\u00FCr Zug\u00E4nge zu Grotten oder unterirdischen Gew\u00F6lben gehalten wurden , vollkommen aufgedeckt : sie sind von gleichem Alter mit dem ganzen Bau und zeigen eine verschiedne Tiefe , die eine von 2 die andre von 4 Fu\u00DF .
+8-1	971-974	111	CARD	@card@	_	_	
+8-2	975-976	)	$(	)	_	_	
+8-3	977-978	,	$,	,	_	_	
+8-4	979-982	hat	VAFIN	haben	_	_	
+8-5	983-986	man	PIS	man	_	_	
+8-6	987-990	die	ART	die	_	_	
+8-7	991-997	beiden	PIAT	beide	_	_	
+8-8	998-1005	Nischen	NN	Nische	_	_	
+8-9	1006-1007	,	$,	,	_	_	
+8-10	1008-1011	die	PRELS	die	_	_	
+8-11	1012-1018	früher	ADV	früher	_	_	
+8-12	1019-1022	von	APPR	von	_	_	
+8-13	1023-1028	Leake	NN	<unknown>	*	PERmentioned	
+8-14	1029-1032	für	APPR	für	_	_	
+8-15	1033-1040	Zugänge	NN	Zugang	_	_	
+8-16	1041-1043	zu	APPR	zu	_	_	
+8-17	1044-1051	Grotten	NN	Grotte	*	OBJ	
+8-18	1052-1056	oder	KON	oder	_	_	
+8-19	1057-1071	unterirdischen	ADJA	unterirdisch	_	_	
+8-20	1072-1080	Gewölben	NN	Gewölbe	_	_	
+8-21	1081-1089	gehalten	VVPP	halten	_	_	
+8-22	1090-1096	wurden	VAFIN	werden	_	_	
+8-23	1097-1098	,	$,	,	_	_	
+8-24	1099-1109	vollkommen	ADJD	vollkommen	_	_	
+8-25	1110-1120	aufgedeckt	VVPP	aufdecken	_	_	
+8-26	1121-1122	:	$.	:	_	_	
+8-27	1123-1126	sie	PPER	sie	_	_	
+8-28	1127-1131	sind	VAFIN	sein	_	_	
+8-29	1132-1135	von	APPR	von	_	_	
+8-30	1136-1144	gleichem	ADJA	gleich	_	_	
+8-31	1145-1150	Alter	NN	Alter	_	_	
+8-32	1151-1154	mit	APPR	mit	_	_	
+8-33	1155-1158	dem	ART	die	_	_	
+8-34	1159-1165	ganzen	ADJA	ganz	_	_	
+8-35	1166-1169	Bau	NN	Bau	_	_	
+8-36	1170-1173	und	KON	und	_	_	
+8-37	1174-1180	zeigen	VVFIN	zeigen	_	_	
+8-38	1181-1185	eine	ART	eine	_	_	
+8-39	1186-1197	verschiedne	ADJA	<unknown>	_	_	
+8-40	1198-1203	Tiefe	NN	Tiefe	_	_	
+8-41	1204-1205	,	$,	,	_	_	
+8-42	1206-1209	die	PRELS	die	_	_	
+8-43	1210-1214	eine	ART	eine	_	_	
+8-44	1215-1218	von	APPR	von	_	_	
+8-45	1219-1220	2	CARD	2	_	_	
+8-46	1221-1224	die	ART	die	_	_	
+8-47	1225-1230	andre	ADV	<unknown>	_	_	
+8-48	1231-1234	von	APPR	von	_	_	
+8-49	1235-1236	4	CARD	4	_	_	
+8-50	1237-1240	Fuß	NN	Fuß	_	_	
+8-51	1241-1242	.	$.	.	_	_	
+
+#Text=Dr. Kramer vereinigt sich mit Leake in der Meinung , da\u00DF es die Sanctuare der ' I:lt .
+9-1	1243-1246	Dr.	NN	Dr.	_	_	
+9-2	1247-1253	Kramer	NE	Kramer	*	PERmentioned	
+9-3	1254-1263	vereinigt	VVFIN	vereinigen	_	_	
+9-4	1264-1268	sich	PRF	sich	_	_	
+9-5	1269-1272	mit	APPR	mit	_	_	
+9-6	1273-1278	Leake	NN	<unknown>	*	PERmentioned	
+9-7	1279-1281	in	APPR	in	_	_	
+9-8	1282-1285	der	ART	die	_	_	
+9-9	1286-1293	Meinung	NN	Meinung	_	_	
+9-10	1294-1295	,	$,	,	_	_	
+9-11	1296-1299	daß	KOUS	dass	_	_	
+9-12	1300-1302	es	PPER	es	_	_	
+9-13	1303-1306	die	ART	die	_	_	
+9-14	1307-1316	Sanctuare	NN	<unknown>	_	_	
+9-15	1317-1320	der	ART	die	_	_	
+9-16	1321-1322	'	$(	'	_	_	
+9-17	1323-1327	I:lt	NN	<unknown>	_	_	
+9-18	1328-1329	.	$.	.	_	_	
+
+#Text=und der ( Paus .
+10-1	1330-1333	und	KON	und	_	_	
+10-2	1334-1337	der	ART	die	_	_	
+10-3	1338-1339	(	$(	(	_	_	
+10-4	1340-1344	Paus	NN	<unknown>	_	_	
+10-5	1345-1346	.	$.	.	_	_	
+
+#Text=p.
+11-1	1347-1349	p.	APPR	p.	_	_	
+
+#Text=41 ed.
+12-1	1350-1352	41	CARD	41	_	_	
+12-2	1353-1356	ed.	ADJA	ed.	_	_	
+
+#Text=Bekker ) gewesen sein m\u00F6chten , was zu der Angabe dieses Schriftstellers , der nur von einem ' spricht ganz gut pa\u00DFt .
+13-1	1357-1363	Bekker	NE	<unknown>	*	PERmentioned	
+13-2	1364-1365	)	$(	)	_	_	
+13-3	1366-1373	gewesen	VAPP	sein	_	_	
+13-4	1374-1378	sein	VAINF	sein	_	_	
+13-5	1379-1386	möchten	VMFIN	mögen	_	_	
+13-6	1387-1388	,	$,	,	_	_	
+13-7	1389-1392	was	PRELS	was	_	_	
+13-8	1393-1395	zu	APPR	zu	_	_	
+13-9	1396-1399	der	ART	die	_	_	
+13-10	1400-1406	Angabe	NN	Angabe	_	_	
+13-11	1407-1413	dieses	PDAT	dies	_	_	
+13-12	1414-1429	Schriftstellers	NN	Schriftsteller	_	_	
+13-13	1430-1431	,	$,	,	_	_	
+13-14	1432-1435	der	PRELS	die	_	_	
+13-15	1436-1439	nur	ADV	nur	_	_	
+13-16	1440-1443	von	APPR	von	_	_	
+13-17	1444-1449	einem	ART	eine	_	_	
+13-18	1450-1451	'	$(	'	_	_	
+13-19	1452-1459	spricht	VVFIN	sprechen	_	_	
+13-20	1460-1464	ganz	ADV	ganz	_	_	
+13-21	1465-1468	gut	ADJD	gut	_	_	
+13-22	1469-1473	paßt	VVFIN	passen	_	_	
+13-23	1474-1475	.	$.	.	_	_	
+
+#Text=Das auf dieser Substruction zu Spoh's und Wheler's Zeiten noch vorhandne kleine Tempelchen , ist bekanntlich nachher verschwunden : ein Friesfragment davon mit Reliefs befinde sich im Brittischen Museum , andere Architekturfragmente sind in na-
+14-1	1476-1479	Das	ART	die	_	_	
+14-2	1480-1483	auf	APPR	auf	_	_	
+14-3	1484-1490	dieser	PDAT	dies	_	_	
+14-4	1491-1503	Substruction	NN	<unknown>	_	_	
+14-5	1504-1506	zu	APPR	zu	_	_	
+14-6	1507-1513	Spoh's	NE	<unknown>	*	PERmentioned	
+14-7	1514-1517	und	KON	und	_	_	
+14-8	1518-1526	Wheler's	NE	<unknown>	*	PERmentioned	
+14-9	1527-1533	Zeiten	NN	Zeit	_	_	
+14-10	1534-1538	noch	ADV	noch	_	_	
+14-11	1539-1548	vorhandne	ADJA	<unknown>	_	_	
+14-12	1549-1555	kleine	ADJA	klein	_	_	
+14-13	1556-1566	Tempelchen	NN	Tempelchen	*	OBJ	
+14-14	1567-1568	,	$,	,	_	_	
+14-15	1569-1572	ist	VAFIN	sein	_	_	
+14-16	1573-1584	bekanntlich	ADV	bekanntlich	_	_	
+14-17	1585-1592	nachher	ADV	nachher	_	_	
+14-18	1593-1605	verschwunden	VVPP	verschwinden	_	_	
+14-19	1606-1607	:	$.	:	_	_	
+14-20	1608-1611	ein	ART	eine	_	_	
+14-21	1612-1625	Friesfragment	NN	<unknown>	*[19]	OBJ[19]	
+14-22	1626-1631	davon	PAV	davon	*[19]	OBJ[19]	
+14-23	1632-1635	mit	APPR	mit	*[19]	OBJ[19]	
+14-24	1636-1643	Reliefs	NN	Relief	*[19]	OBJ[19]	
+14-25	1644-1651	befinde	VVFIN	befinden	_	_	
+14-26	1652-1656	sich	PRF	sich	_	_	
+14-27	1657-1659	im	APPRART	in	_	_	
+14-28	1660-1671	Brittischen	ADJA	<unknown>	*[20]	ORGmentioned[20]	
+14-29	1672-1678	Museum	NN	Museum	*[20]	ORGmentioned[20]	
+14-30	1679-1680	,	$,	,	_	_	
+14-31	1681-1687	andere	PIS	andere	_	_	
+14-32	1688-1708	Architekturfragmente	NN	Architekturfragment	*	OBJ	
+14-33	1709-1713	sind	VAFIN	sein	_	_	
+14-34	1714-1716	in	APPR	in	_	_	
+14-35	1717-1720	na-	TRUNC	Na-	_	_	

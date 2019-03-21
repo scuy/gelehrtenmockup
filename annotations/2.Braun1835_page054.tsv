@@ -1,0 +1,108 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS|PosValue
+#T_SP=de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=14 Braun an Gerhard Rom , November 1835 Fragmenten verdient ein kolossaler Vorderarm von Bronze , welchereinen Speer f\u00FChrt , allerdings Erw\u00E4hnung .
+1-1	0-2	14	CARD	14	_	_	
+1-2	3-8	Braun	NN	Braun	*	PERauthor	
+1-3	9-11	an	APPR	an	_	_	
+1-4	12-19	Gerhard	NE	Gerhard	*	PERaddressee	
+1-5	20-23	Rom	NE	Rom	*	PLACEfrom	
+1-6	24-25	,	$,	,	*[4]	DATEletter[4]	
+1-7	26-34	November	NN	November	*[4]	DATEletter[4]	
+1-8	35-39	1835	CARD	@card@	*[4]	DATEletter[4]	
+1-9	40-50	Fragmenten	NN	Fragment	_	_	
+1-10	51-59	verdient	VVFIN	verdienen	_	_	
+1-11	60-63	ein	ART	eine	_	_	
+1-12	64-74	kolossaler	ADJA	kolossal	*[5]	OBJ[5]	
+1-13	75-84	Vorderarm	NN	<unknown>	*[5]	OBJ[5]	
+1-14	85-88	von	APPR	von	*[5]	OBJ[5]	
+1-15	89-95	Bronze	NN	Bronze	*[5]	OBJ[5]	
+1-16	96-97	,	$,	,	_	_	
+1-17	98-110	welchereinen	ADJA	<unknown>	_	_	
+1-18	111-116	Speer	NN	Speer	_	_	
+1-19	117-122	führt	VVFIN	führen	_	_	
+1-20	123-124	,	$,	,	_	_	
+1-21	125-135	allerdings	ADV	allerdings	_	_	
+1-22	136-145	Erwähnung	NN	Erwähnung	_	_	
+1-23	146-147	.	$.	.	_	_	
+
+#Text=Von Pompeji aus wurde unl\u00E4ngst die Entdeckung einer Anzahl silberner Gef\u00E4\u00DFe von der feinsten Arbeit gemeldet ; wir f\u00FCgen hier nur die Notiz hinzu , da\u00DF dieser Fund dem von Bernay an Interesse nicht gleich kommt .
+2-1	148-151	Von	APPR	von	_	_	
+2-2	152-159	Pompeji	NE	<unknown>	*	PLACEmentioned	
+2-3	160-163	aus	PTKVZ	aus	_	_	
+2-4	164-169	wurde	VAFIN	werden	_	_	
+2-5	170-178	unlängst	ADV	unlängst	_	_	
+2-6	179-182	die	ART	die	_	_	
+2-7	183-193	Entdeckung	NN	Entdeckung	_	_	
+2-8	194-199	einer	ART	eine	_	_	
+2-9	200-206	Anzahl	NN	Anzahl	*[7]	OBJ[7]	
+2-10	207-216	silberner	ADJA	silbern	*[7]	OBJ[7]	
+2-11	217-223	Gefäße	NN	Gefäß	*[7]	OBJ[7]	
+2-12	224-227	von	APPR	von	_	_	
+2-13	228-231	der	ART	die	_	_	
+2-14	232-240	feinsten	ADJA	fein	_	_	
+2-15	241-247	Arbeit	NN	Arbeit	_	_	
+2-16	248-256	gemeldet	VVPP	melden	_	_	
+2-17	257-258	;	$.	\;	_	_	
+2-18	259-262	wir	PPER	wir	_	_	
+2-19	263-268	fügen	VVFIN	fügen	_	_	
+2-20	269-273	hier	ADV	hier	_	_	
+2-21	274-277	nur	ADV	nur	_	_	
+2-22	278-281	die	ART	die	_	_	
+2-23	282-287	Notiz	NN	Notiz	_	_	
+2-24	288-293	hinzu	PTKVZ	hinzu	_	_	
+2-25	294-295	,	$,	,	_	_	
+2-26	296-299	daß	KOUS	dass	_	_	
+2-27	300-306	dieser	PDAT	dies	_	_	
+2-28	307-311	Fund	NN	Fund	_	_	
+2-29	312-315	dem	ART	die	_	_	
+2-30	316-319	von	APPR	von	_	_	
+2-31	320-326	Bernay	NE	<unknown>	*	PLACEmentioned	
+2-32	327-329	an	APPR	an	_	_	
+2-33	330-339	Interesse	NN	Interesse	_	_	
+2-34	340-345	nicht	PTKNEG	nicht	_	_	
+2-35	346-352	gleich	ADJD	gleich	_	_	
+2-36	353-358	kommt	VVFIN	kommen	_	_	
+2-37	359-360	.	$.	.	_	_	
+
+#Text=Im \u00FCbrigen gehn die Arbeiten sehr langsam vorw\u00E4rts .
+3-1	361-363	Im	APPRART	in	_	_	
+3-2	364-371	übrigen	ADJA	übrig	_	_	
+3-3	372-376	gehn	NN	<unknown>	_	_	
+3-4	377-380	die	ART	die	_	_	
+3-5	381-389	Arbeiten	NN	Arbeit[65]|Arbeiten[66]	_	_	
+3-6	390-394	sehr	ADV	sehr	_	_	
+3-7	395-402	langsam	ADJD	langsam	_	_	
+3-8	403-411	vorwärts	PTKVZ	vorwärts	_	_	
+3-9	412-413	.	$.	.	_	_	
+
+#Text=Das N\u00E4here kann nur in weiterer Zusammenstellung Interesse erhalten .
+4-1	414-417	Das	ART	die	_	_	
+4-2	418-424	Nähere	NN	Nähere	_	_	
+4-3	425-429	kann	VMFIN	können	_	_	
+4-4	430-433	nur	ADV	nur	_	_	
+4-5	434-436	in	APPR	in	_	_	
+4-6	437-445	weiterer	ADJA	weit	_	_	
+4-7	446-462	Zusammenstellung	NN	Zusammenstellung	_	_	
+4-8	463-472	Interesse	NN	Interesse	_	_	
+4-9	473-481	erhalten	VVPP	erhalten	_	_	
+4-10	482-483	.	$.	.	_	_	
+
+#Text=Dazu hoffen wir uns n\u00E4chstens durch versprochene Nachrichten im Stande gesetzt zu sehen .
+5-1	484-488	Dazu	PAV	dazu	_	_	
+5-2	489-495	hoffen	VVFIN	hoffen	_	_	
+5-3	496-499	wir	PPER	wir	_	_	
+5-4	500-503	uns	PRF	wir	_	_	
+5-5	504-513	nächstens	ADV	nächstens	_	_	
+5-6	514-519	durch	APPR	durch	_	_	
+5-7	520-532	versprochene	ADJA	versprochen	_	_	
+5-8	533-544	Nachrichten	NN	Nachricht	_	_	
+5-9	545-547	im	APPRART	in	_	_	
+5-10	548-554	Stande	NN	Stand	_	_	
+5-11	555-562	gesetzt	VVPP	setzen	_	_	
+5-12	563-565	zu	PTKZU	zu	_	_	
+5-13	566-571	sehen	VVINF	sehen	_	_	
+5-14	572-573	.	$.	.	_	_	
