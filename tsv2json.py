@@ -2,6 +2,8 @@ import csv
 import glob
 import json
 import re
+import sys
+import os
 
 FIELDS = {
     "OBJ": "objects",
@@ -11,36 +13,48 @@ FIELDS = {
     "MISC": "keyterms"
 }
 
+PAGE_OFFSET = 41
+
 def read_files(pattern):
     rows = []
     for file_name in glob.glob(pattern):
         with open(file_name) as file:
             reader = csv.reader(file, delimiter='\t')
             for row in reader:
-                file_info = parse_file_name(file_name)
+                file_info = parse_file_name(os.path.basename(file_name))
                 if file_info:
                     file_info.extend(row)
                     rows.append(file_info)
     return rows
 
 def parse_file_name(file_name):
-    match = re.match("annotations/([^_]+)_page(\d{3})\.tsv", file_name)
+    match = re.match("(\d+[_\.][^_]+)_page(\d{3})\.[a-z]{3}", file_name)
     if match:
         return [match.group(1), match.group(2)]
     else:
-        print(f"file name not parsable: {file_name}")
+        print(f"file name not parsable: {file_name}", file=sys.stderr)
         return False
 
 def is_row_mappable(row):
-    return len(row) > 9 and get_type_for_tag(row[8])
+    return len(row) > 9 and get_type(row)
+
+def get_type(row):
+    tag = get_type_tag(row)
+    return get_type_for_tag(tag)
+
+def get_type_tag(row):
+    if len(row) > 10:
+        return row[9]
+    else:
+        return row[8]
 
 def get_type_for_tag(tag):
-    if tag == "_" or tag == "*":
+    if tag == "_" or tag == "*" or tag == '':
         return False
     for key in FIELDS:
         if tag.startswith(key):
             return FIELDS[key]
-    print(f"tag '{tag}' is not mapped")
+    print(f"tag '{tag}' is not mapped", file=sys.stderr)
     return False
 
 def get_lemma(row):
@@ -49,15 +63,16 @@ def get_lemma(row):
 def map_row(row):
     return {
         "id": f"{row[0]}_{row[1]}_{row[2]}",
-        "terms": [row[4]],
+        "terms": { row[4] },
         "lemma": get_lemma(row),
-        "pages": [int(row[1])],
-        "type": get_type_for_tag(row[8]),
-        "count": 1
+        "pages": { int(row[1]) - PAGE_OFFSET },
+        "type": get_type(row),
+        "count": 1,
+        "references": set()
     }
 
 def merge_row(object, row):
-    object['terms'][0] += " " + row[4]
+    object['terms'] = { list(object['terms'])[0] + " " + row[4] }
     object['lemma'] += " " + get_lemma(row)
 
 def create_lemma_dict(objects):
@@ -65,10 +80,8 @@ def create_lemma_dict(objects):
     for o in objects:
         if o['lemma'] in dict:
             dict[o['lemma']]['count'] += 1
-            if o['pages'][0] not in dict[o['lemma']]['pages']:
-                dict[o['lemma']]['pages'].append(o['pages'][0])
-            if o['terms'][0] not in dict[o['lemma']]['terms']:
-                dict[o['lemma']]['terms'].append(o['terms'][0])
+            dict[o['lemma']]['pages'].update(o['pages'])
+            dict[o['lemma']]['terms'].update(o['terms'])
         else:
             dict[o['lemma']] = o
     return dict
@@ -87,17 +100,79 @@ def collect_objects(objects):
         result[type]['items'].append(o)
     return result
 
-objects = []
-rows = read_files("annotations/*.tsv")
-last_tag = ""
-for row in rows:
-    if is_row_mappable(row):
-        if row[8] != last_tag:
-            objects.append(map_row(row))
+def map_rows(rows):
+    objects = []
+    last_tag = ""
+    for row in rows:
+        if is_row_mappable(row):
+            if get_type_tag(row) != last_tag:
+                objects.append(map_row(row))
+            else:
+                merge_row(objects[-1], row)
+            last_tag = get_type_tag(row)
         else:
-            merge_row(objects[-1], row)
-        last_tag = row[8]
-    else:
-        last_tag = ""
+            last_tag = ""
+    return objects
 
-print(json.dumps(collect_objects(objects), indent=4, ensure_ascii=False))
+def enrich_items(items, csv_file, enrich):
+    rows = parse_csv(csv_file)
+    for row in rows:
+        file_info = parse_file_name(row[3])
+        page = int(file_info[1]) - PAGE_OFFSET
+        term = row[1]
+        item = find_item_by_term_and_page(items, term, page)
+        if item:
+            enrich(item, row)
+
+def enrich_location(location, row):
+    if row[7] != '':
+        location['references'].add(create_reference("iDAI.gazetteer", row[7], "https://gazetteer.dainst.org/place/"))
+    if row[8] != '':
+        location['references'].add(create_reference("GND", row[8], "http://d-nb.info/gnd/"))
+
+def enrich_object(object, row):
+    if row[7] != '':
+        object['references'].add(create_reference("iDAI.objects", row[7], "https://arachne.dainst.org/entity/"))
+    if row[9] != '':
+        object['references'].add(Reference({ "url": row[9] }))
+
+def enrich_person(person, row):
+    if row[6] != '':
+        person['references'].add(create_reference("GND", row[6], "http://d-nb.info/gnd/"))
+    if row[7] != '':
+        person['references'].add(create_reference("viaf", row[7], "http://viaf.org/viaf/"))
+
+class Reference(dict):
+    def __hash__(self):
+        return hash(self['url'])
+
+def create_reference(type, id, prefix):
+    return Reference({
+        "id": id,
+        "url": prefix + id,
+        "type": type
+    })
+
+def parse_csv(file_name):
+    with open(file_name) as file:
+        return list(csv.reader(file, delimiter=';'))[1:] # skip header
+
+def find_item_by_term_and_page(items, term, page):
+    for item in items:
+        if term in item['terms'] and page in item['pages']:
+            return item
+    print(f"No match for term '{term}' on page {page}", file=sys.stderr)
+
+def custom_json_serializer(obj):
+    if isinstance(obj, set):
+        return list(obj)
+    raise TypeError
+
+rows = read_files("annotations/*.tsv")
+objects = map_rows(rows)
+objects = collect_objects(objects)
+enrich_items(objects['locations']['items'], "annotations/Orte_A-II-BraE-GerE-081.csv", enrich_location)
+enrich_items(objects['objects']['items'], "annotations/Objekte_A-II-BraE-GerE-081.csv", enrich_object)
+enrich_items(objects['persons']['items'], "annotations/Personen_A-II-BraE-GerE-081.csv", enrich_person)
+
+print(json.dumps(objects, indent=4, ensure_ascii=False, default=custom_json_serializer))
