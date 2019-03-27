@@ -132,9 +132,9 @@ def enrich_location(location, row):
 
 def enrich_object(object, row):
     if row[8] != '':
-        object['references'].add(create_reference("iDAI.objects", row[7], "https://arachne.dainst.org/entity/"))
+        object['references'].add(create_reference("iDAI.objects", row[8], "https://arachne.dainst.org/entity/"))
     if row[11] != '':
-        object['references'].add(Reference({ "url": row[9] }))
+        object['references'].add(Reference({ "url": row[11] }))
 
 def enrich_person(person, row):
     if row[6] != '':
